@@ -1,0 +1,4861 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+                    <loc>http://localhost:8000</loc>
+        
+                                <lastmod>2025-01-25T07:28:44+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop</loc>
+        
+                                <lastmod>2025-01-25T07:28:44+00:00</lastmod>
+        
+                    <priority>0.9</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/about-us</loc>
+        
+                                <lastmod>2025-01-25T07:28:44+00:00</lastmod>
+        
+                    <priority>0.9</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/pricelist</loc>
+        
+                                <lastmod>2025-01-25T07:28:44+00:00</lastmod>
+        
+                    <priority>0.9</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/contact-us</loc>
+        
+                                <lastmod>2025-01-25T07:28:44+00:00</lastmod>
+        
+                    <priority>0.8</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/toko-bahan-kaos</loc>
+        
+                                <lastmod>2025-01-25T07:28:44+00:00</lastmod>
+        
+                    <priority>0.9</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/terms-conditions</loc>
+        
+                                <lastmod>2025-01-25T07:28:44+00:00</lastmod>
+        
+                    <priority>0.4</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/privacy-policy</loc>
+        
+                                <lastmod>2025-01-25T07:28:44+00:00</lastmod>
+        
+                    <priority>0.4</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/katalog</loc>
+        
+                                <lastmod>2025-01-25T07:28:44+00:00</lastmod>
+        
+                    <priority>0.9</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/return-policy</loc>
+        
+                                <lastmod>2025-01-25T07:28:44+00:00</lastmod>
+        
+                    <priority>0.5</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/license-info</loc>
+        
+                                <lastmod>2025-01-25T07:28:44+00:00</lastmod>
+        
+                    <priority>0.5</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/fabric/cotton-combed</loc>
+        
+                                <lastmod>2025-01-25T07:28:44+00:00</lastmod>
+        
+                    <priority>0.9</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/fabric/cotton-combed/20s</loc>
+        
+                                <lastmod>2025-01-25T07:28:44+00:00</lastmod>
+        
+                    <priority>0.8</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/fabric/cotton-combed/24s</loc>
+        
+                                <lastmod>2025-01-25T07:28:44+00:00</lastmod>
+        
+                    <priority>0.8</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/fabric/cotton-combed/30s</loc>
+        
+                                <lastmod>2025-01-25T07:28:44+00:00</lastmod>
+        
+                    <priority>0.8</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/fabric/cotton-carded</loc>
+        
+                                <lastmod>2025-01-25T07:28:44+00:00</lastmod>
+        
+                    <priority>0.9</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/fabric/cotton-carded/20s</loc>
+        
+                                <lastmod>2025-01-25T07:28:44+00:00</lastmod>
+        
+                    <priority>0.8</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/fabric/cotton-carded/24s</loc>
+        
+                                <lastmod>2025-01-25T07:28:44+00:00</lastmod>
+        
+                    <priority>0.8</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/fabric/cotton-carded/30s</loc>
+        
+                                <lastmod>2025-01-25T07:28:44+00:00</lastmod>
+        
+                    <priority>0.8</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/fabric/tc-combed</loc>
+        
+                                <lastmod>2025-01-25T07:28:44+00:00</lastmod>
+        
+                    <priority>0.9</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/fabric/tc-combed/28s</loc>
+        
+                                <lastmod>2025-01-25T07:28:44+00:00</lastmod>
+        
+                    <priority>0.8</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/fabric/lacoste-pique-cvc</loc>
+        
+                                <lastmod>2025-01-25T07:28:44+00:00</lastmod>
+        
+                    <priority>0.9</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/fabric/lacoste-pique-cvc/pique-cvc</loc>
+        
+                                <lastmod>2025-01-25T07:28:44+00:00</lastmod>
+        
+                    <priority>0.8</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/fabric/lacoste-pique-pe</loc>
+        
+                                <lastmod>2025-01-25T07:28:44+00:00</lastmod>
+        
+                    <priority>0.9</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/fabric/lacoste-pique-pe/pique-pe</loc>
+        
+                                <lastmod>2025-01-25T07:28:44+00:00</lastmod>
+        
+                    <priority>0.8</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/fabric/double-knit-polyester</loc>
+        
+                                <lastmod>2025-01-25T07:28:44+00:00</lastmod>
+        
+                    <priority>0.9</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/fabric/double-knit-polyester/dkpe-altra</loc>
+        
+                                <lastmod>2025-01-25T07:28:44+00:00</lastmod>
+        
+                    <priority>0.8</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/fabric/single-knit-polyester</loc>
+        
+                                <lastmod>2025-01-25T07:28:44+00:00</lastmod>
+        
+                    <priority>0.9</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/fabric/single-knit-polyester/20s</loc>
+        
+                                <lastmod>2025-01-25T07:28:44+00:00</lastmod>
+        
+                    <priority>0.8</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/fabric/single-knit-polyester/24s</loc>
+        
+                                <lastmod>2025-01-25T07:28:44+00:00</lastmod>
+        
+                    <priority>0.8</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/fabric/single-knit-polyester/30s</loc>
+        
+                                <lastmod>2025-01-25T07:28:44+00:00</lastmod>
+        
+                    <priority>0.8</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/fabric/jersey-golf</loc>
+        
+                                <lastmod>2025-01-25T07:28:44+00:00</lastmod>
+        
+                    <priority>0.9</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/fabric/jersey-golf/jersey-golf</loc>
+        
+                                <lastmod>2025-01-25T07:28:44+00:00</lastmod>
+        
+                    <priority>0.8</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/fabric/jersey-titik</loc>
+        
+                                <lastmod>2025-01-25T07:28:44+00:00</lastmod>
+        
+                    <priority>0.9</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/fabric/jersey-titik/jersey-titik</loc>
+        
+                                <lastmod>2025-01-25T07:28:44+00:00</lastmod>
+        
+                    <priority>0.8</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/fabric/jersey-benzema</loc>
+        
+                                <lastmod>2025-01-25T07:28:44+00:00</lastmod>
+        
+                    <priority>0.9</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/fabric/jersey-benzema/jersey-benzema</loc>
+        
+                                <lastmod>2025-01-25T07:28:44+00:00</lastmod>
+        
+                    <priority>0.8</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/fabric/jersey-rocksport</loc>
+        
+                                <lastmod>2025-01-25T07:28:44+00:00</lastmod>
+        
+                    <priority>0.9</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/fabric/jersey-rocksport/jersey-rocksport</loc>
+        
+                                <lastmod>2025-01-25T07:28:44+00:00</lastmod>
+        
+                    <priority>0.8</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/fabric/jersey-serena</loc>
+        
+                                <lastmod>2025-01-25T07:28:44+00:00</lastmod>
+        
+                    <priority>0.9</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/fabric/jersey-serena/jersey-serena</loc>
+        
+                                <lastmod>2025-01-25T07:28:44+00:00</lastmod>
+        
+                    <priority>0.8</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/fabric/jersey-ferary</loc>
+        
+                                <lastmod>2025-01-25T07:28:44+00:00</lastmod>
+        
+                    <priority>0.9</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/fabric/jersey-ferary/jersey-ferary</loc>
+        
+                                <lastmod>2025-01-25T07:28:44+00:00</lastmod>
+        
+                    <priority>0.8</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/fabric/diadora</loc>
+        
+                                <lastmod>2025-01-25T07:28:44+00:00</lastmod>
+        
+                    <priority>0.9</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/fabric/diadora/diadora</loc>
+        
+                                <lastmod>2025-01-25T07:28:44+00:00</lastmod>
+        
+                    <priority>0.8</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/fabric/paragon</loc>
+        
+                                <lastmod>2025-01-25T07:28:44+00:00</lastmod>
+        
+                    <priority>0.9</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/fabric/paragon/paragon</loc>
+        
+                                <lastmod>2025-01-25T07:28:44+00:00</lastmod>
+        
+                    <priority>0.8</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/fabric/adidas</loc>
+        
+                                <lastmod>2025-01-25T07:28:44+00:00</lastmod>
+        
+                    <priority>0.9</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/fabric/adidas/adidas</loc>
+        
+                                <lastmod>2025-01-25T07:28:44+00:00</lastmod>
+        
+                    <priority>0.8</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/fabric/lotto</loc>
+        
+                                <lastmod>2025-01-25T07:28:44+00:00</lastmod>
+        
+                    <priority>0.9</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/fabric/lotto/lotto</loc>
+        
+                                <lastmod>2025-01-25T07:28:44+00:00</lastmod>
+        
+                    <priority>0.8</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/fabric/scuba</loc>
+        
+                                <lastmod>2025-01-25T07:28:44+00:00</lastmod>
+        
+                    <priority>0.9</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/fabric/scuba/scuba</loc>
+        
+                                <lastmod>2025-01-25T07:28:44+00:00</lastmod>
+        
+                    <priority>0.8</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/fabric/abutai</loc>
+        
+                                <lastmod>2025-01-25T07:28:44+00:00</lastmod>
+        
+                    <priority>0.9</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/fabric/abutai/abutai</loc>
+        
+                                <lastmod>2025-01-25T07:28:44+00:00</lastmod>
+        
+                    <priority>0.8</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/fabric/spandex-rayon</loc>
+        
+                                <lastmod>2025-01-25T07:28:44+00:00</lastmod>
+        
+                    <priority>0.9</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/fabric/spandex-rayon/spandex-rayon</loc>
+        
+                                <lastmod>2025-01-25T07:28:44+00:00</lastmod>
+        
+                    <priority>0.8</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/fabric/spandex-pe</loc>
+        
+                                <lastmod>2025-01-25T07:28:44+00:00</lastmod>
+        
+                    <priority>0.9</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/fabric/spandex-pe/spandex-pe</loc>
+        
+                                <lastmod>2025-01-25T07:28:44+00:00</lastmod>
+        
+                    <priority>0.8</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/fabric/spandex-cotton</loc>
+        
+                                <lastmod>2025-01-25T07:28:44+00:00</lastmod>
+        
+                    <priority>0.9</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/fabric/spandex-cotton/spandex-cotton</loc>
+        
+                                <lastmod>2025-01-25T07:28:44+00:00</lastmod>
+        
+                    <priority>0.8</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/fabric/kerah</loc>
+        
+                                <lastmod>2025-01-25T07:28:44+00:00</lastmod>
+        
+                    <priority>0.9</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/fabric/kerah/kerah</loc>
+        
+                                <lastmod>2025-01-25T07:28:44+00:00</lastmod>
+        
+                    <priority>0.8</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/fabric/manset</loc>
+        
+                                <lastmod>2025-01-25T07:28:44+00:00</lastmod>
+        
+                    <priority>0.9</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/fabric/manset/manset</loc>
+        
+                                <lastmod>2025-01-25T07:28:44+00:00</lastmod>
+        
+                    <priority>0.8</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/fabric/elastik</loc>
+        
+                                <lastmod>2025-01-25T07:28:44+00:00</lastmod>
+        
+                    <priority>0.9</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/fabric/elastik/elastik</loc>
+        
+                                <lastmod>2025-01-25T07:28:44+00:00</lastmod>
+        
+                    <priority>0.8</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-20s-fuchsia</loc>
+        
+                                <lastmod>2024-12-24T06:41:04+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-20s-fanta</loc>
+        
+                                <lastmod>2024-11-15T10:56:51+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-20s-merah-cabe</loc>
+        
+                                <lastmod>2024-11-15T10:56:51+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-20s-maroon</loc>
+        
+                                <lastmod>2024-11-15T10:56:51+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-20s-merah-hati</loc>
+        
+                                <lastmod>2024-11-15T10:56:51+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-20s-woodrose</loc>
+        
+                                <lastmod>2024-11-15T10:56:51+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-20s-dusty-pink</loc>
+        
+                                <lastmod>2024-11-15T10:56:51+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-20s-baby-pink</loc>
+        
+                                <lastmod>2024-11-15T10:56:51+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-20s-pink-muda</loc>
+        
+                                <lastmod>2024-11-15T10:56:51+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-20s-bubblegum-pink</loc>
+        
+                                <lastmod>2024-11-15T10:56:51+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-20s-terra-cotta</loc>
+        
+                                <lastmod>2024-11-15T10:56:51+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-20s-rustic-rose</loc>
+        
+                                <lastmod>2024-11-15T10:56:51+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-20s-red-plum</loc>
+        
+                                <lastmod>2024-11-15T10:56:51+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-20s-blush-red</loc>
+        
+                                <lastmod>2024-11-15T10:56:51+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-20s-dusty-rose</loc>
+        
+                                <lastmod>2024-11-15T10:56:51+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-20s-dusty-peach</loc>
+        
+                                <lastmod>2024-11-15T10:56:51+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-20s-baby-peach</loc>
+        
+                                <lastmod>2024-11-15T10:56:51+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-20s-salem-m</loc>
+        
+                                <lastmod>2024-11-15T10:56:51+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-20s-salem</loc>
+        
+                                <lastmod>2024-11-15T10:56:51+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-20s-merah-bata</loc>
+        
+                                <lastmod>2024-11-15T10:56:51+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-20s-kuning-mas</loc>
+        
+                                <lastmod>2024-11-15T10:56:51+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-20s-bright-orange</loc>
+        
+                                <lastmod>2024-11-15T10:56:51+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-20s-orange</loc>
+        
+                                <lastmod>2024-11-15T10:56:51+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-20s-orange-bata</loc>
+        
+                                <lastmod>2024-11-15T10:56:51+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-20s-sunset-orange</loc>
+        
+                                <lastmod>2024-11-15T10:56:51+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-20s-kuning-kenari</loc>
+        
+                                <lastmod>2024-11-15T10:56:52+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-20s-kuning-lemon</loc>
+        
+                                <lastmod>2024-11-15T10:56:52+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-20s-baby-yellow</loc>
+        
+                                <lastmod>2024-11-15T10:56:52+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-20s-honey</loc>
+        
+                                <lastmod>2024-11-15T10:56:52+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-20s-mustard</loc>
+        
+                                <lastmod>2024-11-15T10:56:52+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-20s-hijau-sampurna</loc>
+        
+                                <lastmod>2024-11-15T10:56:52+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-20s-dark-mustard</loc>
+        
+                                <lastmod>2024-11-15T10:56:52+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-20s-almond-brown</loc>
+        
+                                <lastmod>2024-11-15T10:56:52+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-20s-cinnamon</loc>
+        
+                                <lastmod>2024-11-15T10:56:52+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-20s-toffee</loc>
+        
+                                <lastmod>2024-11-15T10:56:52+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-20s-beige</loc>
+        
+                                <lastmod>2024-11-15T10:56:52+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-20s-light-brown</loc>
+        
+                                <lastmod>2024-11-15T10:56:52+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-20s-coklat-milo</loc>
+        
+                                <lastmod>2024-11-15T10:56:52+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-20s-susu</loc>
+        
+                                <lastmod>2024-11-15T10:56:52+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-20s-coklat-kopi</loc>
+        
+                                <lastmod>2024-11-15T10:56:52+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-20s-cream</loc>
+        
+                                <lastmod>2024-11-15T10:56:52+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-20s-safari</loc>
+        
+                                <lastmod>2024-11-15T10:56:52+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-20s-dark-olive</loc>
+        
+                                <lastmod>2024-11-15T10:56:52+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-20s-hijau-tni</loc>
+        
+                                <lastmod>2024-11-15T10:56:52+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-20s-army-green</loc>
+        
+                                <lastmod>2024-11-15T10:56:52+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-20s-sage-green</loc>
+        
+                                <lastmod>2024-11-15T10:56:52+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-20s-khaky</loc>
+        
+                                <lastmod>2024-11-15T10:56:52+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-20s-mineral-green</loc>
+        
+                                <lastmod>2024-11-15T10:56:52+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-20s-stone-green</loc>
+        
+                                <lastmod>2024-11-15T10:56:52+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-20s-cactus-green</loc>
+        
+                                <lastmod>2024-11-15T10:56:53+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-20s-seafoam-green</loc>
+        
+                                <lastmod>2024-11-15T10:56:53+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-20s-baby-green</loc>
+        
+                                <lastmod>2024-11-15T10:56:53+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-20s-hijau-stabilo</loc>
+        
+                                <lastmod>2024-11-15T10:56:53+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-20s-hijau-pucuk</loc>
+        
+                                <lastmod>2024-11-15T10:56:53+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-20s-hijau-pupus</loc>
+        
+                                <lastmod>2024-11-15T10:56:53+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-20s-hijau-linmas</loc>
+        
+                                <lastmod>2024-11-15T10:56:53+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-20s-hijau-fuji</loc>
+        
+                                <lastmod>2024-11-15T10:56:53+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-20s-hijau-tua</loc>
+        
+                                <lastmod>2024-11-15T10:56:53+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-20s-hijau-botol</loc>
+        
+                                <lastmod>2024-11-15T10:56:53+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-20s-hijau-botol-spesial</loc>
+        
+                                <lastmod>2024-11-15T10:56:53+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-20s-hijau-mint</loc>
+        
+                                <lastmod>2024-11-15T10:56:53+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-20s-tosca-muda</loc>
+        
+                                <lastmod>2024-11-15T10:56:53+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-20s-tosca-tua</loc>
+        
+                                <lastmod>2024-11-15T10:56:53+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-20s-tosca-bni</loc>
+        
+                                <lastmod>2024-11-15T10:56:53+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-20s-atlantic-sea</loc>
+        
+                                <lastmod>2024-11-15T10:56:53+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-20s-aqua-haze</loc>
+        
+                                <lastmod>2024-11-15T10:56:53+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-20s-mineral-blue</loc>
+        
+                                <lastmod>2024-11-15T10:56:53+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-20s-biru-tosca</loc>
+        
+                                <lastmod>2024-11-15T10:56:53+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-20s-deep-blue</loc>
+        
+                                <lastmod>2024-11-15T10:56:53+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-20s-ocean-blue</loc>
+        
+                                <lastmod>2024-11-15T10:56:53+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-20s-palladian-blue</loc>
+        
+                                <lastmod>2024-11-15T10:56:53+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-20s-sky-blue</loc>
+        
+                                <lastmod>2024-11-15T10:56:53+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-20s-biru-muda</loc>
+        
+                                <lastmod>2024-11-15T10:56:53+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-20s-dusty-blue</loc>
+        
+                                <lastmod>2024-11-15T10:56:53+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-20s-steel-blue</loc>
+        
+                                <lastmod>2024-11-15T10:56:53+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-20s-biru-c</loc>
+        
+                                <lastmod>2024-11-15T10:56:53+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-20s-denim-blue</loc>
+        
+                                <lastmod>2024-11-15T10:56:53+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-20s-turkish-muda-a</loc>
+        
+                                <lastmod>2024-11-15T10:56:53+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-20s-turkish-muda-b</loc>
+        
+                                <lastmod>2024-11-15T10:56:53+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-20s-turkish-tua</loc>
+        
+                                <lastmod>2024-11-15T10:56:53+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-20s-benhur</loc>
+        
+                                <lastmod>2024-11-15T10:56:53+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-20s-navy</loc>
+        
+                                <lastmod>2024-11-15T10:56:53+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-20s-lilac</loc>
+        
+                                <lastmod>2024-11-15T10:56:54+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-20s-lavender</loc>
+        
+                                <lastmod>2024-11-15T10:56:54+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-20s-dark-lavender</loc>
+        
+                                <lastmod>2024-11-15T10:56:54+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-20s-royal-purple</loc>
+        
+                                <lastmod>2024-11-15T10:56:54+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-20s-ungu-tua</loc>
+        
+                                <lastmod>2024-11-15T10:56:54+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-20s-dusty-lilac</loc>
+        
+                                <lastmod>2024-11-15T10:56:54+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-20s-pale-mauve</loc>
+        
+                                <lastmod>2024-11-15T10:56:54+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-20s-twilight-mauve</loc>
+        
+                                <lastmod>2024-11-15T10:56:54+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-20s-dusty-violet</loc>
+        
+                                <lastmod>2024-11-15T10:56:54+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-20s-vintage-violet</loc>
+        
+                                <lastmod>2024-11-15T10:56:54+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-20s-magenta</loc>
+        
+                                <lastmod>2024-11-15T10:56:54+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-20s-hitam-reaktif</loc>
+        
+                                <lastmod>2024-11-15T10:56:54+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-20s-hitam-sulfur</loc>
+        
+                                <lastmod>2024-11-15T10:56:54+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-20s-misty-m71</loc>
+        
+                                <lastmod>2024-11-15T10:56:54+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-20s-abu-sedang</loc>
+        
+                                <lastmod>2024-11-15T10:56:54+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-20s-stone-grey</loc>
+        
+                                <lastmod>2024-11-15T10:56:54+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-20s-abu-tua</loc>
+        
+                                <lastmod>2024-11-15T10:56:54+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-20s-jet-black</loc>
+        
+                                <lastmod>2024-11-15T10:56:54+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-20s-putih-bluish</loc>
+        
+                                <lastmod>2024-11-15T10:56:54+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-20s-putih-netral</loc>
+        
+                                <lastmod>2024-11-15T10:56:54+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-20s-broken-white</loc>
+        
+                                <lastmod>2024-11-15T10:56:54+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-20s-abu-muda-a</loc>
+        
+                                <lastmod>2024-11-15T10:56:54+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-20s-abu-muda-b</loc>
+        
+                                <lastmod>2024-11-15T10:56:54+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-24s-fuchsia</loc>
+        
+                                <lastmod>2024-11-15T10:57:59+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-24s-fanta</loc>
+        
+                                <lastmod>2024-11-15T10:57:59+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-24s-merah-cabe</loc>
+        
+                                <lastmod>2024-11-15T10:57:59+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-24s-maroon</loc>
+        
+                                <lastmod>2024-11-15T10:57:59+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-24s-merah-hati</loc>
+        
+                                <lastmod>2024-11-15T10:57:59+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-24s-woodrose</loc>
+        
+                                <lastmod>2024-11-15T10:57:59+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-24s-dusty-pink</loc>
+        
+                                <lastmod>2024-11-15T10:57:59+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-24s-baby-pink</loc>
+        
+                                <lastmod>2024-11-15T10:57:59+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-24s-pink-muda</loc>
+        
+                                <lastmod>2024-11-15T10:57:59+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-24s-bubblegum-pink</loc>
+        
+                                <lastmod>2024-11-15T10:57:59+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-24s-terra-cotta</loc>
+        
+                                <lastmod>2024-11-15T10:57:59+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-24s-rustic-rose</loc>
+        
+                                <lastmod>2024-11-15T10:57:59+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-24s-red-plum</loc>
+        
+                                <lastmod>2024-11-15T10:57:59+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-24s-blush-red</loc>
+        
+                                <lastmod>2024-11-15T10:57:59+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-24s-dusty-rose</loc>
+        
+                                <lastmod>2024-11-15T10:57:59+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-24s-dusty-peach</loc>
+        
+                                <lastmod>2024-11-15T10:57:59+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-24s-baby-peach</loc>
+        
+                                <lastmod>2024-11-15T10:57:59+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-24s-salem-m</loc>
+        
+                                <lastmod>2024-11-15T10:57:59+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-24s-salem</loc>
+        
+                                <lastmod>2024-11-15T10:57:59+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-24s-merah-bata</loc>
+        
+                                <lastmod>2024-11-15T10:57:59+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-24s-kuning-mas</loc>
+        
+                                <lastmod>2024-11-15T10:57:59+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-24s-bright-orange</loc>
+        
+                                <lastmod>2024-11-15T10:57:59+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-24s-orange</loc>
+        
+                                <lastmod>2024-11-15T10:57:59+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-24s-orange-bata</loc>
+        
+                                <lastmod>2024-11-15T10:57:59+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-24s-sunset-orange</loc>
+        
+                                <lastmod>2024-11-15T10:57:59+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-24s-kuning-kenari</loc>
+        
+                                <lastmod>2024-11-15T10:57:59+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-24s-kuning-lemon</loc>
+        
+                                <lastmod>2024-11-15T10:57:59+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-24s-baby-yellow</loc>
+        
+                                <lastmod>2024-11-15T10:57:59+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-24s-honey</loc>
+        
+                                <lastmod>2024-11-15T10:57:59+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-24s-mustard</loc>
+        
+                                <lastmod>2024-11-15T10:57:59+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-24s-hijau-sampurna</loc>
+        
+                                <lastmod>2024-11-15T10:57:59+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-24s-dark-mustard</loc>
+        
+                                <lastmod>2024-11-15T10:57:59+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-24s-almond-brown</loc>
+        
+                                <lastmod>2024-11-15T10:58:00+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-24s-cinnamon</loc>
+        
+                                <lastmod>2024-11-15T10:58:00+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-24s-toffee</loc>
+        
+                                <lastmod>2024-11-15T10:58:00+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-24s-beige</loc>
+        
+                                <lastmod>2024-11-15T10:58:00+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-24s-light-brown</loc>
+        
+                                <lastmod>2024-11-15T10:58:00+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-24s-coklat-milo</loc>
+        
+                                <lastmod>2024-11-15T10:58:00+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-24s-susu</loc>
+        
+                                <lastmod>2024-11-15T10:58:00+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-24s-coklat-kopi</loc>
+        
+                                <lastmod>2024-11-15T10:58:00+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-24s-cream</loc>
+        
+                                <lastmod>2024-11-15T10:58:00+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-24s-safari</loc>
+        
+                                <lastmod>2024-11-15T10:58:00+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-24s-dark-olive</loc>
+        
+                                <lastmod>2024-11-15T10:58:00+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-24s-hijau-tni</loc>
+        
+                                <lastmod>2024-11-15T10:58:00+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-24s-army-green</loc>
+        
+                                <lastmod>2024-11-15T10:58:00+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-24s-sage-green</loc>
+        
+                                <lastmod>2024-11-15T10:58:00+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-24s-khaky</loc>
+        
+                                <lastmod>2024-11-15T10:58:00+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-24s-mineral-green</loc>
+        
+                                <lastmod>2024-11-15T10:58:00+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-24s-stone-green</loc>
+        
+                                <lastmod>2024-11-15T10:58:00+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-24s-cactus-green</loc>
+        
+                                <lastmod>2024-11-15T10:58:00+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-24s-seafoam-green</loc>
+        
+                                <lastmod>2024-11-15T10:58:00+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-24s-baby-green</loc>
+        
+                                <lastmod>2024-11-15T10:58:00+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-24s-hijau-stabilo</loc>
+        
+                                <lastmod>2024-11-15T10:58:00+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-24s-hijau-pucuk</loc>
+        
+                                <lastmod>2024-11-15T10:58:00+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-24s-hijau-pupus</loc>
+        
+                                <lastmod>2024-11-15T10:58:00+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-24s-hijau-linmas</loc>
+        
+                                <lastmod>2024-11-15T10:58:00+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-24s-hijau-fuji</loc>
+        
+                                <lastmod>2024-11-15T10:58:00+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-24s-hijau-tua</loc>
+        
+                                <lastmod>2024-11-15T10:58:00+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-24s-hijau-botol</loc>
+        
+                                <lastmod>2024-11-15T10:58:00+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-24s-hijau-botol-spesial</loc>
+        
+                                <lastmod>2024-11-15T10:58:00+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-24s-hijau-mint</loc>
+        
+                                <lastmod>2024-11-15T10:58:00+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-24s-tosca-muda</loc>
+        
+                                <lastmod>2024-11-15T10:58:00+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-24s-tosca-tua</loc>
+        
+                                <lastmod>2024-11-15T10:58:01+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-24s-tosca-bni</loc>
+        
+                                <lastmod>2024-11-15T10:58:01+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-24s-atlantic-sea</loc>
+        
+                                <lastmod>2024-11-15T10:58:01+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-24s-aqua-haze</loc>
+        
+                                <lastmod>2024-11-15T10:58:01+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-24s-mineral-blue</loc>
+        
+                                <lastmod>2024-11-15T10:58:01+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-24s-biru-tosca</loc>
+        
+                                <lastmod>2024-11-15T10:58:01+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-24s-deep-blue</loc>
+        
+                                <lastmod>2024-11-15T10:58:01+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-24s-ocean-blue</loc>
+        
+                                <lastmod>2024-11-15T10:58:01+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-24s-palladian-blue</loc>
+        
+                                <lastmod>2024-11-15T10:58:01+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-24s-sky-blue</loc>
+        
+                                <lastmod>2024-11-15T10:58:01+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-24s-biru-muda</loc>
+        
+                                <lastmod>2024-11-15T10:58:01+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-24s-dusty-blue</loc>
+        
+                                <lastmod>2024-11-15T10:58:01+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-24s-steel-blue</loc>
+        
+                                <lastmod>2024-11-15T10:58:01+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-24s-biru-c</loc>
+        
+                                <lastmod>2024-11-15T10:58:01+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-24s-denim-blue</loc>
+        
+                                <lastmod>2024-11-15T10:58:01+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-24s-turkish-muda-a</loc>
+        
+                                <lastmod>2024-11-15T10:58:01+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-24s-turkish-muda-b</loc>
+        
+                                <lastmod>2024-11-15T10:58:01+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-24s-turkish-tua</loc>
+        
+                                <lastmod>2024-11-15T10:58:01+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-24s-benhur</loc>
+        
+                                <lastmod>2024-11-15T10:58:01+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-24s-navy</loc>
+        
+                                <lastmod>2024-11-15T10:58:01+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-24s-lilac</loc>
+        
+                                <lastmod>2024-11-15T10:58:01+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-24s-lavender</loc>
+        
+                                <lastmod>2024-11-15T10:58:01+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-24s-dark-lavender</loc>
+        
+                                <lastmod>2024-11-15T10:58:01+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-24s-royal-purple</loc>
+        
+                                <lastmod>2024-11-15T10:58:01+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-24s-ungu-tua</loc>
+        
+                                <lastmod>2024-11-15T10:58:01+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-24s-dusty-lilac</loc>
+        
+                                <lastmod>2024-11-15T10:58:01+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-24s-pale-mauve</loc>
+        
+                                <lastmod>2024-11-15T10:58:01+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-24s-twilight-mauve</loc>
+        
+                                <lastmod>2024-11-15T10:58:02+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-24s-dusty-violet</loc>
+        
+                                <lastmod>2024-11-15T10:58:02+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-24s-vintage-violet</loc>
+        
+                                <lastmod>2024-11-15T10:58:02+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-24s-magenta</loc>
+        
+                                <lastmod>2024-11-15T10:58:02+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-24s-hitam-reaktif</loc>
+        
+                                <lastmod>2024-11-15T10:58:02+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-24s-hitam-sulfur</loc>
+        
+                                <lastmod>2024-11-15T10:58:02+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-24s-misty-m71</loc>
+        
+                                <lastmod>2024-11-15T10:58:02+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-24s-abu-sedang</loc>
+        
+                                <lastmod>2024-11-15T10:58:02+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-24s-stone-grey</loc>
+        
+                                <lastmod>2024-11-15T10:58:02+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-24s-abu-tua</loc>
+        
+                                <lastmod>2024-11-15T10:58:02+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-24s-jet-black</loc>
+        
+                                <lastmod>2024-11-15T10:58:02+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-24s-putih-bluish</loc>
+        
+                                <lastmod>2024-11-15T10:58:02+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-24s-putih-netral</loc>
+        
+                                <lastmod>2024-11-15T10:58:02+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-24s-broken-white</loc>
+        
+                                <lastmod>2024-11-15T10:58:02+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-24s-abu-muda-a</loc>
+        
+                                <lastmod>2024-11-15T10:58:02+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-24s-abu-muda-b</loc>
+        
+                                <lastmod>2024-11-15T10:58:02+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-30s-fuchsia</loc>
+        
+                                <lastmod>2024-11-15T10:58:30+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-30s-fanta</loc>
+        
+                                <lastmod>2024-11-15T10:58:30+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-30s-merah-cabe</loc>
+        
+                                <lastmod>2024-11-15T10:58:30+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-30s-maroon</loc>
+        
+                                <lastmod>2024-11-15T10:58:30+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-30s-merah-hati</loc>
+        
+                                <lastmod>2024-11-15T10:58:30+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-30s-woodrose</loc>
+        
+                                <lastmod>2024-11-15T10:58:30+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-30s-dusty-pink</loc>
+        
+                                <lastmod>2024-11-15T10:58:30+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-30s-baby-pink</loc>
+        
+                                <lastmod>2024-11-15T10:58:30+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-30s-pink-muda</loc>
+        
+                                <lastmod>2024-11-15T10:58:30+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-30s-bubblegum-pink</loc>
+        
+                                <lastmod>2024-11-15T10:58:30+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-30s-terra-cotta</loc>
+        
+                                <lastmod>2024-11-15T10:58:30+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-30s-rustic-rose</loc>
+        
+                                <lastmod>2024-11-15T10:58:30+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-30s-red-plum</loc>
+        
+                                <lastmod>2024-11-15T10:58:30+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-30s-blush-red</loc>
+        
+                                <lastmod>2024-11-15T10:58:30+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-30s-dusty-rose</loc>
+        
+                                <lastmod>2024-11-15T10:58:30+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-30s-dusty-peach</loc>
+        
+                                <lastmod>2024-11-15T10:58:30+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-30s-baby-peach</loc>
+        
+                                <lastmod>2024-11-15T10:58:30+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-30s-salem-m</loc>
+        
+                                <lastmod>2024-11-15T10:58:30+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-30s-salem</loc>
+        
+                                <lastmod>2024-11-15T10:58:30+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-30s-merah-bata</loc>
+        
+                                <lastmod>2024-11-15T10:58:30+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-30s-kuning-mas</loc>
+        
+                                <lastmod>2024-11-15T10:58:30+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-30s-bright-orange</loc>
+        
+                                <lastmod>2024-11-15T10:58:30+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-30s-orange</loc>
+        
+                                <lastmod>2024-11-15T10:58:30+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-30s-orange-bata</loc>
+        
+                                <lastmod>2024-11-15T10:58:30+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-30s-sunset-orange</loc>
+        
+                                <lastmod>2024-11-15T10:58:30+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-30s-kuning-kenari</loc>
+        
+                                <lastmod>2024-11-15T10:58:30+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-30s-kuning-lemon</loc>
+        
+                                <lastmod>2024-11-15T10:58:30+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-30s-baby-yellow</loc>
+        
+                                <lastmod>2024-11-15T10:58:30+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-30s-honey</loc>
+        
+                                <lastmod>2024-11-15T10:58:31+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-30s-mustard</loc>
+        
+                                <lastmod>2024-11-15T10:58:31+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-30s-hijau-sampurna</loc>
+        
+                                <lastmod>2024-11-15T10:58:31+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-30s-dark-mustard</loc>
+        
+                                <lastmod>2024-11-15T10:58:31+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-30s-almond-brown</loc>
+        
+                                <lastmod>2024-11-15T10:58:31+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-30s-cinnamon</loc>
+        
+                                <lastmod>2024-11-15T10:58:31+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-30s-toffee</loc>
+        
+                                <lastmod>2024-11-15T10:58:31+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-30s-beige</loc>
+        
+                                <lastmod>2024-11-15T10:58:31+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-30s-light-brown</loc>
+        
+                                <lastmod>2024-11-15T10:58:31+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-30s-coklat-milo</loc>
+        
+                                <lastmod>2024-11-15T10:58:31+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-30s-susu</loc>
+        
+                                <lastmod>2024-11-15T10:58:31+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-30s-coklat-kopi</loc>
+        
+                                <lastmod>2024-11-15T10:58:31+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-30s-cream</loc>
+        
+                                <lastmod>2024-11-15T10:58:31+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-30s-safari</loc>
+        
+                                <lastmod>2024-11-15T10:58:31+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-30s-dark-olive</loc>
+        
+                                <lastmod>2024-11-15T10:58:31+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-30s-hijau-tni</loc>
+        
+                                <lastmod>2024-11-15T10:58:31+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-30s-army-green</loc>
+        
+                                <lastmod>2024-11-15T10:58:31+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-30s-sage-green</loc>
+        
+                                <lastmod>2024-11-15T10:58:31+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-30s-khaky</loc>
+        
+                                <lastmod>2024-11-15T10:58:31+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-30s-mineral-green</loc>
+        
+                                <lastmod>2024-11-15T10:58:31+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-30s-stone-green</loc>
+        
+                                <lastmod>2024-11-15T10:58:31+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-30s-cactus-green</loc>
+        
+                                <lastmod>2024-11-15T10:58:31+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-30s-seafoam-green</loc>
+        
+                                <lastmod>2024-11-15T10:58:31+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-30s-baby-green</loc>
+        
+                                <lastmod>2024-11-15T10:58:31+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-30s-hijau-stabilo</loc>
+        
+                                <lastmod>2024-11-15T10:58:31+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-30s-hijau-pucuk</loc>
+        
+                                <lastmod>2024-11-15T10:58:32+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-30s-hijau-pupus</loc>
+        
+                                <lastmod>2024-11-15T10:58:32+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-30s-hijau-linmas</loc>
+        
+                                <lastmod>2024-11-15T10:58:32+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-30s-hijau-fuji</loc>
+        
+                                <lastmod>2024-11-15T10:58:32+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-30s-hijau-tua</loc>
+        
+                                <lastmod>2024-11-15T10:58:32+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-30s-hijau-botol</loc>
+        
+                                <lastmod>2024-11-15T10:58:32+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-30s-hijau-botol-spesial</loc>
+        
+                                <lastmod>2024-11-15T10:58:32+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-30s-hijau-mint</loc>
+        
+                                <lastmod>2024-11-15T10:58:32+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-30s-tosca-muda</loc>
+        
+                                <lastmod>2024-11-15T10:58:32+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-30s-tosca-tua</loc>
+        
+                                <lastmod>2024-11-15T10:58:32+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-30s-tosca-bni</loc>
+        
+                                <lastmod>2024-11-15T10:58:32+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-30s-atlantic-sea</loc>
+        
+                                <lastmod>2024-11-15T10:58:32+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-30s-aqua-haze</loc>
+        
+                                <lastmod>2024-11-15T10:58:32+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-30s-mineral-blue</loc>
+        
+                                <lastmod>2024-11-15T10:58:32+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-30s-biru-tosca</loc>
+        
+                                <lastmod>2024-11-15T10:58:32+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-30s-deep-blue</loc>
+        
+                                <lastmod>2024-11-15T10:58:32+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-30s-ocean-blue</loc>
+        
+                                <lastmod>2024-11-15T10:58:32+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-30s-palladian-blue</loc>
+        
+                                <lastmod>2024-11-15T10:58:32+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-30s-sky-blue</loc>
+        
+                                <lastmod>2024-11-15T10:58:32+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-30s-biru-muda</loc>
+        
+                                <lastmod>2024-11-15T10:58:32+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-30s-dusty-blue</loc>
+        
+                                <lastmod>2024-11-15T10:58:32+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-30s-steel-blue</loc>
+        
+                                <lastmod>2024-11-15T10:58:32+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-30s-biru-c</loc>
+        
+                                <lastmod>2024-11-15T10:58:32+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-30s-denim-blue</loc>
+        
+                                <lastmod>2024-11-15T10:58:32+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-30s-turkish-muda-a</loc>
+        
+                                <lastmod>2024-11-15T10:58:32+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-30s-turkish-muda-b</loc>
+        
+                                <lastmod>2024-11-15T10:58:32+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-30s-turkish-tua</loc>
+        
+                                <lastmod>2024-11-15T10:58:32+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-30s-benhur</loc>
+        
+                                <lastmod>2024-11-15T10:58:32+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-30s-navy</loc>
+        
+                                <lastmod>2024-11-15T10:58:32+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-30s-lilac</loc>
+        
+                                <lastmod>2024-11-15T10:58:32+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-30s-lavender</loc>
+        
+                                <lastmod>2024-11-15T10:58:32+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-30s-dark-lavender</loc>
+        
+                                <lastmod>2024-11-15T10:58:32+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-30s-royal-purple</loc>
+        
+                                <lastmod>2024-11-15T10:58:33+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-30s-ungu-tua</loc>
+        
+                                <lastmod>2024-11-15T10:58:33+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-30s-dusty-lilac</loc>
+        
+                                <lastmod>2024-11-15T10:58:33+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-30s-pale-mauve</loc>
+        
+                                <lastmod>2024-11-15T10:58:33+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-30s-twilight-mauve</loc>
+        
+                                <lastmod>2024-11-15T10:58:33+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-30s-dusty-violet</loc>
+        
+                                <lastmod>2024-11-15T10:58:33+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-30s-vintage-violet</loc>
+        
+                                <lastmod>2024-11-15T10:58:33+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-30s-magenta</loc>
+        
+                                <lastmod>2024-11-15T10:58:33+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-30s-hitam-reaktif</loc>
+        
+                                <lastmod>2024-11-15T10:58:33+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-30s-hitam-sulfur</loc>
+        
+                                <lastmod>2024-11-15T10:58:33+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-30s-misty-m71</loc>
+        
+                                <lastmod>2024-11-15T10:58:33+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-30s-abu-sedang</loc>
+        
+                                <lastmod>2024-11-15T10:58:33+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-30s-stone-grey</loc>
+        
+                                <lastmod>2024-11-15T10:58:33+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-30s-abu-tua</loc>
+        
+                                <lastmod>2024-11-15T10:58:33+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-30s-jet-black</loc>
+        
+                                <lastmod>2024-11-15T10:58:33+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-30s-putih-bluish</loc>
+        
+                                <lastmod>2024-11-15T10:58:33+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-30s-putih-netral</loc>
+        
+                                <lastmod>2024-11-15T10:58:33+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-30s-broken-white</loc>
+        
+                                <lastmod>2024-11-15T10:58:33+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-30s-abu-muda-a</loc>
+        
+                                <lastmod>2024-11-15T10:58:33+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-combed-30s-abu-muda-b</loc>
+        
+                                <lastmod>2024-11-15T10:58:33+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-20s-fuchsia</loc>
+        
+                                <lastmod>2024-11-18T13:45:49+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-20s-fanta</loc>
+        
+                                <lastmod>2024-11-18T13:45:49+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-20s-merah-cabe</loc>
+        
+                                <lastmod>2024-11-18T13:45:49+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-20s-maroon</loc>
+        
+                                <lastmod>2024-11-18T13:45:49+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-20s-merah-hati</loc>
+        
+                                <lastmod>2024-11-18T13:45:49+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-20s-woodrose</loc>
+        
+                                <lastmod>2024-11-18T13:45:49+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-20s-dusty-pink</loc>
+        
+                                <lastmod>2024-11-18T13:45:49+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-20s-baby-pink</loc>
+        
+                                <lastmod>2024-11-18T13:45:49+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-20s-pink-muda</loc>
+        
+                                <lastmod>2024-11-18T13:45:49+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-20s-bubblegum-pink</loc>
+        
+                                <lastmod>2024-11-18T13:45:49+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-20s-terra-cotta</loc>
+        
+                                <lastmod>2024-11-18T13:45:49+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-20s-rustic-rose</loc>
+        
+                                <lastmod>2024-11-18T13:45:49+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-20s-red-plum</loc>
+        
+                                <lastmod>2024-11-18T13:45:49+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-20s-blush-red</loc>
+        
+                                <lastmod>2024-11-18T13:45:49+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-20s-dusty-rose</loc>
+        
+                                <lastmod>2024-11-18T13:45:49+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-20s-dusty-peach</loc>
+        
+                                <lastmod>2024-11-18T13:45:49+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-20s-baby-peach</loc>
+        
+                                <lastmod>2024-11-18T13:45:49+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-20s-salem-m</loc>
+        
+                                <lastmod>2024-11-18T13:45:49+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-20s-salem</loc>
+        
+                                <lastmod>2024-11-18T13:45:49+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-20s-merah-bata</loc>
+        
+                                <lastmod>2024-11-18T13:45:49+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-20s-kuning-mas</loc>
+        
+                                <lastmod>2024-11-18T13:45:49+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-20s-bright-orange</loc>
+        
+                                <lastmod>2024-11-18T13:45:49+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-20s-orange</loc>
+        
+                                <lastmod>2024-11-18T13:45:49+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-20s-orange-bata</loc>
+        
+                                <lastmod>2024-11-18T13:45:50+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-20s-sunset-orange</loc>
+        
+                                <lastmod>2024-11-18T13:45:50+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-20s-kuning-kenari</loc>
+        
+                                <lastmod>2024-11-18T13:45:50+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-20s-kuning-lemon</loc>
+        
+                                <lastmod>2024-11-18T13:45:50+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-20s-baby-yellow</loc>
+        
+                                <lastmod>2024-11-18T13:45:50+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-20s-honey</loc>
+        
+                                <lastmod>2024-11-18T13:45:50+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-20s-mustard</loc>
+        
+                                <lastmod>2024-11-18T13:45:50+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-20s-hijau-sampurna</loc>
+        
+                                <lastmod>2024-11-18T13:45:50+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-20s-dark-mustard</loc>
+        
+                                <lastmod>2024-11-18T13:45:50+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-20s-almond-brown</loc>
+        
+                                <lastmod>2024-11-18T13:45:50+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-20s-cinnamon</loc>
+        
+                                <lastmod>2024-11-18T13:45:50+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-20s-toffee</loc>
+        
+                                <lastmod>2024-11-18T13:45:50+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-20s-beige</loc>
+        
+                                <lastmod>2024-11-18T13:45:50+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-20s-light-brown</loc>
+        
+                                <lastmod>2024-11-18T13:45:50+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-20s-coklat-milo</loc>
+        
+                                <lastmod>2024-11-18T13:45:50+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-20s-susu</loc>
+        
+                                <lastmod>2024-11-18T13:45:50+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-20s-coklat-kopi</loc>
+        
+                                <lastmod>2024-11-18T13:45:50+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-20s-cream</loc>
+        
+                                <lastmod>2024-11-18T13:45:51+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-20s-safari</loc>
+        
+                                <lastmod>2024-11-18T13:45:51+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-20s-dark-olive</loc>
+        
+                                <lastmod>2024-11-18T13:45:51+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-20s-hijau-tni</loc>
+        
+                                <lastmod>2024-11-18T13:45:51+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-20s-army-green</loc>
+        
+                                <lastmod>2024-11-18T13:45:51+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-20s-sage-green</loc>
+        
+                                <lastmod>2024-11-18T13:45:51+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-20s-khaky</loc>
+        
+                                <lastmod>2024-11-18T13:45:51+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-20s-mineral-green</loc>
+        
+                                <lastmod>2024-11-18T13:45:51+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-20s-stone-green</loc>
+        
+                                <lastmod>2024-11-18T13:45:51+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-20s-cactus-green</loc>
+        
+                                <lastmod>2024-11-18T13:45:51+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-20s-seafoam-green</loc>
+        
+                                <lastmod>2024-11-18T13:45:51+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-20s-baby-green</loc>
+        
+                                <lastmod>2024-11-18T13:45:51+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-20s-hijau-stabilo</loc>
+        
+                                <lastmod>2024-11-18T13:45:51+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-20s-hijau-pucuk</loc>
+        
+                                <lastmod>2024-11-18T13:45:51+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-20s-hijau-pupus</loc>
+        
+                                <lastmod>2024-11-18T13:45:51+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-20s-hijau-linmas</loc>
+        
+                                <lastmod>2024-11-18T13:45:51+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-20s-hijau-fuji</loc>
+        
+                                <lastmod>2024-11-18T13:45:51+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-20s-hijau-tua</loc>
+        
+                                <lastmod>2024-11-18T13:45:51+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-20s-hijau-botol</loc>
+        
+                                <lastmod>2024-11-18T13:45:51+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-20s-hijau-botol-spesial</loc>
+        
+                                <lastmod>2024-11-18T13:45:51+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-20s-hijau-mint</loc>
+        
+                                <lastmod>2024-11-18T13:45:51+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-20s-tosca-muda</loc>
+        
+                                <lastmod>2024-11-18T13:45:51+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-20s-tosca-tua</loc>
+        
+                                <lastmod>2024-11-18T13:45:51+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-20s-tosca-bni</loc>
+        
+                                <lastmod>2024-11-18T13:45:51+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-20s-atlantic-sea</loc>
+        
+                                <lastmod>2024-11-18T13:45:51+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-20s-aqua-haze</loc>
+        
+                                <lastmod>2024-11-18T13:45:51+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-20s-mineral-blue</loc>
+        
+                                <lastmod>2024-11-18T13:45:51+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-20s-biru-tosca</loc>
+        
+                                <lastmod>2024-11-18T13:45:51+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-20s-deep-blue</loc>
+        
+                                <lastmod>2024-11-18T13:45:52+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-20s-ocean-blue</loc>
+        
+                                <lastmod>2024-11-18T13:45:52+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-20s-palladian-blue</loc>
+        
+                                <lastmod>2024-11-18T13:45:52+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-20s-sky-blue</loc>
+        
+                                <lastmod>2024-11-18T13:45:52+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-20s-biru-muda</loc>
+        
+                                <lastmod>2024-11-18T13:45:52+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-20s-dusty-blue</loc>
+        
+                                <lastmod>2024-11-18T13:45:52+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-20s-steel-blue</loc>
+        
+                                <lastmod>2024-11-18T13:45:52+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-20s-biru-c</loc>
+        
+                                <lastmod>2024-11-18T13:45:52+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-20s-denim-blue</loc>
+        
+                                <lastmod>2024-11-18T13:45:52+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-20s-turkish-muda-a</loc>
+        
+                                <lastmod>2024-11-18T13:45:52+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-20s-turkish-muda-b</loc>
+        
+                                <lastmod>2024-11-18T13:45:52+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-20s-turkish-tua</loc>
+        
+                                <lastmod>2024-11-18T13:45:52+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-20s-benhur</loc>
+        
+                                <lastmod>2024-11-18T13:45:52+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-20s-navy</loc>
+        
+                                <lastmod>2024-11-18T13:45:52+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-20s-lilac</loc>
+        
+                                <lastmod>2024-11-18T13:45:52+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-20s-lavender</loc>
+        
+                                <lastmod>2024-11-18T13:45:52+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-20s-dark-lavender</loc>
+        
+                                <lastmod>2024-11-18T13:45:52+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-20s-royal-purple</loc>
+        
+                                <lastmod>2024-11-18T13:45:52+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-20s-ungu-tua</loc>
+        
+                                <lastmod>2024-11-18T13:45:52+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-20s-dusty-lilac</loc>
+        
+                                <lastmod>2024-11-18T13:45:52+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-20s-pale-mauve</loc>
+        
+                                <lastmod>2024-11-18T13:45:52+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-20s-twilight-mauve</loc>
+        
+                                <lastmod>2024-11-18T13:45:52+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-20s-dusty-violet</loc>
+        
+                                <lastmod>2024-11-18T13:45:52+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-20s-vintage-violet</loc>
+        
+                                <lastmod>2024-11-18T13:45:52+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-20s-magenta</loc>
+        
+                                <lastmod>2024-11-18T13:45:52+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-20s-hitam-reaktif</loc>
+        
+                                <lastmod>2024-11-18T13:45:52+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-20s-hitam-sulfur</loc>
+        
+                                <lastmod>2024-11-18T13:45:52+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-20s-abu-sedang</loc>
+        
+                                <lastmod>2024-11-18T13:45:53+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-20s-stone-grey</loc>
+        
+                                <lastmod>2024-11-18T13:45:53+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-20s-abu-tua</loc>
+        
+                                <lastmod>2024-11-18T13:45:53+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-20s-jet-black</loc>
+        
+                                <lastmod>2024-11-18T13:45:53+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-20s-putih-bluish</loc>
+        
+                                <lastmod>2024-11-18T13:45:53+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-20s-putih-netral</loc>
+        
+                                <lastmod>2024-11-18T13:45:53+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-20s-broken-white</loc>
+        
+                                <lastmod>2024-11-18T13:45:53+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-20s-abu-muda-a</loc>
+        
+                                <lastmod>2024-11-18T13:45:53+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-20s-abu-muda-b</loc>
+        
+                                <lastmod>2024-11-18T13:45:53+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-24s-fuchsia</loc>
+        
+                                <lastmod>2024-11-18T13:49:52+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-24s-fanta</loc>
+        
+                                <lastmod>2024-11-18T13:49:52+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-24s-merah-cabe</loc>
+        
+                                <lastmod>2024-11-18T13:49:52+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-24s-maroon</loc>
+        
+                                <lastmod>2024-11-18T13:49:52+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-24s-merah-hati</loc>
+        
+                                <lastmod>2024-11-18T13:49:52+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-24s-woodrose</loc>
+        
+                                <lastmod>2024-11-18T13:49:52+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-24s-dusty-pink</loc>
+        
+                                <lastmod>2024-11-18T13:49:52+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-24s-baby-pink</loc>
+        
+                                <lastmod>2024-11-18T13:49:52+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-24s-pink-muda</loc>
+        
+                                <lastmod>2024-11-18T13:49:52+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-24s-bubblegum-pink</loc>
+        
+                                <lastmod>2024-11-18T13:49:52+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-24s-terra-cotta</loc>
+        
+                                <lastmod>2024-11-18T13:49:52+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-24s-rustic-rose</loc>
+        
+                                <lastmod>2024-11-18T13:49:52+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-24s-red-plum</loc>
+        
+                                <lastmod>2024-11-18T13:49:52+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-24s-blush-red</loc>
+        
+                                <lastmod>2024-11-18T13:49:52+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-24s-dusty-rose</loc>
+        
+                                <lastmod>2024-11-18T13:49:52+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-24s-dusty-peach</loc>
+        
+                                <lastmod>2024-11-18T13:49:52+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-24s-baby-peach</loc>
+        
+                                <lastmod>2024-11-18T13:49:52+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-24s-salem-m</loc>
+        
+                                <lastmod>2024-11-18T13:49:52+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-24s-salem</loc>
+        
+                                <lastmod>2024-11-18T13:49:52+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-24s-merah-bata</loc>
+        
+                                <lastmod>2024-11-18T13:49:52+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-24s-kuning-mas</loc>
+        
+                                <lastmod>2024-11-18T13:49:53+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-24s-bright-orange</loc>
+        
+                                <lastmod>2024-11-18T13:49:53+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-24s-orange</loc>
+        
+                                <lastmod>2024-11-18T13:49:53+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-24s-orange-bata</loc>
+        
+                                <lastmod>2024-11-18T13:49:53+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-24s-sunset-orange</loc>
+        
+                                <lastmod>2024-11-18T13:49:53+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-24s-kuning-kenari</loc>
+        
+                                <lastmod>2024-11-18T13:49:53+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-24s-kuning-lemon</loc>
+        
+                                <lastmod>2024-11-18T13:49:53+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-24s-baby-yellow</loc>
+        
+                                <lastmod>2024-11-18T13:49:53+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-24s-honey</loc>
+        
+                                <lastmod>2024-11-18T13:49:53+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-24s-mustard</loc>
+        
+                                <lastmod>2024-11-18T13:49:53+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-24s-hijau-sampurna</loc>
+        
+                                <lastmod>2024-11-18T13:49:53+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-24s-dark-mustard</loc>
+        
+                                <lastmod>2024-11-18T13:49:53+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-24s-almond-brown</loc>
+        
+                                <lastmod>2024-11-18T13:49:53+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-24s-cinnamon</loc>
+        
+                                <lastmod>2024-11-18T13:49:53+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-24s-toffee</loc>
+        
+                                <lastmod>2024-11-18T13:49:53+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-24s-beige</loc>
+        
+                                <lastmod>2024-11-18T13:49:53+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-24s-light-brown</loc>
+        
+                                <lastmod>2024-11-18T13:49:53+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-24s-coklat-milo</loc>
+        
+                                <lastmod>2024-11-18T13:49:53+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-24s-susu</loc>
+        
+                                <lastmod>2024-11-18T13:49:53+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-24s-coklat-kopi</loc>
+        
+                                <lastmod>2024-11-18T13:49:53+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-24s-cream</loc>
+        
+                                <lastmod>2024-11-18T13:49:53+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-24s-safari</loc>
+        
+                                <lastmod>2024-11-18T13:49:53+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-24s-dark-olive</loc>
+        
+                                <lastmod>2024-11-18T13:49:53+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-24s-hijau-tni</loc>
+        
+                                <lastmod>2024-11-18T13:49:53+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-24s-army-green</loc>
+        
+                                <lastmod>2024-11-18T13:49:53+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-24s-sage-green</loc>
+        
+                                <lastmod>2024-11-18T13:49:53+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-24s-khaky</loc>
+        
+                                <lastmod>2024-11-18T13:49:53+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-24s-mineral-green</loc>
+        
+                                <lastmod>2024-11-18T13:49:53+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-24s-stone-green</loc>
+        
+                                <lastmod>2024-11-18T13:49:54+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-24s-cactus-green</loc>
+        
+                                <lastmod>2024-11-18T13:49:54+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-24s-seafoam-green</loc>
+        
+                                <lastmod>2024-11-18T13:49:54+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-24s-baby-green</loc>
+        
+                                <lastmod>2024-11-18T13:49:54+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-24s-hijau-stabilo</loc>
+        
+                                <lastmod>2024-11-18T13:49:54+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-24s-hijau-pucuk</loc>
+        
+                                <lastmod>2024-11-18T13:49:54+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-24s-hijau-pupus</loc>
+        
+                                <lastmod>2024-11-18T13:49:54+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-24s-hijau-linmas</loc>
+        
+                                <lastmod>2024-11-18T13:49:54+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-24s-hijau-fuji</loc>
+        
+                                <lastmod>2024-11-18T13:49:54+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-24s-hijau-tua</loc>
+        
+                                <lastmod>2024-11-18T13:49:54+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-24s-hijau-botol</loc>
+        
+                                <lastmod>2024-11-18T13:49:54+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-24s-hijau-botol-spesial</loc>
+        
+                                <lastmod>2024-11-18T13:49:54+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-24s-hijau-mint</loc>
+        
+                                <lastmod>2024-11-18T13:49:54+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-24s-tosca-muda</loc>
+        
+                                <lastmod>2024-11-18T13:49:54+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-24s-tosca-tua</loc>
+        
+                                <lastmod>2024-11-18T13:49:54+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-24s-tosca-bni</loc>
+        
+                                <lastmod>2024-11-18T13:49:54+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-24s-atlantic-sea</loc>
+        
+                                <lastmod>2024-11-18T13:49:54+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-24s-aqua-haze</loc>
+        
+                                <lastmod>2024-11-18T13:49:54+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-24s-mineral-blue</loc>
+        
+                                <lastmod>2024-11-18T13:49:54+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-24s-biru-tosca</loc>
+        
+                                <lastmod>2024-11-18T13:49:54+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-24s-deep-blue</loc>
+        
+                                <lastmod>2024-11-18T13:49:54+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-24s-ocean-blue</loc>
+        
+                                <lastmod>2024-11-18T13:49:54+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-24s-palladian-blue</loc>
+        
+                                <lastmod>2024-11-18T13:49:54+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-24s-sky-blue</loc>
+        
+                                <lastmod>2024-11-18T13:49:54+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-24s-biru-muda</loc>
+        
+                                <lastmod>2024-11-18T13:49:55+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-24s-dusty-blue</loc>
+        
+                                <lastmod>2024-11-18T13:49:55+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-24s-steel-blue</loc>
+        
+                                <lastmod>2024-11-18T13:49:55+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-24s-biru-c</loc>
+        
+                                <lastmod>2024-11-18T13:49:55+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-24s-denim-blue</loc>
+        
+                                <lastmod>2024-11-18T13:49:55+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-24s-turkish-muda-a</loc>
+        
+                                <lastmod>2024-11-18T13:49:55+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-24s-turkish-muda-b</loc>
+        
+                                <lastmod>2024-11-18T13:49:55+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-24s-turkish-tua</loc>
+        
+                                <lastmod>2024-11-18T13:49:55+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-24s-benhur</loc>
+        
+                                <lastmod>2024-11-18T13:49:55+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-24s-navy</loc>
+        
+                                <lastmod>2024-11-18T13:49:55+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-24s-lilac</loc>
+        
+                                <lastmod>2024-11-18T13:49:55+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-24s-lavender</loc>
+        
+                                <lastmod>2024-11-18T13:49:55+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-24s-dark-lavender</loc>
+        
+                                <lastmod>2024-11-18T13:49:55+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-24s-royal-purple</loc>
+        
+                                <lastmod>2024-11-18T13:49:55+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-24s-ungu-tua</loc>
+        
+                                <lastmod>2024-11-18T13:49:55+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-24s-dusty-lilac</loc>
+        
+                                <lastmod>2024-11-18T13:49:55+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-24s-pale-mauve</loc>
+        
+                                <lastmod>2024-11-18T13:49:55+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-24s-twilight-mauve</loc>
+        
+                                <lastmod>2024-11-18T13:49:55+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-24s-dusty-violet</loc>
+        
+                                <lastmod>2024-11-18T13:49:55+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-24s-vintage-violet</loc>
+        
+                                <lastmod>2024-11-18T13:49:55+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-24s-magenta</loc>
+        
+                                <lastmod>2024-11-18T13:49:55+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-24s-hitam-reaktif</loc>
+        
+                                <lastmod>2024-11-18T13:49:55+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-24s-hitam-sulfur</loc>
+        
+                                <lastmod>2024-11-18T13:49:55+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-24s-abu-sedang</loc>
+        
+                                <lastmod>2024-11-18T13:49:55+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-24s-stone-grey</loc>
+        
+                                <lastmod>2024-11-18T13:49:55+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-24s-abu-tua</loc>
+        
+                                <lastmod>2024-11-18T13:49:55+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-24s-jet-black</loc>
+        
+                                <lastmod>2024-11-18T13:49:55+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-24s-putih-bluish</loc>
+        
+                                <lastmod>2024-11-18T13:49:55+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-24s-putih-netral</loc>
+        
+                                <lastmod>2024-11-18T13:49:55+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-24s-broken-white</loc>
+        
+                                <lastmod>2024-11-18T13:49:55+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-24s-abu-muda-a</loc>
+        
+                                <lastmod>2024-11-18T13:49:55+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-24s-abu-muda-b</loc>
+        
+                                <lastmod>2024-11-18T13:49:56+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-30s-fuchsia</loc>
+        
+                                <lastmod>2024-11-18T13:50:26+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-30s-fanta</loc>
+        
+                                <lastmod>2024-11-18T13:50:26+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-30s-merah-cabe</loc>
+        
+                                <lastmod>2024-11-18T13:50:26+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-30s-maroon</loc>
+        
+                                <lastmod>2024-11-18T13:50:26+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-30s-merah-hati</loc>
+        
+                                <lastmod>2024-11-18T13:50:27+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-30s-woodrose</loc>
+        
+                                <lastmod>2024-11-18T13:50:27+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-30s-dusty-pink</loc>
+        
+                                <lastmod>2024-11-18T13:50:27+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-30s-baby-pink</loc>
+        
+                                <lastmod>2024-11-18T13:50:27+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-30s-pink-muda</loc>
+        
+                                <lastmod>2024-11-18T13:50:27+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-30s-bubblegum-pink</loc>
+        
+                                <lastmod>2024-11-18T13:50:27+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-30s-terra-cotta</loc>
+        
+                                <lastmod>2024-11-18T13:50:27+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-30s-rustic-rose</loc>
+        
+                                <lastmod>2024-11-18T13:50:27+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-30s-red-plum</loc>
+        
+                                <lastmod>2024-11-18T13:50:27+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-30s-blush-red</loc>
+        
+                                <lastmod>2024-11-18T13:50:27+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-30s-dusty-rose</loc>
+        
+                                <lastmod>2024-11-18T13:50:27+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-30s-dusty-peach</loc>
+        
+                                <lastmod>2024-11-18T13:50:27+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-30s-baby-peach</loc>
+        
+                                <lastmod>2024-11-18T13:50:27+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-30s-salem-m</loc>
+        
+                                <lastmod>2024-11-18T13:50:27+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-30s-salem</loc>
+        
+                                <lastmod>2024-11-18T13:50:27+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-30s-merah-bata</loc>
+        
+                                <lastmod>2024-11-18T13:50:27+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-30s-kuning-mas</loc>
+        
+                                <lastmod>2024-11-18T13:50:27+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-30s-bright-orange</loc>
+        
+                                <lastmod>2024-11-18T13:50:27+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-30s-orange</loc>
+        
+                                <lastmod>2024-11-18T13:50:27+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-30s-orange-bata</loc>
+        
+                                <lastmod>2024-11-18T13:50:27+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-30s-sunset-orange</loc>
+        
+                                <lastmod>2024-11-18T13:50:27+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-30s-kuning-kenari</loc>
+        
+                                <lastmod>2024-11-18T13:50:27+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-30s-kuning-lemon</loc>
+        
+                                <lastmod>2024-11-18T13:50:27+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-30s-baby-yellow</loc>
+        
+                                <lastmod>2024-11-18T13:50:27+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-30s-honey</loc>
+        
+                                <lastmod>2024-11-18T13:50:27+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-30s-mustard</loc>
+        
+                                <lastmod>2024-11-18T13:50:27+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-30s-hijau-sampurna</loc>
+        
+                                <lastmod>2024-11-18T13:50:27+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-30s-dark-mustard</loc>
+        
+                                <lastmod>2024-11-18T13:50:27+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-30s-almond-brown</loc>
+        
+                                <lastmod>2024-11-18T13:50:27+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-30s-cinnamon</loc>
+        
+                                <lastmod>2024-11-18T13:50:27+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-30s-toffee</loc>
+        
+                                <lastmod>2024-11-18T13:50:27+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-30s-beige</loc>
+        
+                                <lastmod>2024-11-18T13:50:27+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-30s-light-brown</loc>
+        
+                                <lastmod>2024-11-18T13:50:27+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-30s-coklat-milo</loc>
+        
+                                <lastmod>2024-11-18T13:50:27+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-30s-susu</loc>
+        
+                                <lastmod>2024-11-18T13:50:27+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-30s-coklat-kopi</loc>
+        
+                                <lastmod>2024-11-18T13:50:28+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-30s-cream</loc>
+        
+                                <lastmod>2024-11-18T13:50:28+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-30s-safari</loc>
+        
+                                <lastmod>2024-11-18T13:50:28+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-30s-dark-olive</loc>
+        
+                                <lastmod>2024-11-18T13:50:28+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-30s-hijau-tni</loc>
+        
+                                <lastmod>2024-11-18T13:50:28+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-30s-army-green</loc>
+        
+                                <lastmod>2024-11-18T13:50:28+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-30s-sage-green</loc>
+        
+                                <lastmod>2024-11-18T13:50:28+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-30s-khaky</loc>
+        
+                                <lastmod>2024-11-18T13:50:28+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-30s-mineral-green</loc>
+        
+                                <lastmod>2024-11-18T13:50:28+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-30s-stone-green</loc>
+        
+                                <lastmod>2024-11-18T13:50:28+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-30s-cactus-green</loc>
+        
+                                <lastmod>2024-11-18T13:50:28+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-30s-seafoam-green</loc>
+        
+                                <lastmod>2024-11-18T13:50:28+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-30s-baby-green</loc>
+        
+                                <lastmod>2024-11-18T13:50:28+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-30s-hijau-stabilo</loc>
+        
+                                <lastmod>2024-11-18T13:50:28+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-30s-hijau-pucuk</loc>
+        
+                                <lastmod>2024-11-18T13:50:28+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-30s-hijau-pupus</loc>
+        
+                                <lastmod>2024-11-18T13:50:28+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-30s-hijau-linmas</loc>
+        
+                                <lastmod>2024-11-18T13:50:28+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-30s-hijau-fuji</loc>
+        
+                                <lastmod>2024-11-18T13:50:28+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-30s-hijau-tua</loc>
+        
+                                <lastmod>2024-11-18T13:50:28+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-30s-hijau-botol</loc>
+        
+                                <lastmod>2024-11-18T13:50:28+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-30s-hijau-botol-spesial</loc>
+        
+                                <lastmod>2024-11-18T13:50:28+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-30s-hijau-mint</loc>
+        
+                                <lastmod>2024-11-18T13:50:28+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-30s-tosca-muda</loc>
+        
+                                <lastmod>2024-11-18T13:50:28+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-30s-tosca-tua</loc>
+        
+                                <lastmod>2024-11-18T13:50:28+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-30s-tosca-bni</loc>
+        
+                                <lastmod>2024-11-18T13:50:28+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-30s-atlantic-sea</loc>
+        
+                                <lastmod>2024-11-18T13:50:28+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-30s-aqua-haze</loc>
+        
+                                <lastmod>2024-11-18T13:50:28+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-30s-mineral-blue</loc>
+        
+                                <lastmod>2024-11-18T13:50:28+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-30s-biru-tosca</loc>
+        
+                                <lastmod>2024-11-18T13:50:28+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-30s-deep-blue</loc>
+        
+                                <lastmod>2024-11-18T13:50:28+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-30s-ocean-blue</loc>
+        
+                                <lastmod>2024-11-18T13:50:28+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-30s-palladian-blue</loc>
+        
+                                <lastmod>2024-11-18T13:50:28+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-30s-sky-blue</loc>
+        
+                                <lastmod>2024-11-18T13:50:28+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-30s-biru-muda</loc>
+        
+                                <lastmod>2024-11-18T13:50:29+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-30s-dusty-blue</loc>
+        
+                                <lastmod>2024-11-18T13:50:29+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-30s-steel-blue</loc>
+        
+                                <lastmod>2024-11-18T13:50:29+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-30s-biru-c</loc>
+        
+                                <lastmod>2024-11-18T13:50:29+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-30s-denim-blue</loc>
+        
+                                <lastmod>2024-11-18T13:50:29+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-30s-turkish-muda-a</loc>
+        
+                                <lastmod>2024-11-18T13:50:29+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-30s-turkish-muda-b</loc>
+        
+                                <lastmod>2024-11-18T13:50:29+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-30s-turkish-tua</loc>
+        
+                                <lastmod>2024-11-18T13:50:29+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-30s-benhur</loc>
+        
+                                <lastmod>2024-11-18T13:50:29+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-30s-navy</loc>
+        
+                                <lastmod>2024-11-18T13:50:29+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-30s-lilac</loc>
+        
+                                <lastmod>2024-11-18T13:50:29+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-30s-lavender</loc>
+        
+                                <lastmod>2024-11-18T13:50:29+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-30s-dark-lavender</loc>
+        
+                                <lastmod>2024-11-18T13:50:29+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-30s-royal-purple</loc>
+        
+                                <lastmod>2024-11-18T13:50:29+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-30s-ungu-tua</loc>
+        
+                                <lastmod>2024-11-18T13:50:29+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-30s-dusty-lilac</loc>
+        
+                                <lastmod>2024-11-18T13:50:29+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-30s-pale-mauve</loc>
+        
+                                <lastmod>2024-11-18T13:50:29+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-30s-twilight-mauve</loc>
+        
+                                <lastmod>2024-11-18T13:50:29+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-30s-dusty-violet</loc>
+        
+                                <lastmod>2024-11-18T13:50:29+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-30s-vintage-violet</loc>
+        
+                                <lastmod>2024-11-18T13:50:29+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-30s-magenta</loc>
+        
+                                <lastmod>2024-11-18T13:50:29+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-30s-hitam-reaktif</loc>
+        
+                                <lastmod>2024-11-18T13:50:29+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-30s-hitam-sulfur</loc>
+        
+                                <lastmod>2024-11-18T13:50:29+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-30s-abu-sedang</loc>
+        
+                                <lastmod>2024-11-18T13:50:29+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-30s-stone-grey</loc>
+        
+                                <lastmod>2024-11-18T13:50:29+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-30s-abu-tua</loc>
+        
+                                <lastmod>2024-11-18T13:50:29+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-30s-jet-black</loc>
+        
+                                <lastmod>2024-11-18T13:50:29+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-30s-putih-bluish</loc>
+        
+                                <lastmod>2024-11-18T13:50:29+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-30s-putih-netral</loc>
+        
+                                <lastmod>2024-11-18T13:50:29+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-30s-broken-white</loc>
+        
+                                <lastmod>2024-11-18T13:50:29+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-30s-abu-muda-a</loc>
+        
+                                <lastmod>2024-11-18T13:50:29+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+    <url>
+                    <loc>http://localhost:8000/shop/cotton-carded-30s-abu-muda-b</loc>
+        
+                                <lastmod>2024-11-18T13:50:29+00:00</lastmod>
+        
+                    <priority>1.0</priority>
+            </url>
+</sitemapindex>

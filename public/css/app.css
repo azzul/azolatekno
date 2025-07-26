@@ -1,0 +1,369 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and container */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #040919;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+}
+
+.container {
+    width: 100%;
+    max-width: 800px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    box-sizing: border-box; 
+}
+h1{
+    font-size: 1.5rem;
+    color: white;
+}
+h4{
+    font-size: 1.2rem;
+    color: white;
+}
+.pb15 {
+    padding-bottom: 15px;
+}
+.pb10 {
+    padding-bottom: 10px;
+}
+/* Logo */
+.logo img {
+    width: 100px;
+    margin-bottom: 15px;
+}
+
+/* Social media icons */
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-bottom: 20px;
+    flex-wrap: wrap; /* Allow icons to wrap on smaller screens */
+}
+
+.social-icon {
+    background-color: white;
+    color: white;
+    padding: 10px;
+    margin: 0 5px;
+    border-radius: 50%;
+    text-decoration: none;
+    font-weight: bold;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s ease;
+}
+.social-icons i {
+    color: white;
+    font-size: 2rem;
+}
+.social-icons i:hover {
+    color: #e6212a;
+}
+
+/* Card style */
+/* Card style */
+.card {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.card-link {
+    text-decoration: none;
+    display: block;
+    background-color: #515151;
+    border-radius: 50px;
+    color: white;
+    padding: 15px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.card-link:hover {
+    transform: translateY(-5px);
+    background-color:#1a1919;
+}
+
+.card-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+
+}
+
+.icon-container {
+    width: 10%;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.pe-icon {
+    color: white;
+}
+.text-content {
+    width: 80%;
+}
+.text-content h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.text-content h2 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.text-content p {
+    font-size: 14px;
+    opacity: 0.9;
+}
+
+.option-button {
+    width: 10%;
+}
+
+.option-button i {
+   font-size: 1.3rem;
+}
+
+.option-button i:hover {
+   background-color: #050505;
+   border-radius: 50%; /* Membuat elemen bulat */
+   width: 40px;       /* Tentukan lebar yang sama */
+   height: 40px;      /* Tentukan tinggi yang sama */
+   display: inline-flex; /* Pastikan elemen menggunakan flex */
+   justify-content: center; /* Pusatkan konten horizontal */
+   align-items: center;     /* Pusatkan konten vertikal */
+   padding: 0;        /* Hapus padding */
+}
+
+.options-container {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    cursor: pointer;
+}
+
+.share-options {
+    display: none; /* Opsi berbagi tersembunyi secara default */
+    position: absolute;
+    right: 0;
+    top: 30px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    z-index: 100;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.share-option {
+    padding: 5px;
+    color: black;
+    text-decoration: none;
+    transition: background-color 0.2s ease;
+}
+
+.share-option:hover {
+    background-color: #f0f0f0;
+}
+
+.options-container i {
+    font-size: 18px;
+}
+
+.card-content h3 {
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.card-content h2 {
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.card-content p {
+    font-size: 14px;
+    opacity: 0.9;
+}
+
+/* Media Query for responsiveness */
+@media (max-width: 600px) {
+    .container {
+        padding: 15px;
+    }
+
+    .logo img {
+        width: 90px;
+    }
+
+    .social-icon {
+        width: 35px;
+        height: 35px;
+        padding: 8px;
+        font-size: 14px;
+    }
+
+    .card-content h3 {
+        font-size: 16px;
+    }
+    .card-content h2 {
+        font-size: 16px;
+    }
+
+    .card-content p {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 400px) {
+    h1{
+    font-size: 1.2rem;
+    color: white;
+}
+h4{
+    font-size: 1rem;
+    color: white;
+}
+body {
+    padding:15px;
+}
+    .container {
+        max-width: 100%;
+        padding: 0px;
+    }
+.icon-container {
+    width: 15%;
+    font-size: 1rem;
+}
+    .logo img {
+        width: 80px;
+    }
+
+    .social-icon {
+        width: 30px;
+        height: 30px;
+        padding: 6px;
+        font-size: 12px;
+    }
+.social-icons i {
+    color: white;
+    font-size: 1.5rem;
+}
+    .card-link {
+        padding: 12px;
+    }
+
+    .card-content h3 {
+        font-size: 14px;
+    }
+
+    .card-content p {
+        font-size: 10px;
+    }
+    .option-button i {
+   font-size: 1rem;
+}
+.option-button i:hover {
+   background-color: #050505;
+   border-radius: 50%; /* Membuat elemen bulat */
+   width: 25px;       /* Tentukan lebar yang sama */
+   height: 25px;      /* Tentukan tinggi yang sama */
+   display: inline-flex; /* Pastikan elemen menggunakan flex */
+   justify-content: center; /* Pusatkan konten horizontal */
+   align-items: center;     /* Pusatkan konten vertikal */
+   padding: 0;        /* Hapus padding */
+}
+}
+
+
+/* Pop-up container */
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.popup.hidden {
+    display: none;
+}
+
+/* Pop-up content */
+.popup-content {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+    text-align: center;
+}
+
+.popup-content h4 {
+    margin-bottom: 15px;
+    color: black;
+}
+
+.social-share {
+    list-style: none;
+    padding: 0;
+}
+
+.social-share li {
+    margin: 10px 0;
+}
+
+.social-share a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #333;
+    display: flex;
+    align-items: center;
+}
+
+.social-share a i {
+    margin-right: 10px;
+}
+
+.close-btn {
+    margin-top: 15px;
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.links-content {
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    height: 60vh;
+}
