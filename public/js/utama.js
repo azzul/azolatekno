@@ -1,5 +1,24 @@
 
 document.addEventListener('DOMContentLoaded', function () {
+  window.addEventListener('scroll', function () {
+    var scrollPosition = window.scrollY || document.documentElement.scrollTop;
+    var header = document.getElementById('header');
+     var btnNav = document.getElementById('mobile-nav-toggle');
+    
+    if (!header) return;
+
+    if (scrollPosition > 50) {
+      header.classList.add('header-scrolled');
+      btnNav.classList.add('header-scrolled');
+    } else {
+      header.classList.remove('header-scrolled');
+      btnNav.classList.remove('header-scrolled');
+    }
+
+  });
+});
+
+document.addEventListener('DOMContentLoaded', function () {
   // 1. Clone Navigation
   const originalNav = document.querySelector('#nav-menu-container');
   if (originalNav) {
@@ -51,19 +70,16 @@ document.addEventListener('DOMContentLoaded', function () {
       target.classList.toggle('fa-chevron-down');
     }
 window.addEventListener('scroll', function () {
-  // Mengambil posisi scroll secara vertikal
-  var scrollPosition = window.scrollY || document.documentElement.scrollTop;
+    var scrollPosition = window.scrollY || document.documentElement.scrollTop;
+    var header = document.getElementById('header');
+    if (!header) return;
 
-  var header = document.getElementById('header');
-  if (!header) return;
-
-  // Tambah/hapus class 'scrolled' berdasarkan posisi scroll
-  if (scrollPosition > 50) {
-    header.classList.add('scrolled');
-  } else {
-    header.classList.remove('scrolled');
-  }
-});
+    if (scrollPosition > 50) {
+      header.classList.add('scrolled');
+    } else {
+      header.classList.remove('scrolled');
+    }
+  });
     // mobile nav toggle
     if (target.closest('#mobile-nav-toggle')) {
       document.body.classList.toggle('mobile-nav-active');

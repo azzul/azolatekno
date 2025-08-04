@@ -13,7 +13,7 @@
     <meta property="og:description" content="{{ $meta->og_description ?? '' }}">
     <meta property="og:image" content="{{ asset($meta->og_image ?? 'img/default-og-image.jpg') }}">
     <meta property="og:type" content="website"> <!-- Default: website -->
-     <meta property="og:site_name" content="Hafes Rent Car">
+     <meta property="og:site_name" content="Azolatekno">
     <meta property="og:url" content="{{ url()->current() }}"> <!-- Dynamic current URL -->
     <meta name="twitter:card" content="summary_large_image"> <!-- Card type -->
     <meta name="twitter:title" content="{{ $meta->og_title }}"> <!-- Matches og:title -->
@@ -24,16 +24,16 @@
     <link rel="icon" type="image/png" href="{{ asset('favicon.png') }}">
     <link rel="shortcut icon" href="{{ asset('favicon.ico') }}" type="image/x-icon">
     <!-- Favicon untuk Android -->
-    <link rel="icon" sizes="192x192" href="{{ asset('hafes-192x192.png') }}">
-    <link rel="icon" sizes="128x128" href="{{ asset('hafes-128x128.png') }}">
+    <link rel="icon" sizes="192x192" href="{{ asset('azolatekno-192x192.png') }}">
+    <link rel="icon" sizes="128x128" href="{{ asset('azolatekno-128x128.png') }}">
 
     <!-- Favicon untuk iOS -->
-    <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('hafes-180x180.png') }}">
-    <link rel="apple-touch-icon" sizes="152x152" href="{{ asset('hafes-152x152.png') }}">
-    <link rel="apple-touch-icon" sizes="120x120" href="{{ asset('hafes-120x120.png') }}">
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('azolatekno-180x180.png') }}">
+    <link rel="apple-touch-icon" sizes="152x152" href="{{ asset('azolatekno-152x152.png') }}">
+    <link rel="apple-touch-icon" sizes="120x120" href="{{ asset('azolatekno-120x120.png') }}">
 
     <!-- Favicon untuk Windows -->
-    <meta name="msapplication-TileImage" content="{{ asset('hafes-150x150.png') }}">
+    <meta name="msapplication-TileImage" content="{{ asset('azolatekno-150x150.png') }}">
     <meta name="msapplication-TileColor" content="#ffffff">
    <!-- Preload font Poppins (400, 600, 700) -->
 
@@ -55,47 +55,46 @@
 {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
-  "name": "Rental Mobil PT Hafes Megah Lestari",
-  "image": "https://Hafesrentcar.id/img/share.jpg",
-  "url": "https://Hafesrentcar.id",
-  "logo": "https://Hafesrentcar.id/img/hafes-192x192.png",
-  "email": "info@Hafesrentcar.id",
-  "telephone": "+6282125423807",
+  "name": "Azolatekno - Web, SEO & AI Developer",
+  "image": "https://azolatekno.com/img/share.jpg",
+  "url": "https://azolatekno.com",
+  "logo": "https://azolatekno.com/img/logo-azolatekno.png",
+  "email": "info@azolatekno.com",
+  "telephone": "+6287733930143",
   "address": {
     "@type": "PostalAddress",
-    "streetAddress": "Ruko NEO Fierra, Jl. AMD No.33 No C-07, Pd. Kacang Bar., Kec. Pd. Aren",
-    "addressLocality": "Tangerang Selatan",
-    "addressRegion": "Banten",
-    "postalCode": "15226",
+    "streetAddress": "Dalon, RT 03 RW 04 Sroyo, Kec. Jaten, Kab. Karanganyar, Jawa tengah 57731",
+    "addressLocality": "Karanganyar",
+    "addressRegion": "Jawa Tengah",
+    "postalCode": "57731",
     "addressCountry": "ID"
   },
   "geo": {
     "@type": "GeoCoordinates",
-    "latitude": -6.2551527,
-    "longitude": 106.6843941
+    "latitude": -7.5451852,
+    "longitude": 110.8748674
   },
   "aggregateRating": {
     "@type": "AggregateRating",
     "ratingValue": "5.0",
-    "reviewCount": "3"
+    "reviewCount": "15"
   },
   "contactPoint": {
     "@type": "ContactPoint",
-    "telephone": "+6282125423807",
+    "telephone": "+6287733930143",
     "contactType": "Customer Support",
     "areaServed": "ID",
     "availableLanguage": ["Indonesian", "English"]
   },
   "sameAs": [
-    "https://maps.app.goo.gl/QoHV3Uxku2NwGe5LA"
+    "https://maps.app.goo.gl/PLLuAZZwtphEzbkM8"
   ],
-  "priceRange": "Rp500.000 - Rp2.000.000",
+  "priceRange": "Rp500.000 - Rp25.000.000",
   "openingHours": [
-    "Mo-Su 00:00-23:59"
+    "Mo-Su 08:00-22:00"
   ]
 }
 </script>
-
 
 
 <!-- Area untuk JSON-LD tambahan -->
