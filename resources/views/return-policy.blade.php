@@ -3,22 +3,26 @@
 @section('content')
 
  <div class="custom-container pt-90">
- 	<div class="section-header">
-            <h1>Kebijakan Pengembalian Barang</h1>
-        </div>
-        <p>Kami di <strong>Toko Kain Kaos Sakura Sandang</strong> berkomitmen untuk memberikan pelayanan terbaik kepada pelanggan. Berikut adalah kebijakan kami terkait pengembalian barang:</p>
-        <ul>
-            <li>Pengembalian barang hanya diterima jika diajukan dalam waktu <span class="highlight">maksimal 2 hari</span> setelah barang diterima.</li>
-            <li>Pengembalian tanpa melampirkan <span class="highlight">video unboxing</span> tidak akan diterima.</li>
-            <li>Kesalahan yang terjadi akibat <span class="highlight">pihak kurir</span> (misalnya kerusakan selama pengiriman) tidak menjadi tanggung jawab kami dan pengembalian tidak dapat dilakukan.</li>
-            <li><strong>Toko Kain Kaos Sakura Sandang</strong> berhak <span class="highlight">menolak pengembalian barang</span> jika:
-                <ul>
-                    <li>Persyaratan yang ditentukan tidak terpenuhi.</li>
-                    <li>Pengajuan pengembalian dianggap <span class="highlight">tidak memiliki alasan yang kuat</span>.</li>
-                </ul>
-            </li>
-        </ul>
-        <p>Terima kasih atas kepercayaan Anda berbelanja di <strong>Toko Kain Kaos Sakura Sandang</strong>.</p>
-    </div>
+  <div class="section-header">
+    <h1>Kebijakan Pengembalian & Revisi Layanan</h1>
+  </div>
+  <p>Kami di <strong>Azolatekno</strong> berkomitmen untuk memberikan layanan digital terbaik dan profesional kepada setiap klien. Karena layanan kami bersifat jasa (non-fisik), berikut adalah kebijakan pengembalian dan revisi:</p>
+
+  <ul>
+    <li><span class="highlight">Tidak berlaku pengembalian dana</span> penuh untuk layanan yang sudah dimulai atau dalam proses pengerjaan, kecuali terdapat kesepakatan tertulis sebelumnya.</li>
+    <li>Klien berhak mendapatkan <span class="highlight">maksimal 2 kali revisi minor</span> terhadap hasil akhir sesuai ruang lingkup awal proyek.</li>
+    <li>Revisi besar yang berada di luar ruang lingkup awal akan dikenakan <span class="highlight">biaya tambahan</span> sesuai tingkat kompleksitas permintaan.</li>
+    <li><strong>Azolatekno</strong> berhak <span class="highlight">menolak permintaan revisi</span> apabila:
+      <ul>
+        <li>Proyek telah selesai dan disetujui lebih dari <span class="highlight">7 hari kerja</span>.</li>
+        <li>Permintaan tidak relevan dengan brief awal atau melampaui kesepakatan awal.</li>
+      </ul>
+    </li>
+    <li>Untuk <strong>layanan kursus online</strong>, biaya yang telah dibayarkan tidak dapat dikembalikan kecuali terjadi kesalahan sistem yang membuat peserta tidak dapat mengakses materi secara permanen.</li>
+    <li>Apabila terdapat kendala teknis dari pihak kami, <strong>kompensasi berupa perpanjangan masa layanan</strong> atau support tambahan akan diberikan sebagai bentuk tanggung jawab profesional.</li>
+  </ul>
+
+  <p>Dengan melakukan pemesanan di <strong>Azolatekno</strong>, Anda telah membaca dan menyetujui kebijakan ini. Terima kasih atas kepercayaan Anda dalam menggunakan layanan kami.</p>
+</div>
 
   @endsection

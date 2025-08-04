@@ -15,7 +15,7 @@
     {
       "@type": "ListItem",
       "position": 2,
-      "name": "Tentang Kami",
+      "name": "Tentang Azolatekno",
       "item": "{{ url('/about-us') }}"
     }
   ]
@@ -58,38 +58,38 @@
             <img id="main-image" src="{{ asset('img/tentang-rental-mobil-jakarta.jpg') }}" class="thumbnail-image" alt="Tentang Rental Mobil Jakarta - Hafes Rent Car">
         </picture>
     </div>
-       <div class="section-header">
-  <h1>Tentang Hafes Megah Lestari</h1>
-  <p></p>
+      <div class="section-header">
+  <h1>Tentang Azolatekno</h1>
+  <p>Mitra Digital & AI Anda Sejak 2018</p>
 </div>
 
 <p class="about-description">
-  <strong>PT Hafes Megah Lestari</strong> adalah penyedia jasa rental mobil profesional berbasis di Jakarta. Kami dikenal sebagai rental mobil middle hingga premium, dengan armada elegan berwarna gelap dan layanan sopir ahli.
+  <strong>Azolatekno</strong> adalah penyedia solusi teknologi digital yang berfokus pada pengembangan website, aplikasi, SEO, dan integrasi Artificial Intelligence (AI). Sejak 2018, kami telah membantu ratusan klien—dari UMKM, korporasi, hingga institusi pendidikan—dalam membangun kehadiran digital yang kuat dan berkelanjutan.
   <br><br>
-  Terbuka untuk kebutuhan perorangan, bisnis, maupun acara spesial—layanan kami dapat dipesan online 24/7, lengkap dengan sopir berpengalaman dan ramah yang selalu siap di setiap waktu.
+  Tidak hanya membangun, kami juga mengembangkan. Website klien kami tak hanya tampil menarik, tetapi juga masuk halaman pertama Google, bahkan beberapa muncul dalam hasil referensi ChatGPT—sebagai bukti kualitas dan struktur teknis yang mumpuni.
   <br><br>
-  Armada kami mencakup kendaraan seperti Avanza, Innova, Pajero, serta kelas premium—semua dirawat dengan standar tinggi demi kenyamanan dan keamanan Anda selama perjalanan.
+  Di tengah era transformasi digital dan revolusi AI, Azolatekno hadir sebagai mitra teknologi yang siap membawa bisnis Anda melangkah lebih jauh.
 </p>
 
 <p class="about-highlight">
-  “Hafes MegahLestari – Rental Mobil Elegan, Profesional, dan Andal di Jakarta”
+  “Azolatekno – From Code to Intelligence. Solusi Digital dan AI untuk Masa Depan Bisnis Anda.”
 </p>
 
 <div class="about-content">
   <div class="about-column">
     <h2>Visi Kami</h2>
     <p>
-      Menjadi perusahaan rental mobil premium paling tepercaya di Jakarta, memberikan layanan yang unggul, aman, dan memberi nilai lebih bagi pelanggan.
+      Menjadi perusahaan teknologi lokal yang terpercaya dan berpengaruh dalam pengembangan solusi digital dan kecerdasan buatan di Indonesia.
     </p>
 
     <h2>Misi Kami</h2>
     <ul>
-      <li>Menghadirkan kemudahan pemesanan via online 24/7, kapan pun Anda butuh kendaraan.</li>
-      <li>Memastikan armada elegan kami selalu dalam kondisi prima, bersih, dan nyaman.</li>
-      <li>Menyediakan sopir profesional yang berpengalaman, tepat waktu, dan siap membantu setiap kebutuhan Anda.</li>
-      <li>Menawarkan pilihan paket harga fleksibel—tanpa biaya tersembunyi—untuk perjalanan perorangan, bisnis, atau event.</li>
-      <li>Menjalin kepercayaan melalui pelayanan yang jujur, bertanggung jawab, dan peduli terhadap detail.</li>
-      <li>Terus berinovasi untuk menghadirkan teknologi dan layanan yang relevan bagi mobilitas urban modern.</li>
+      <li>Membantu bisnis dari berbagai skala membangun identitas digital yang kuat dan optimal.</li>
+      <li>Menyediakan layanan pembuatan website dan aplikasi yang cepat, aman, dan SEO-friendly.</li>
+      <li>Menawarkan layanan SEO dan digital marketing untuk meningkatkan visibilitas dan konversi.</li>
+      <li>Menyediakan solusi integrasi AI yang aplikatif, efisien, dan berdampak nyata.</li>
+      <li>Mengedukasi masyarakat melalui program <strong>Course Online AI</strong> berbasis praktik dan teknologi terkini.</li>
+      <li>Terus berinovasi dalam layanan, mengikuti perkembangan teknologi dan kebutuhan pasar modern.</li>
     </ul>
   </div>
 </div>

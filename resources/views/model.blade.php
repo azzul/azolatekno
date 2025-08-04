@@ -14,8 +14,8 @@
     {
       "@type": "ListItem",
       "position": 2,
-      "name": "Armada Kami",
-      "item": "{{ url('/armada') }}"
+      "name": "Layanan Kami",
+      "item": "{{ url('/layanan') }}"
     }
   ]
 }
@@ -36,7 +36,7 @@
         <div class="custom-container">
             <div class="breadcrumb-text">
                  <a href="{{ url('/') }}">Beranda</a> / 
-                <span class="W-500">Armada Kami</span>
+                <span class="W-500">Layanan Kami</span>
             </div>
         </div>
     </section>
