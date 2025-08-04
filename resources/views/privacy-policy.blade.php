@@ -4,10 +4,10 @@
 <section class="privacy-policy"  style="margin-top: 300px;">
     <div class="custom-container">
         <h1>Kebijakan Privasi & Cookie</h1>
-        <p>Terakhir diperbarui: 21 April 2025</p>
+        <p>Terakhir diperbarui: 04 Agustus 2025</p>
 
         <h2>Pendahuluan</h2>
-        <p>Selamat datang di Hafesrentcar.id. Kami berkomitmen untuk melindungi privasi Anda dan memastikan bahwa informasi pribadi yang Anda berikan kepada kami akan digunakan dengan cara yang sesuai.</p>
+        <p>Selamat datang di azolatekno.com. Kami berkomitmen untuk melindungi privasi Anda dan memastikan bahwa informasi pribadi yang Anda berikan kepada kami akan digunakan dengan cara yang sesuai.</p>
 
         <h2>Informasi yang Kami Kumpulkan</h2>
         <p>Kami mengumpulkan informasi berikut:</p>
@@ -36,7 +36,7 @@
         <p>Kami dapat memperbarui kebijakan ini dari waktu ke waktu. Kami akan memberi tahu Anda tentang perubahan dengan memposting kebijakan baru di halaman ini.</p>
 
         <h2>Hubungi Kami</h2>
-        <p>Jika Anda memiliki pertanyaan tentang kebijakan ini, silakan hubungi kami di info@Hafesrentcar.id.</p>
+        <p>Jika Anda memiliki pertanyaan tentang kebijakan ini, silakan hubungi kami di info@azolatekno.com.</p>
     </div>
 </section>
 @endsection

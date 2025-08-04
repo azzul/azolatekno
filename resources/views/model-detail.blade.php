@@ -17,8 +17,8 @@
     {
       "@type": "ListItem",
       "position": 2,
-      "name": "Armada",
-      "item": "{{ url('/armada') }}"
+      "name": "Layanan",
+      "item": "{{ url('/layanan') }}"
     },
     {
       "@type": "ListItem",
@@ -34,7 +34,7 @@
         <div class="custom-container">
             <div class="breadcrumb-text">
                  <a href="{{ url('/') }}">Beranda</a> / 
-                 <a href="{{ url('/armada') }}">Armada</a> / 
+                 <a href="{{ url('/layanan') }}">Layanan</a> / 
                 <span class="W-500">{{$product->nama_produk}}</span>
             </div>
         </div>
@@ -80,7 +80,7 @@
 <section id="recomendations">
     <div class="custom-container">
         <div class="recomendation" data-title="Lainnya">
-            <div class="pricelist-badge"><h2><i class="fas fa-shuffle"></i> REKOMENDASI ARMADA LAINNYA<h2></div>
+            <div class="pricelist-badge"><h2><i class="fas fa-shuffle"></i> REKOMENDASI LAYANAN LAINNYA<h2></div>
         </div>
 
 <!--                 <div class="slider-wrapper-latest">
@@ -94,7 +94,7 @@
                 @endpush
             @endif
                     <div class="swiper-slide card-product">
-                     <a href="{{ url('/armada/' . $recomendation->slug_produk) }}">
+                     <a href="{{ url('/layanan/' . $recomendation->slug_produk) }}">
                     <img src="{{ asset('img/product/' . $recomendation->image_produk)}}" alt="{{$recomendation->nama_produk}}" >
                     <div class="product-content">
                         <p class="product-content-tittle ">{{$recomendation->nama_produk}}</p>
@@ -129,33 +129,7 @@
         </div>
 
 </section>
-@push('json-ld') 
-<script type="application/ld+json"> 
-{  
-  "@context": "https://schema.org",  
-  "@type": "Product",  
-  "name": "{{ $product->nama_produk }}",  
-  "image": "{{ asset('img/product/' . $product->image_produk) }}",  
-  "description": "{{ strip_tags($product->short_desc) }}",  
-  "brand": {  
-    "@type": "Brand",  
-    "name": "Merpati Trans"  
-  },  
-  "offers": {  
-    "@type": "Offer",  
-    "url": "{{ url()->current() }}",  
-    "priceCurrency": "IDR",  
-    "price": "{{ $product->harga }}",  
-    "priceValidUntil": "{{ now()->addMonths(6)->toDateString() }}",  
-    "availability": "https://schema.org/InStock",  
-    "seller": {  
-      "@type": "Organization",  
-      "name": "Merpati Trans"  
-    }  
-  }  
-} 
-</script> 
-@endpush
+
 <script>
  document.addEventListener('DOMContentLoaded', function () {
     // Initialize Swiper

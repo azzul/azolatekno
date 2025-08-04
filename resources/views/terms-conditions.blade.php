@@ -4,10 +4,10 @@
 <section class="terms-and-conditions" style="margin-top: 300px;">
     <div class="custom-container">
         <h1>Syarat Dan Ketentuan</h1>
-        <p>Terakhir diperbarui: 17 Januari 2025</p>
+        <p>Terakhir diperbarui: 04 Agustus 2025</p>
 
         <h5>Pendahuluan</h5>
-        <p>Selamat datang di merpati-trans.id. Dengan mengakses atau menggunakan layanan kami, Anda setuju untuk terikat oleh syarat dan ketentuan berikut.</p>
+        <p>Selamat datang di azolatekno.com. Dengan mengakses atau menggunakan layanan kami, Anda setuju untuk terikat oleh syarat dan ketentuan berikut.</p>
 
         <h5>Definisi</h5>
         <p>Dalam dokumen ini, istilah berikut memiliki arti sebagai berikut:</p>
@@ -24,7 +24,7 @@
         </ul>
 
         <h5>Hak Kekayaan Intelektual</h5>
-        <p>Semua konten di merpati-trans.id, termasuk teks, gambar, dan logo, dilindungi oleh hak cipta dan tidak dapat digunakan tanpa izin.</p>
+        <p>Semua konten di azolatekno.com, termasuk teks, gambar, dan logo, dilindungi oleh hak cipta dan tidak dapat digunakan tanpa izin.</p>
 
         <h5>Ketentuan Pembayaran</h5>
         <p>Metode pembayaran yang diterima akan dijelaskan pada saat pembelian. Semua transaksi diproses dengan aman.</p>
@@ -33,7 +33,7 @@
         <p>Kami berhak untuk memperbarui syarat dan ketentuan ini kapan saja. Perubahan akan berlaku segera setelah diposting di website kami.</p>
 
         <h5>Kontak</h5>
-        <p>Jika Anda memiliki pertanyaan atau keluhan tentang syarat dan ketentuan ini, silakan hubungi kami di info@merpati-trans.id.</p>
+        <p>Jika Anda memiliki pertanyaan atau keluhan tentang syarat dan ketentuan ini, silakan hubungi kami di info@azolatekno.com.</p>
     </div>
 </section>
 @endsection
