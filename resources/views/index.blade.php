@@ -13,8 +13,7 @@
      alt="End Image">
     </div>
     <div class="intro-container hide fadeIn">
-    <h2 class="mb-4 pb-0 typed-text">KENYAMANAN <br><span>PERJALANAN ANDA</span> ADALAH PRIORITAS KAMI</h2>
-    <h1 class="mb-4 pb-0 subtext show">Rental Mobil Jakarta Terjangkau Mulai Rp 500 Ribu - Hafes Rent Car</h1>
+        <h1 class="mb-4 pb-0 subtext show">Jasa Pembuatan Website, SEO Google, dan Integrasi AI Terbaik <br><span>Azolatekno</span></h1>
      <p class=" pb-0 subtext show">
   <i class="fas fa-star text-warning"></i>
   <i class="fas fa-star text-warning"></i>
@@ -22,11 +21,11 @@
   <i class="fas fa-star text-warning"></i>
   <i class="fas fa-star text-warning"></i>
 </p>
-    <p class="pb-0 subtext show">Rating 5 di Aplikasi Tiket.com</p>
+    <p class="pb-0 subtext show">Rating 5 di Aplikasi Google Maps</p>
 
     @php
                 $phone2 = '62';
-                $message2 = "Halo admin Hafes rent car, saya mau tanya sewa mobilnya. Saya dapat info dari " . url()->current();
+                $message2 = "Halo admin Azolatekno, saya mau tanya sewa mobilnya. Saya dapat info dari " . url()->current();
                 $whatsappLink2 = "https://wa.me/" . preg_replace('/[^0-9]/', '', $phone2) . "?text=" . urlencode($message2);
             @endphp
     <div class="welcome-buttons">
@@ -37,65 +36,33 @@
 </div>
 </section>
 
-<section id="home-main">
-    <div class="custom-container pt-0 pb-0">
-        <div class="flex-row-main">
-          <div class="column-left-50">
-            <div class="section-header-left">
-              <h2>Rental Mobil Jakarta Terbaik - PT Hafes Megah Lestari</h2>
-            </div>
-            <p>
-              PT Hafes Megah Lestari adalah rental mobil dengan pilihan armada terlengkap dan terjangkau di Jabodetabek. Rental Mobil Profesional untuk wedding, bisnis, kunjungan bisnis, traveling, personal dan event.
-            </p>
-            <p>
-                📢 <strong>Pesan Segera, pasti aman karena udah PT!</strong>
-            </p>
-            @php
-                $phone = '6282125423807';
-                $message = "Halo admin Hafes rent car, saya mau tanya sewa mobilnya. Saya dapat info dari " . url()->current();
-                $whatsappLink = "https://wa.me/" . preg_replace('/[^0-9]/', '', $phone) . "?text=" . urlencode($message);
-            @endphp
-            <a class="btn-main mtop-20" href="{{ $whatsappLink }}" target="_blank" rel="nofollow noopener noreferrer"><i class="fab fa-whatsapp pr-10"></i>Hubungi Whatsapp Kami!</a>
-          </div>
-          
+<section id="about-azolatekno" class="mtop-40">
+  <div class="custom-container pt-0 pb-0">
+    <div class="flex-row-main">
+      <div class="column-left-50">
+        <div class="section-header-left">
+          <h2>Jasa Pembuatan Website, Aplikasi, dan Integrasi AI Terpercaya Sejak 2018</h2>
         </div>
+        <p>
+          Azolatekno adalah agensi digital kreatif yang telah berdiri sejak 2018, menyediakan layanan pembuatan website profesional, aplikasi custom, serta integrasi AI untuk kebutuhan bisnis modern. Kami telah dipercaya oleh berbagai perusahaan, UMKM, dan instansi untuk membangun solusi digital yang efisien dan berdaya saing.
+        </p>
+        <p>
+          Puluhan proyek website buatan kami berhasil menembus halaman pertama Google, berkat pendekatan yang menggabungkan desain elegan, performa optimal, dan strategi SEO yang tepat sasaran.
+        </p>
+        <p>
+          Komitmen kami adalah membantu Anda tumbuh melalui teknologi yang relevan dan terukur.
+        </p>
+      </div>
     </div>
+  </div>
 </section>
 
-<section id="partner">
-    <div class="custom-container">
-        <div class="section-header">
-            <h2>Kami Berpartner Dengan Aplikasi Sewa Mobil Terpercaya</h2>
-            
-        </div>
-        <div class="partner-grid">
 
-            <div class="partner-card">
-                <div class="partner-card-content">
-                    <img src="{{ asset('img/partner/ticketcom.webp') }}" alt="Rental Mobil Partner dari Tiket.com" loading="lazy">
-                </div>
-            </div>
-            <div class="partner-card">
-                <div class="partner-card-content">
-                    <img src="{{ asset('img/partner/antavaya.webp') }}" alt="Rental Mobil Partner dari Antavaya" loading="lazy">
-                </div>
-            </div>
-            <div class="partner-card">
-                <div class="partner-card-content">
-                    <img src="{{ asset('img/partner/wita-tour.webp') }}" alt="Rental Mobil Partner dari Wita Tour" loading="lazy">
-                </div>
-            </div>
-
-            
-
-        </div>
-    </div>
-</section>
 
 <section id="armada">
     <div class="custom-container">
         <div class="section-header">
-            <h2>Pilihan Armada Rental Mobil</h2>
+            <h2>Layanan Web, Digital, AI dan Course AI</h2>
         </div>
         <div class="product-grid">
             @foreach($products as $product)
@@ -112,33 +79,7 @@
                         <div class="product-content">
                             <p class="product-content-tittle">{{$product->nama_produk}}</p>
 
-                           <!--  @foreach ($product->harga as $harga)
-                                <div class="description">{{ $harga->jenisHarga->jenis_harga }}</div>
-
-                                @if($harga->diskon > 0)
-                                    @php
-                                        $hargaAsli = $harga->harga;
-                                        $nominalDiskon = $harga->diskon;
-                                        $hargaSebelumDiskon = $nominalDiskon > 0 ? $hargaAsli / (1 - $nominalDiskon / 100) : null;
-                                    @endphp
-                                    <p class="product-content-price">
-                                        Rp {{ number_format($hargaAsli, 0, ',', '.') }}
-                                        <span class="harga-asli">Rp {{ number_format($hargaSebelumDiskon, 0, ',', '.') }}</span>
-                                        <span class="persen-diskon">-{{ $nominalDiskon }}%</span>
-                                    </p>
-                                @else
-                                    <p class="product-content-price">Rp {{ number_format($harga->harga, 0, ',', '.') }}</p>
-                                @endif
-                            @endforeach -->
-
-                            <!-- <div class="product-buttons">
-                                @php
-                                    $phone = '6282125423807';
-                                    $message = "Halo admin Hafes Rent Car, saya mau tanya " . $product->nama_produk . ". Saya dapat info dari " . url()->current();
-                                    $whatsappChat = "https://wa.me/" . preg_replace('/[^0-9]/', '', $phone) . "?text=" . urlencode($message);
-                                @endphp
-                                <a class="btn buy-btn" href="{{$whatsappChat}}" target="_blank" rel="nofollow noopener noreferrer"><i class="fab fa-whatsapp pr-10"></i> Hubungi Kami</a>
-                            </div> -->
+                           {!!$product->spesifikasi!!}
                         </div>
                     </a>
                 </div>
@@ -146,7 +87,53 @@
         </div>
     </div>
 </section>
+<section id="partner">
+  <div class="custom-container">
+    <div class="section-header">
+      <h2>Dipercaya oleh Klien dari Berbagai Industri Sejak 2018</h2>
+      <p>Berikut adalah beberapa perusahaan dan brand yang telah mempercayakan pengembangan website, SEO, dan layanan digital lainnya kepada Azolatekno.</p>
+    </div>
+    <div class="partner-grid">
 
+      <div class="partner-card">
+        <div class="partner-card-content">
+          <img src="{{ asset('img/client/altra-width.webp') }}" alt="Website Perusahaan Textile Altratex Group" loading="lazy">
+          <p class="partner-caption">Altratex Group – Grup Textile Jawa Tengah, 4 Pabrik & 6 Depo</p>
+        </div>
+      </div>
+
+      <div class="partner-card">
+        <div class="partner-card-content">
+          <img src="{{ asset('img/client/merpati-width.webp') }}" alt="Website Rental Mobil Merpati Trans Jakarta" loading="lazy">
+          <p class="partner-caption">Merpati Trans – Rental Mobil Jakarta | Web + SEO</p>
+        </div>
+      </div>
+
+      <div class="partner-card">
+        <div class="partner-card-content">
+          <img src="{{ asset('img/client/fajar-width.webp') }}" alt="Fajar Rent Car Website & SEO Ads" loading="lazy">
+          <p class="partner-caption">Fajar Rent Car – Web, SEO, & Google Ads</p>
+        </div>
+      </div>
+
+      <div class="partner-card">
+        <div class="partner-card-content">
+          <img src="{{ asset('img/client/hafes-width.webp') }}" alt="Website Rental Mobil Tangerang Hafes Rent Car" loading="lazy">
+          <p class="partner-caption">PT Hafes Megah Lestari – Rental Mobil Tangerang | Web Only</p>
+        </div>
+      </div>
+
+      <div class="partner-card">
+        <div class="partner-card-content">
+          <img src="{{ asset('img/client/sakura-width.webp') }}" alt="Toko Bahan Kaos Sakura Website Ecer Grosir" loading="lazy">
+          <p class="partner-caption">Toko Bahan Kaos Sakura – 6 Website di Jakarta, Solo, Jogja, Bali, Cirebon, Semarang</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+<!-- 
 <section class="slider-container-hero">
     <div class="custom-container">
         <div class="section-header">
@@ -251,45 +238,61 @@
   <!-- Dots indikator -->
   <div class="dots-hero" id="dotsHero"></div>
 </section>
-
+ -->
 
 <section id="why-us">
     <div class="custom-container">
         <div class="section-header">
-            <h2>Kenapa Sewa Mobil Di Hafes Megah Lestari?</h2>
-            
+            <h2>Kenapa Azolatekno Menjadi Pilihan Terbaik untuk Website, Aplikasi, dan Integrasi AI?</h2>
+            <p>Azolatekno adalah partner digital terpercaya sejak 2018 yang telah membantu puluhan klien mencapai posisi Top 1 Google. Beberapa website buatan kami bahkan telah direkomendasikan langsung oleh ChatGPT untuk kata kunci tertentu. Di era digital yang semakin bergeser ke AI, muncul sebagai entitas terpercaya di mesin pencari dan platform AI seperti ChatGPT adalah strategi bisnis yang wajib dilakukan.</p>
         </div>
         <div class="why-us-content">
 
             <div class="why-us-item">
-                <img src="{{ asset('img/icon/fleet.webp') }}" alt="Armada Variatif" loading="lazy">
+                <img src="{{ asset('img/icon/custom-solution.webp') }}" alt="Pembuatan Website dan Aplikasi Sesuai Kebutuhan" loading="lazy">
                 <div class="why-us-info">
-                    <h3>Armada Lengkap & Terupdate</h3>
-                    <p>Dari city car, MPV, hingga kendaraan eksekutif—PT Hafes Megah Lestari menghadirkan solusi perjalanan untuk segala kebutuhan Anda, pribadi maupun bisnis.</p>
+                    <h3>Solusi Aplikasi & Website Custom</h3>
+                    <p>Setiap proyek dirancang khusus untuk memenuhi kebutuhan bisnis Anda—dari tampilan hingga fungsionalitas.</p>
                 </div>
             </div>
 
             <div class="why-us-item">
-                <img src="{{ asset('img/icon/comfort.webp') }}" alt="Kendaraan Bersih dan Nyaman" loading="lazy">
+                <img src="{{ asset('img/icon/seo-optimized.webp') }}" alt="Website SEO Friendly Top 1 Google" loading="lazy">
                 <div class="why-us-info">
-                    <h3>Mobil Bersih, AC Dingin, Siap Jalan</h3>
-                    <p>Setiap kendaraan kami dirawat secara berkala dan dibersihkan sebelum digunakan, memberikan kenyamanan maksimal untuk setiap perjalanan.</p>
+                    <h3>Website SEO Friendly – Banyak Masuk Halaman 1 Google</h3>
+                    <p>Website yang kami kembangkan telah terbukti menembus peringkat #1 Google di berbagai kata kunci lokal maupun nasional.</p>
                 </div>
             </div>
 
             <div class="why-us-item">
-                <img src="{{ asset('img/icon/driver.webp') }}" alt="Sopir Handal Jakarta" loading="lazy">
+                <img src="{{ asset('img/icon/ai-integration.webp') }}" alt="Integrasi Kecerdasan Buatan AI untuk Bisnis" loading="lazy">
                 <div class="why-us-info">
-                    <h3>Sopir Berpengalaman Lokal Jakarta</h3>
-                    <p>Kami hanya mempekerjakan sopir yang hafal rute-rute strategis di Jakarta dan sekitarnya, ramah, tepat waktu, dan siap membantu Anda selama perjalanan.</p>
+                    <h3>Integrasi AI & Automasi Bisnis</h3>
+                    <p>Kami bantu bisnis Anda lebih efisien dengan solusi AI seperti chatbot, workflow otomatis, dan analitik prediktif.</p>
                 </div>
             </div>
 
             <div class="why-us-item">
-                <img src="{{ asset('img/icon/price-tag.webp') }}" alt="Rental Mobil Harga Wajar" loading="lazy">
+                <img src="{{ asset('img/icon/recognized.webp') }}" alt="Website Rekomendasi ChatGPT" loading="lazy">
                 <div class="why-us-info">
-                    <h3>Harga Transparan & Fleksibel</h3>
-                    <p>Tidak ada biaya tersembunyi. PT Hafes Megah Lestari memberikan harga jujur dan paket rental yang bisa disesuaikan dengan durasi dan tujuan Anda.</p>
+                    <h3>Direkomendasikan oleh ChatGPT</h3>
+                    <p>Beberapa website klien Azolatekno telah muncul sebagai rekomendasi terpercaya dari ChatGPT karena struktur dan performanya yang optimal.</p>
+                </div>
+            </div>
+
+            <div class="why-us-item">
+                <img src="{{ asset('img/icon/digital-shift.webp') }}" alt="Era Digital dan AI Marketing" loading="lazy">
+                <div class="why-us-info">
+                    <h3>Bisnis Harus Hadir di Era AI</h3>
+                    <p>Dunia digital telah bergeser: kehadiran Anda tidak cukup hanya di Google. Muncul di rekomendasi platform AI seperti ChatGPT adalah langkah strategis yang kami bantu wujudkan.</p>
+                </div>
+            </div>
+
+            <div class="why-us-item">
+                <img src="{{ asset('img/icon/ai-course.webp') }}" alt="Kursus AI untuk Pemula dan Profesional" loading="lazy">
+                <div class="why-us-info">
+                    <h3>Kursus AI Praktis & Terarah</h3>
+                    <p>Azolatekno juga menyediakan pelatihan AI dengan pendekatan hands-on dan kurikulum yang disusun berdasarkan kebutuhan industri terkini—cocok untuk pemula maupun profesional.</p>
                 </div>
             </div>
 
@@ -299,10 +302,9 @@
 
 <section id="testimonial">
     <div class="custom-container">
-        <div class="section-header-left mbottom-20 pb-20">
-            <h2 style="text-align: center !important;">
-                <i class="fas fa-chat"></i> REVIEW JUJUR PELANGGAN PT HAFES MEGAH LESTARI (GMAPS)
-            </h2>
+        <div class="section-header mbottom-20 pb-20">
+                         <h2>Apa Kata Klien tentang Azolatekno?</h2>
+      <p>Kepercayaan dari klien kami adalah bukti nyata dari kualitas layanan Azolatekno dalam membangun website, aplikasi, hingga integrasi AI yang berdampak nyata.</p>
         </div>
 
         <div class="swiper-container swiper-container-testi">
@@ -310,38 +312,47 @@
                 <div class="swiper-slide">
                     <div class="testimonial">
                         <div class="stars">★★★★★</div>
-                        <p>"Driver tepat waktu, sopan dan tau jalan"</p>
-                        <h4>- Yolanda Pello</h4>
+                        <p>"Web Design dan SEO nya bagus, sekarang web perusahaan textile kami sudah di halaman 1 google dan banyak yang top 1 google. Orderan kain meningkat ke WhatsApp kami hariannya capai puluhan order tanpa iklan sama sekali. Dan sudah masuk rekomendasi supplier kain terbaik di chatgpt dan AI lainnya. Keren sih totalitas banget dengan biaya yang terjangkau."</p>
+                        <h4>- Altratex Group (Group Perusahaan textile di jawa tengah dengan 4 Factory dan 6 Depo Kain Kaos di berbagai kota)</h4>
                     </div>
                 </div>
                 <div class="swiper-slide">
                     <div class="testimonial">
                         <div class="stars">★★★★★</div>
-                        <p>"Ramah, Rapih dan baik sama penumpang. Juga jujur drivernya."</p>
-                        <h4>- Saiful Bahri</h4>
+                        <p>"Mantap. Kualitas web dan SEO nya bagus, harga relatif murah, profesional & fast respon.
+Lanjutkan lur. Mantul"</p>
+                        <h4>- Dian Heditio</h4>
                     </div>
                 </div>
                 <div class="swiper-slide">
                     <div class="testimonial">
                         <div class="stars">★★★★★</div>
-                        <p>"Mobil baru, bersih, supir tau jalan, tepat waktu juga sopan"</p>
-                        <h4>- Upi Epul</h4>
+                        <p>"Saya suka banget"</p>
+                        <h4>- Pribadi Welas Asih / Tarmuji - Owner Fajar Rent Car</h4>
                     </div>
                 </div>
                 <div class="swiper-slide">
                     <div class="testimonial">
                         <div class="stars">★★★★★</div>
-                        <p>"Salah satu Rental terbaik di Jakarta...Driver ramah2...sopan unit bersih pokok e is the Best dah buat Hafes rent"</p>
-                        <h4>- Mavin</h4>
+                        <p>"mantap"</p>
+                        <h4>- Hanifan - Owner Merpati Trans</h4>
                     </div>
                 </div>
+                <div class="swiper-slide">
+                    <div class="testimonial">
+                        <div class="stars">★★★★★</div>
+                        <p>"Kualitas, Profesionalisme, Nilai."</p>
+                        <h4>- Ghozi</h4>
+                    </div>
+                </div>
+                
             </div>
             <div class="swiper-pagination"></div>
             
         </div>
         <div class="flex-center">
             <div class="product-buttons">
-                <a class="btn buy-btn mtop-20 mbottom-20" href="https://maps.app.goo.gl/Fb3ffGN2kWV3iZae7" target="_blank" rel="nofollow noopener noreferrer"><i class="fa-solid fa-map-pin mright-10"></i>Cek Google Maps</a>
+                <a class="btn buy-btn mtop-20 mbottom-20" href="https://maps.app.goo.gl/cCtVpEtf5mTbQTuc9" target="_blank" rel="nofollow noopener noreferrer"><i class="fa-solid fa-map-pin mright-10"></i>Cek Google Maps</a>
             </div>
         </div>
     </div>
@@ -410,12 +421,12 @@
     // Pencarian produk dinamis
     document.addEventListener('DOMContentLoaded', function() {
         var mainTexts = [
-            "RENTAL MOBIL JAKARTA<br><span>LEBIH MUDAH</span> BERSAMA HAFES",
-          "ARMADA LENGKAP<br><span>DARI CITY CAR</span> HINGGA HIACE",
-          "HARGA TERJANGKAU<br><span>JAMINAN</span> PELAYANAN TERBAIK",
-          "DRIVER PROFESIONAL<br><span>SIAP ANTAR</span> KE MANA SAJA",
-          "LAYANAN DENGAN SUPIR<br><span>UNTUK KENYAMANAN</span> TANPA REPOT"
-        ];
+  "Jasa Teknologi Digital<br><span>Aplikasi & Website</span> Untuk Bisnis Anda",
+  "Kami Kembangkan<br><span>Web & App</span> Berbasis AI Modern",
+  "Layanan Komplit<br><span>Coding, SEO</span> Hingga AI Solution",
+  "Kursus Teknologi<br><span>Siapkan Skill</span> Untuk Masa Depan",
+  "Azolatekno<br><span>Human. Code.</span> Intelligence"
+];
 
         var subTexts = [
             "Karena kepuasan pelanggan adalah kebanggaan kami.",
@@ -481,7 +492,7 @@ document.addEventListener("DOMContentLoaded", function () {
 <script>
     function openWhatsApp() {
         let phone = '6282125423807';
-        let message = "Halo admin Hafes Rent Car, saya mau tanya sewa mobilnya. Saya dapat info dari " + window.location.href;
+        let message = "Halo admin Azolatekno, saya mau tanya sewa mobilnya. Saya dapat info dari " + window.location.href;
         let whatsappLink = "https://wa.me/" + phone + "?text=" + encodeURIComponent(message);
         
         window.open(whatsappLink, "_blank");

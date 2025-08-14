@@ -25,9 +25,9 @@
 <script>
 
     if (isMobile) {
-        preloadImage('{{ asset("img/pricelist-rental-mobile.webp") }}');
+        preloadImage('{{ asset("img/pricelist-mobile.jpg") }}');
     } else {
-        preloadImage('{{ asset("img/pricelist-rental.webp") }}');
+        preloadImage('{{ asset("img/pricelist.jpg") }}');
     }
 </script>
 @endpush
@@ -48,13 +48,13 @@
         </div>
          <picture>
             <!-- Source untuk layar kecil -->
-            <source media="(max-width: 768px)" srcset="{{ asset('img/pricelist-rental-mobile.webp') }}">
+            <source media="(max-width: 768px)" srcset="{{ asset('img/pricelist-mobile.jpg') }}">
             
             <!-- Source default (untuk desktop) -->
-            <source media="(min-width: 769px)" srcset="{{ asset('img/pricelist-rental.webp') }}">
+            <source media="(min-width: 769px)" srcset="{{ asset('img/pricelist.jpg') }}">
 
             <!-- Fallback untuk browser yang tidak support <picture> -->
-            <img src="{{ asset('img/pricelist-rental.webp') }}" class="image-page" alt="Daftar Harga Rental Mobil Jakarta" loading="lazy">
+            <img src="{{ asset('img/pricelist.jpg') }}" class="image-page" alt="Daftar Harga Rental Mobil Jakarta" loading="lazy">
         </picture>
         <div class="action-buttons">
                          <a href="javascript:void(0);" id="downloadPdf" class="add-to-cart">
@@ -103,15 +103,7 @@
         </div>
     </div>
 </section>
-<div id="popupDiskon" class="popup-diskon">
-  <div class="popup-content-diskon">
-    <h2>🎉 Selamat!</h2>
-    <p>Anda adalah salah satu orang beruntung yang mendapatkan <strong>diskon 25%</strong> untuk sewa mobil hari ini!</p>
-    <p>Jangan lewatkan kesempatan langka ini.</p>
-    <a href="{{$whatsappChat}}" target="_blank" class="popup-btn-diskon"><i class="fab fa-whatsapp pr-10"> </i>Hubungi Admin Sekarang</a>
-    <span class="close-popup-diskon" onclick="document.getElementById('popupDiskon').style.display='none'">×</span>
-  </div>
-</div>
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
 <script>
 document.addEventListener("DOMContentLoaded", function () {

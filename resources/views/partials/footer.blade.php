@@ -16,16 +16,16 @@
           <div class="col-lg-3 col-md-6 footer-info">
            <picture>
                 <!-- Logo khusus mobile -->
-                <source media="(max-width: 768px)" srcset="{{ asset('img/hafes-width-small.webp') }}">
+                <source media="(max-width: 768px)" srcset="{{ asset('img/azolatekno-width-small.webp') }}">
                 <!-- Logo default (desktop) -->
-                <source media="(min-width: 769px)" srcset="{{ asset('img/hafes-width-small.webp') }}">
+                <source media="(min-width: 769px)" srcset="{{ asset('img/azolatekno-width-small.webp') }}">
                 <!-- Fallback -->
-                <img src="{{ asset('img/hafes-width-small.webp') }}" alt="Logo Hafes Rental" loading="lazy">
+                <img src="{{ asset('img/azolatekno-width-small.webp') }}" alt="Logo Azolatekno Web SEO AI" loading="lazy">
             </picture>
             <div class="footer-contact">
-            <p>Ruko NEO Fierra, Jl. AMD No.33 No C-07, Pd. Kacang Bar., Kec. Pd. Aren, Kota Tangerang Selatan, Banten 15226 <br>
-              <strong>Telepon :</strong> 0811-9162-842<br>
-              <strong>Whatsapp :</strong> 0821-2542-3807<br>
+            <p>Dalon, RT 03 RW 04 Sroyo, Kec. Jaten, Kab. Karanganyar, Jawa tengah 57731<br>
+              <strong>Telepon :</strong> 087733930143<br>
+              <strong>Whatsapp :</strong> 087733930143<br>
             </p>
             
 
@@ -33,7 +33,7 @@
           </div>
 
           <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Tentang Hafes Rent Car</h4>
+            <h4>Tentang Azolatekno</h4>
             <ul>
               <li><i class="fa fa-angle-right"></i> <a href="{{ url('/') }}">Beranda</a></li>
               <li><i class="fa fa-angle-right"></i> <a href="{{ url('/about-us') }}">Tentang Kami</a></li>
@@ -44,7 +44,7 @@
 
 
           <div class="col-lg-3 col-md-6 footer-links">
-    <h4>Paket Rental Mobil</h4>
+    <h4>Layanan Kami</h4>
     <ul>
     @foreach($footerCategory as $categoryFooter)
         <li>
@@ -74,9 +74,9 @@
 
     
       <div class="copyright">
-        &copy; Copyright <strong>PT Hafes Megah Lestari</strong>. All Rights Reserved
+        &copy; Copyright <strong>Azolatekno</strong>. All Rights Reserved
       </div>
-      <div class="credits">Designed by Azolatekno For <a href="https://hafesrentcar.id"><strong>hafesrentcar.id</strong></a>
+      <div class="credits">Designed by <a href="https://azolatekno.com"><strong>azolatekno.com</strong></a>
       </div>
 <!-- <a href="#" class="back-to-top"><i class="fa fa-angle-up"></i></a> -->
 <a href="#" class="whatsapp-icon" id="whatsappIcon">

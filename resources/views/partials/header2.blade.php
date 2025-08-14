@@ -13,23 +13,23 @@
 
     // Preload sesuai device
     if (isMobile) {
-        preloadImage('{{ asset("img/hafes-width-small.webp") }}');
+        preloadImage('{{ asset("img/azolatekno-width-small.webp") }}');
     } else {
-        preloadImage('{{ asset("img/hafes-width.webp") }}');
+        preloadImage('{{ asset("img/azolatekno-width.webp") }}');
     }
 </script>
 @endpush
 <header id="header2">
     <div class="header-container-home" >
       <div id="logo2" class="pull-left">
-        <a href="{{ route('home') }}" class="scrollto" title="Logo Hafes Rental">
+        <a href="{{ route('home') }}" class="scrollto" title="Logo Azolatekno Web SEO AI">
             <picture>
                 <!-- Logo khusus mobile -->
-                <source media="(max-width: 768px)" srcset="{{ asset('img/hafes-width-small.webp') }}">
+                <source media="(max-width: 768px)" srcset="{{ asset('img/azolatekno-width-small.webp') }}">
                 <!-- Logo default (desktop) -->
-                <source media="(min-width: 769px)" srcset="{{ asset('img/hafes-width.webp') }}">
+                <source media="(min-width: 769px)" srcset="{{ asset('img/azolatekno-width.webp') }}">
                 <!-- Fallback -->
-                <img src="{{ asset('img/Hafes-width-original.webp') }}" alt="Logo Hafes Rental" loading="lazy">
+                <img src="{{ asset('img/Hafes-width-original.webp') }}" alt="Logo Azolatekno Web SEO AI" loading="lazy">
             </picture>
         </a>
     </div>
@@ -38,16 +38,16 @@
     <nav id="nav-menu-container">
             <ul class="nav-menu">
               <li class="menu-active"><a href="{{ url('/') }}">BERANDA</a></li>
-              <li><a href="{{ url('/armada') }}">ARMADA KAMI</a></li>
-               <li><a href="{{ url('/about-us') }}">
+              <li><a href="{{ url('/layanan') }}">LAYANAN KAMI</a></li>
+              <li><a href="{{ url('/about-us') }}">
                            TENTANG KAMI
                         </a></li>
+            <li><a href="{{ url('/pricelist') }}">PRICELIST</a></li>
              <li><a href="{{ url('/testimonial') }}">TESTIMONIAL</a></li>
              <li><a href="{{ url('/artikel') }}">ARTIKEL</a></li>
             <li class="dropdown">
                     <a href="javascript:void(0);" class="dropbtn" aria-label="dropdown opsi informasi">INFORMASI <i class="fa fa-chevron-down"></i></a>
                     <ul class="dropdown-content">
-                        
                         <li><a href="{{ url('/contact-us') }}">
                             KONTAK KAMI
                         </a></li>

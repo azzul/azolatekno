@@ -3,7 +3,7 @@ body {i
   background: #fff;
   /* color: #2f3138; OLD */
   color: #040919;
-  font-family: Arial, sans-serif;
+  font-family: Poppins, sans-serif;
 }
 
 a {
@@ -31,7 +31,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: Arial, sans-serif;
+  font-family: Poppins, sans-serif;
   font-weight: 400;
   margin: 0 0 20px 0;
   padding: 0;
@@ -221,7 +221,7 @@ h6 {
 #header.header-fixed {
   transition: all 0.5s;
   z-index: 996;
-  background-color: #121212 !important;
+  background-color: #F9F9F9 !important;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 #header.header-scrolled img,
@@ -289,7 +289,7 @@ font-weight: 700;
   margin: 0;
   padding: 6px 0;
   line-height: 1;
-  font-family: Arial, sans-serif;
+  font-family: Poppins, sans-serif;
   font-weight: 700;
   letter-spacing: 3px;
   text-transform: uppercase;
@@ -393,7 +393,7 @@ font-weight: 700;
   text-align: center;
 }
 .call-btn {
-border: 4px solid #121212;
+border: 4px solid #F9F9F9;
 border-radius: 5px;
 padding: 15px;
 text-align: center;
@@ -453,7 +453,7 @@ font-weight: 700;
   transition: all 0.5s;
   z-index: 996;
   max-width: 100vw;
-  background: #121212;
+  background: #F9F9F9;
   height: 90px;
 }
 
@@ -471,7 +471,7 @@ font-weight: 700;
   margin: 0;
   padding: 6px 0;
   line-height: 1;
-  font-family: Arial, sans-serif;
+  font-family: Poppins, sans-serif;
   font-weight: 700;
   letter-spacing: 3px;
   text-transform: uppercase;
@@ -752,8 +752,8 @@ font-weight: 700;
   text-decoration: none;
   display: flex; /* Gunakan flex untuk memusatkan teks */
   align-items: center; /* Pusatkan teks dalam a */
-  color: #fff;
-  font-family: Arial, sans-serif;
+  color: #FF9800;
+  font-family: Poppins, sans-serif;
   font-weight: 600;
   font-size: 1rem;
   outline: none;
@@ -772,7 +772,7 @@ font-weight: 700;
 
 .nav-menu .menu-active a,
 .nav-menu a:hover {
-  color: #ffca00;
+  color: #FF9800;
   scale: 1.1;
 }
 
@@ -801,10 +801,10 @@ font-weight: 700;
 
 .nav-menu li.buy-tickets a {
   color: #fff;
-  background: #121212;
+  background: #F9F9F9;
   padding: 7px 22px;
   border-radius: 50px;
-  border: 2px solid #121212;
+  border: 2px solid #F9F9F9;
   transition: all ease-in-out 0.3s;
   font-weight: 500;
   margin-left: 8px;
@@ -851,7 +851,7 @@ font-weight: 700;
 }
 .nav-menu ul li:hover > a {
   background: #011e33;
-  color: #ffca00;
+  color: #FF9800;
 }
 
 .nav-menu ul ul {
@@ -1159,7 +1159,9 @@ font-weight: 700;
 }
 
 /* Saat header fixed atau scrolled */
-
+#mobile-nav-toggle.header-scrolled i {
+ color: #333333;
+ }
 
 #mobile-nav-toggle i {
   color: #ffffff;
@@ -1330,7 +1332,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     height: 70vh;
   }
   
-  #intro h2 {
+  #intro h1 {
     font-size: 1.7rem !important;
   }
   #intro p {
@@ -1509,7 +1511,7 @@ body.mobile-nav-active #mobile-nav-toggle {
       padding-bottom: 10px !important;
     }
     .section-header h2{
-      font-size: 20px !important;
+      font-size: 1rem;
       text-align: center;
     }
     .section-header h1{
@@ -1541,24 +1543,27 @@ body.mobile-nav-active #mobile-nav-toggle {
     }
 }
 
-#intro h2 {
+#intro h1{
   color: #fff;
-  font-family: Arial, sans-serif;
-  font-size: 56px;
+  font-family: Poppins, sans-serif;
+  font-size: 2.3rem;
   font-weight: 600;
   text-transform: uppercase;
 }
 
-#intro h2 span {
-  color: #ffca00;
+#intro h1 span {
+  color: #FF9800;
 }
- #intro h1{
-    font-size: 2rem;
+ #intro h2{
+    font-size: 1rem;
     color: #fff;
+     text-transform: none;
   }
    #intro h3{
     font-size: 2rem;
     color: #fff;
+ 
+
   }
 
 #intro p {
@@ -1642,7 +1647,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #intro .about-btn {
-  font-family: Arial, sans-serif;
+  font-family: Poppins, sans-serif;
   font-weight: 500;
   font-size: 14px;
   letter-spacing: 1px;
@@ -1701,7 +1706,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------------------------------------*/
 
 #footer {
- background-color: #121212 !important; 
+ background-color: #F9F9F9 !important; 
   padding: 0 0 0 0;
   color: #eee;
   font-size: 14px;
@@ -1724,9 +1729,9 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin: 0 0 20px 0;
   padding: 2px 0 2px 0;
   line-height: 1;
-  font-family: Arial, sans-serif;
+  font-family: Poppins, sans-serif;
   font-weight: 700;
-  color: #ffffff;
+  color: #333333;
 }
 
 #footer .footer-top .footer-info img {
@@ -1739,15 +1744,15 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 14px;
   line-height: 24px;
   margin-bottom: 0;
-  font-family: Arial, sans-serif;
-  color: #ffffff;;
+  font-family: Poppins, sans-serif;
+  color: #333333;;
 }
 
 #footer .footer-top .social-links a {
   font-size: 18px;
   display: inline-block;
   background: #ffffff;
-  color: #ffffff;
+  color: #333333;
   line-height: 1;
   padding: 8px 0;
   margin-right: 4px;
@@ -1761,17 +1766,17 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #footer .footer-top .social-links a:hover {
   background: #011e33;
-  color: #ffffff ;
+  color: #333333 ;
 }
 
 #footer .footer-top h4 {
   font-size: 14px;
   font-weight: bold;
-  color: #ffffff;
+  color: #111111;
   text-transform: uppercase;
   position: relative;
   padding-bottom: 12px;
-  border-bottom: 2px solid #ffffff;
+  border-bottom: 2px solid #111111;
 }
 
 #footer .footer-top .footer-links {
@@ -1786,12 +1791,12 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #footer .footer-top .footer-links ul i {
   padding-right: 5px;
-  color: #ffffff;
+  color: #333333;
   font-size: 18px;
 }
 
 #footer .footer-top .footer-links ul li {
-  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  border-bottom: 1px solid rgba(51, 51, 51, 0.3);
   padding: 10px 0;
 }
 
@@ -1800,11 +1805,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #footer .footer-top .footer-links ul a {
-  color: #ffffff;
+  color: #333333;
 }
 
 #footer .footer-top .footer-links ul a:hover {
-  color: #ffffff;
+  color: #333333;
 }
 
 #footer .footer-top .footer-contact {
@@ -1812,8 +1817,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #footer .footer-top .footer-contact p {
-  text-color: #ffffff;
-  color: #ffffff;
+  text-color: #333333;
+  color: #333333;
   margin-left: 0;
   padding-left: 0;
   line-height: 26px;
@@ -1850,7 +1855,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #footer .copyright {
   text-align: center;
   padding-top: 30px;
-  background-color: #121212 !important;
+  background-color: #333333 !important;
 }
 
 #footer .credits {
@@ -1858,7 +1863,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 13px;
   color: #fff;
   padding-bottom: 10px;
-  background-color: #121212 !important;
+  background-color: #333333 !important;
 }
 
 /*--------------------------------------------------------------
@@ -1906,8 +1911,8 @@ body.mobile-nav-active #mobile-nav-toggle {
     top: 70px;
   }
 
-  #intro h2 {
-    font-size: 34px;
+  #intro h1 {
+    font-size: 2.3rem;
   }
 
   #intro p {
@@ -1930,7 +1935,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   #faq #faq-list i {
     top: 13px;
   }
-   #intro h1{
+   #intro h2{
     font-size: 1.5rem;
     color: #fff;
   }
@@ -2047,7 +2052,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 .bottom-navbar {
   overflow: hidden;
-  background-color: #121212 !important;
+  background-color: #F9F9F9 !important;
   position: fixed;
   bottom: 0;
   width: 100%;
@@ -2056,11 +2061,12 @@ body.mobile-nav-active #mobile-nav-toggle {
   align-items: center;
   z-index: 999;
   max-width: 100vw;
+  box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.1);
 }
 
 .bottom-navbar a {
   flex: 1;
-  color: #f2f2f2;
+  color: #333333;
   text-align: center;
   padding: 10px 0;
   text-decoration: none;
@@ -2073,15 +2079,16 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 24px;
   display: block;
   transition: transform 0.3s ease;
+  color: #00C853;
 }
 
 .bottom-navbar a:hover {
-  background: #f1f1f1;
+  background: #00C853;
   color: black;
 }
 
 .bottom-navbar a:hover i {
-  transform: scale(1.4); /* Zoom ikon 2 kali saat hover */
+  transform: scale(1.2); /* Zoom ikon 2 kali saat hover */
   z-index: 1; /* Pastikan ikon berada di atas elemen lain */
 }
 .bottom-navbar a.active {
@@ -2438,7 +2445,7 @@ p {
 
 .buy-btn {
     padding: 10px 40px !important;
-    background-color: #121212;
+    background-color: #FF9800;
     color: white;
     border: none;
     width: 100%;
@@ -2452,7 +2459,7 @@ p {
 .sample-btn {
     background-color: white;
     color: #011e33;
-    border: 2px solid #121212;
+    border: 2px solid #F9F9F9;
 }
 
 .btn:hover {
@@ -2852,7 +2859,7 @@ p {
 
 /* Hover effect for buttons */
 .latest-product-navigation button:hover {
-    background-color: #121212;
+    background-color: #F9F9F9;
 }
 
 @media (max-width: 500px) {
@@ -3730,7 +3737,7 @@ p {
 
 
 .yuk-btn {
-    background-color: #ffca00;
+    background-color: #FF9800;
     color: #1a1a2e;
     font-weight: bold;
     border: 2px solid transparent;
@@ -5043,7 +5050,7 @@ p {
     color: #060c22fa;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
     border-radius: 8px;
-    font-family: Arial, sans-serif;
+    font-family: Poppins, sans-serif;
     z-index: 1000;
     max-width: 100vw;
 }
@@ -5067,7 +5074,7 @@ p {
 }
 
 .cookie-btn {
-    background-color: #121212;
+    background-color: #F9F9F9;
     border: 1px solid #fff;
     color: white;
     border: none;
@@ -5442,7 +5449,7 @@ p {
   position: absolute;
   top: -8px;
   left: 0px;
-  background: #121212;
+  background: #F9F9F9;
   color: white;
   font-weight: bold;
   padding: 8px 20px;
@@ -5473,7 +5480,7 @@ p {
   position: absolute;
   top: -8px;
   left: 0px;
-  background: #121212;
+  background: #F9F9F9;
   color: white;
   font-weight: bold;
   padding: 15px 20px;
@@ -5871,7 +5878,7 @@ p {
   z-index: -1;
 }
 .testi-slide {
-            font-family: Arial, sans-serif;
+            font-family: Poppins, sans-serif;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -5985,7 +5992,7 @@ p {
     transition: background-color 0.3s;
 }
 .buy-now {
-    background-color: #121212;
+    background-color: #F9F9F9;
     color: white;
     border: none;
     font-weight: 600;
@@ -5998,9 +6005,9 @@ p {
 }
 
 .add-to-cart:hover, .buy-now:hover {
-    background-color: #121212;
+    background-color: #F9F9F9;
     color: white;
-    border: 2.5px solid #121212;
+    border: 2.5px solid #F9F9F9;
     transform: scale(1.1); /* Zoom in slightly */
 }
 .add-to-cart i, .buy-now i {
@@ -6162,7 +6169,7 @@ p {
 }
 .btn-main {
   margin-top: 20px;
-  background: #121212;
+  background: #F9F9F9;
   text-align: center;
   color: #fff !important;
   border-radius: 15px;
@@ -6575,7 +6582,9 @@ p {
   width: 100%;
   aspect-ratio: 500/ 150;
 }
-
+.partner-caption {
+  text-align: center;
+}
 @media (max-width: 500px){
   .partner-card {
     border-radius: 5px;
