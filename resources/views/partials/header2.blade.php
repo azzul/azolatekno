@@ -38,16 +38,16 @@
     <nav id="nav-menu-container">
             <ul class="nav-menu">
               <li class="menu-active"><a href="{{ url('/') }}">BERANDA</a></li>
-              <li><a href="{{ url('/armada') }}">ARMADA KAMI</a></li>
-               <li><a href="{{ url('/about-us') }}">
+              <li><a href="{{ url('/layanan') }}">LAYANAN KAMI</a></li>
+              <li><a href="{{ url('/about-us') }}">
                            TENTANG KAMI
                         </a></li>
+            <li><a href="{{ url('/pricelist') }}">PRICELIST</a></li>
              <li><a href="{{ url('/testimonial') }}">TESTIMONIAL</a></li>
              <li><a href="{{ url('/artikel') }}">ARTIKEL</a></li>
             <li class="dropdown">
                     <a href="javascript:void(0);" class="dropbtn" aria-label="dropdown opsi informasi">INFORMASI <i class="fa fa-chevron-down"></i></a>
                     <ul class="dropdown-content">
-                        
                         <li><a href="{{ url('/contact-us') }}">
                             KONTAK KAMI
                         </a></li>

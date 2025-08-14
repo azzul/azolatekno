@@ -13,7 +13,7 @@
      alt="End Image">
     </div>
     <div class="intro-container hide fadeIn">
-        <h1 class="mb-4 pb-0 subtext show">Jasa Pembuatan Aplikasi, Web, Kursus dan Integrasi AI <br><span>Azolatekno</span></h1>
+        <h1 class="mb-4 pb-0 subtext show">Jasa Pembuatan Website, SEO Google, dan Integrasi AI Terbaik <br><span>Azolatekno</span></h1>
      <p class=" pb-0 subtext show">
   <i class="fas fa-star text-warning"></i>
   <i class="fas fa-star text-warning"></i>
@@ -133,7 +133,7 @@
     </div>
   </div>
 </section>
-
+<!-- 
 <section class="slider-container-hero">
     <div class="custom-container">
         <div class="section-header">
@@ -238,7 +238,7 @@
   <!-- Dots indikator -->
   <div class="dots-hero" id="dotsHero"></div>
 </section>
-
+ -->
 
 <section id="why-us">
     <div class="custom-container">
