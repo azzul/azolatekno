@@ -91,51 +91,32 @@ Lanjutkan lur. Mantul"</p>
 <section id="armada">
     <div class="custom-container">
         <div class="section-header">
-            <h2>Pilihan Armada - Hafes Rent Car</h2>
+            <h2>Layanan Web, SEO, Digital, AI dan Course AI</h2>
         </div>
         <div class="product-grid">
             @foreach($products as $product)
-            @if($loop->index < 3) {{-- Preload hanya untuk 3 gambar pertama --}}
-                @push('preload')
-                    <link rel="preload" as="image" href="{{ asset('img/product/' . $product->image_produk) }}">
-                @endpush
-            @endif
                 <div class="card-product">
-                     <a href="{{ url('/armada/' . $product->slug_produk) }}" >
-                    <img src="{{ asset('img/product/' . $product->image_produk)}}" alt="{{$product->nama_produk}}" loading="lazy">
-                    <div class="product-content">
-                        <p class="product-content-tittle ">{{$product->nama_produk}}</p>
-                        @foreach ($product->harga as $harga)
-                        <div class="description">{{ $harga->jenisHarga->jenis_harga }}</div>
-                        <p class="product-content-price ">Rp {{ number_format($harga->harga, 0, ',', '.') }}</p>
-                      @endforeach
-                        
-                        <div class="product-buttons">
-                             @php
-                                $phone = '6282125423807';
-                                $message = "Halo admin Hafes Rent Car, saya mau tanya " . $product->nama_produk . ". Saya dapat info dari " . url()->current();
-                                $whatsappChat = "https://wa.me/" . preg_replace('/[^0-9]/', '', $phone) . "?text=" . urlencode($message);
-                            @endphp
-                                <a class="btn buy-btn" href="{{$whatsappChat}}" target="_blank" rel="nofollow noopener noreferrer">Hubungi Kami</a>
-                                <!-- <button class="btn sample-btn">Sample Gratis</button> -->
-                            </div>
-                    </div>
-                     </a>
+                    <a href="{{ url('/armada/' . $product->slug_produk) }}">
+                        <div class="product-image-wrapper">
+                            <img src="{{ asset('img/product/' . $product->image_produk) }}" alt="{{$product->nama_produk}}" loading="lazy">
+                            <!-- @foreach ($product->harga as $harga)
+                            @if($harga->diskon > 0)
+                                <div class="badge-diskon">Diskon {{ $harga->diskon }}%</div>
+                            @endif
+                             @endforeach -->
+                        </div>
+                        <div class="product-content">
+                            <p class="product-content-tittle">{{$product->nama_produk}}</p>
+
+                           {!!$product->spesifikasi!!}
+                        </div>
+                    </a>
                 </div>
             @endforeach
         </div>
     </div>
 </section>
-<div id="popupDiskon" class="popup-diskon">
-  <div class="popup-content-diskon">
-    <h2>🎉 Selamat!</h2>
-    <p>Anda adalah salah satu orang beruntung yang mendapatkan <strong>diskon 25%</strong> untuk sewa mobil hari ini!</p>
-    <p>Jangan lewatkan kesempatan langka ini.</p>
-    <a href="{{$whatsappChat}}" target="_blank" class="popup-btn-diskon"><i class="fab fa-whatsapp pr-10"> </i>Hubungi Admin Sekarang</a>
-    <span class="close-popup-diskon" onclick="document.getElementById('popupDiskon').style.display='none'">×</span>
-  </div>
-</div>
-<script>
+
 document.addEventListener("DOMContentLoaded", function () {
     // Initialize Swiper for Testimonial with Auto-Slide
     const swiperTesti = new Swiper(".swiper-container-testi", {

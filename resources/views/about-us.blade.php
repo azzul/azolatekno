@@ -55,7 +55,7 @@
             <source media="(min-width: 769px)" srcset="{{ asset('img/tentang-kami.jpg') }}">
 
             <!-- Fallback untuk browser yang tidak support <picture> -->
-            <img id="main-image" src="{{ asset('img/tentang-kami.jpg') }}" class="thumbnail-image" alt="Tentang Rental Mobil Jakarta - Hafes Rent Car">
+            <img id="main-image" src="{{ asset('img/tentang-kami.jpg') }}" class="thumbnail-image" alt="Tentang Web, SEO dan AI - Azolatekno">
         </picture>
     </div>
       <div class="section-header">

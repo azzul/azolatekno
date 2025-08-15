@@ -53,17 +53,17 @@
             </div>
             <div class="sidebar pt-0">
                 <div class="card-sidebar">
-                    <img src="{{ asset('img/logo-hafesrent.webp')}}" alt="Logo Hafes Rental Mobil Jakarta">
+                    <img src="{{ asset('img/azolatekno-width-small.jpg')}}" alt="Logo Azolatekno">
                     <div class="card-content">
-                        <h2 class="card-content-tittle">Hafes Rent Car - Rental Mobil Jakarta</h2>
+                        <h2 class="card-content-tittle">Azolatekno - Layanan Web, SEO, Digital, AI dan Course AI</h2>
                         <div class="flex-icon-text">
                             <div class="btn-social"><i class="fab fa-whatsapp"></i></div>
                             @php
-                                $phone = '6282125423807';
-                                $message = "Halo admin Hafes Rent Car, saya mau tanya " . $product->nama_produk . ". Saya dapat info dari " . url()->current();
+                                $phone = '6287733930143';
+                                $message = "Halo admin Azolatekno, saya mau tanya " . $product->nama_produk . ". Saya dapat info dari " . url()->current();
                                 $whatsappLink = "https://wa.me/" . preg_replace('/[^0-9]/', '', $phone) . "?text=" . urlencode($message);
                             @endphp
-                            <a href="{{ $whatsappLink }}" target="_blank">6282125423807</a>
+                            <a href="{{ $whatsappLink }}" target="_blank">6287733930143</a>
                         </div>
                     </div>
                 </div>
@@ -105,8 +105,8 @@
                         
                         <div class="product-buttons">
                             @php
-                                $phone = '6282125423807';
-                                $message = "Halo admin Hafes Rent Car, saya mau tanya " . $recomendation->nama_produk . ". Saya dapat info dari " . url()->current();
+                                $phone = '6287733930143';
+                                $message = "Halo admin Azolatekno, saya mau tanya " . $recomendation->nama_produk . ". Saya dapat info dari " . url()->current();
                                 $whatsappChat = "https://wa.me/" . preg_replace('/[^0-9]/', '', $phone) . "?text=" . urlencode($message);
                             @endphp
                                 <a class="btn buy-btn" href="{{$whatsappChat}}" target="_blank" rel="nofollow noopener noreferrer">Hubungi Kami</a>
