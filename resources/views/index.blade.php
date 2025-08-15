@@ -62,7 +62,7 @@
 <section id="armada">
     <div class="custom-container">
         <div class="section-header">
-            <h2>Layanan Web, Digital, AI dan Course AI</h2>
+            <h2>Layanan Web, SEO, Digital, AI dan Course AI</h2>
         </div>
         <div class="product-grid">
             @foreach($products as $product)

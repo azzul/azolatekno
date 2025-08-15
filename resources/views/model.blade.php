@@ -40,53 +40,30 @@
             </div>
         </div>
     </section>
-    <section id="image-page">
-        <div class="custom-container">
-             <picture>
-            <!-- Source untuk layar kecil -->
-            <source media="(max-width: 768px)" srcset="{{ asset('img/armada-rental-mobil-jakarta-small.jpg') }}">
-            
-            <!-- Source default (untuk desktop) -->
-            <source media="(min-width: 769px)" srcset="{{ asset('img/armada-rental-mobil-jakarta.jpg') }}">
-
-            <!-- Fallback untuk browser yang tidak support <picture> -->
-            <img src="{{ asset('img/armada-rental-mobil-jakarta.jpg') }}" class="image-page" alt="Armada Rental Mobil Jakarta - PT Hafes Megah Lestari" >
-        </picture>
-        </div>
-    </section>
+    
 <section id="armada">
     <div class="custom-container">
         <div class="section-header">
-            <h2>Pilihan Armada Rental Mobil - Hafes Rent Car</h2>
+            <h2>Layanan Web, SEO, Digital, AI dan Course AI</h2>
         </div>
         <div class="product-grid">
             @foreach($products as $product)
-            @if($loop->index < 3) {{-- Preload hanya untuk 3 gambar pertama --}}
-                @push('preload')
-                    <link rel="preload" as="image" href="{{ asset('img/product/' . $product->image_produk) }}">
-                @endpush
-            @endif
                 <div class="card-product">
-                     <a href="{{ url('/armada/' . $product->slug_produk) }}" >
-                    <img src="{{ asset('img/product/' . $product->image_produk)}}" alt="{{$product->nama_produk}}" loading="lazy">
-                    <div class="product-content">
-                        <p class="product-content-tittle ">{{$product->nama_produk}}</p>
-                        @foreach ($product->harga as $harga)
-                        <div class="description">{{ $harga->jenisHarga->jenis_harga }}</div>
-                        <p class="product-content-price ">Rp {{ number_format($harga->harga, 0, ',', '.') }}</p>
-                      @endforeach
-                        
-                        <div class="product-buttons">
-                             @php
-                                $phone = '6282125423807';
-                                $message = "Halo admin Hafes Rent Car, saya mau tanya " . $product->nama_produk . ". Saya dapat info dari " . url()->current();
-                                $whatsappChat = "https://wa.me/" . preg_replace('/[^0-9]/', '', $phone) . "?text=" . urlencode($message);
-                            @endphp
-                                <a class="btn buy-btn" href="{{$whatsappChat}}" target="_blank" rel="nofollow noopener noreferrer">Hubungi Kami</a>
-                                <!-- <button class="btn sample-btn">Sample Gratis</button> -->
-                            </div>
-                    </div>
-                     </a>
+                    <a href="{{ url('/armada/' . $product->slug_produk) }}">
+                        <div class="product-image-wrapper">
+                            <img src="{{ asset('img/product/' . $product->image_produk) }}" alt="{{$product->nama_produk}}" loading="lazy">
+                            <!-- @foreach ($product->harga as $harga)
+                            @if($harga->diskon > 0)
+                                <div class="badge-diskon">Diskon {{ $harga->diskon }}%</div>
+                            @endif
+                             @endforeach -->
+                        </div>
+                        <div class="product-content">
+                            <p class="product-content-tittle">{{$product->nama_produk}}</p>
+
+                           {!!$product->spesifikasi!!}
+                        </div>
+                    </a>
                 </div>
             @endforeach
         </div>
@@ -96,45 +73,62 @@
 <section id="why-us">
     <div class="custom-container">
         <div class="section-header">
-            <h2>Hafes Rent Car: Solusi Cerdas untuk Sewa Mobil Tanpa Ribet</h2>
-            
+            <h2>Kenapa Azolatekno Menjadi Pilihan Terbaik untuk Website, Aplikasi, dan Integrasi AI?</h2>
+            <p>Azolatekno adalah partner digital terpercaya sejak 2018 yang telah membantu puluhan klien mencapai posisi Top 1 Google. Beberapa website buatan kami bahkan telah direkomendasikan langsung oleh ChatGPT untuk kata kunci tertentu. Di era digital yang semakin bergeser ke AI, muncul sebagai entitas terpercaya di mesin pencari dan platform AI seperti ChatGPT adalah strategi bisnis yang wajib dilakukan.</p>
         </div>
         <div class="why-us-content">
 
             <div class="why-us-item">
-                <img src="{{ asset('img/icon/fleet.webp') }}" alt="Armada Lengkap" loading="lazy">
+                <img src="{{ asset('img/icon/custom-solution.webp') }}" alt="Pembuatan Website dan Aplikasi Sesuai Kebutuhan" loading="lazy">
                 <div class="why-us-info">
-                    <h3>Pilihan Armada Lengkap</h3>
-                    <p>Kami menyediakan berbagai jenis kendaraan, mulai dari city car hingga kendaraan premium, sesuai kebutuhan perjalanan Anda.</p>
+                    <h3>Solusi Aplikasi & Website Custom</h3>
+                    <p>Setiap proyek dirancang khusus untuk memenuhi kebutuhan bisnis Anda—dari tampilan hingga fungsionalitas.</p>
                 </div>
             </div>
 
             <div class="why-us-item">
-                <img src="{{ asset('img/icon/comfort.webp') }}" alt="Nyaman & Bersih" loading="lazy">
+                <img src="{{ asset('img/icon/seo-optimized.webp') }}" alt="Website SEO Friendly Top 1 Google" loading="lazy">
                 <div class="why-us-info">
-                    <h3>Mobil Nyaman & Terawat</h3>
-                    <p>Selalu dalam kondisi prima dengan perawatan rutin, memastikan kenyamanan dan keamanan selama perjalanan.</p>
+                    <h3>Website SEO Friendly – Banyak Masuk Halaman 1 Google</h3>
+                    <p>Website yang kami kembangkan telah terbukti menembus peringkat #1 Google di berbagai kata kunci lokal maupun nasional.</p>
                 </div>
             </div>
 
             <div class="why-us-item">
-                <img src="{{ asset('img/icon/driver.webp') }}" alt="Driver Berpengalaman" loading="lazy">
+                <img src="{{ asset('img/icon/ai-integration.webp') }}" alt="Integrasi Kecerdasan Buatan AI untuk Bisnis" loading="lazy">
                 <div class="why-us-info">
-                    <h3>Driver Profesional & Ramah</h3>
-                    <p>Jika memilih layanan dengan driver, kami menyediakan pengemudi berpengalaman yang siap melayani dengan ramah dan profesional.</p>
+                    <h3>Integrasi AI & Automasi Bisnis</h3>
+                    <p>Kami bantu bisnis Anda lebih efisien dengan solusi AI seperti chatbot, workflow otomatis, dan analitik prediktif.</p>
                 </div>
             </div>
 
             <div class="why-us-item">
-                <img src="{{ asset('img/icon/price-tag.webp') }}" alt="Harga Terjangkau" loading="lazy">
+                <img src="{{ asset('img/icon/recognized.webp') }}" alt="Website Rekomendasi ChatGPT" loading="lazy">
                 <div class="why-us-info">
-                    <h3>Harga Terjangkau</h3>
-                    <p>Menawarkan harga yang kompetitif dengan berbagai pilihan paket sesuai kebutuhan perjalanan Anda.</p>
+                    <h3>Direkomendasikan oleh ChatGPT</h3>
+                    <p>Beberapa website klien Azolatekno telah muncul sebagai rekomendasi terpercaya dari ChatGPT karena struktur dan performanya yang optimal.</p>
+                </div>
+            </div>
+
+            <div class="why-us-item">
+                <img src="{{ asset('img/icon/digital-shift.webp') }}" alt="Era Digital dan AI Marketing" loading="lazy">
+                <div class="why-us-info">
+                    <h3>Bisnis Harus Hadir di Era AI</h3>
+                    <p>Dunia digital telah bergeser: kehadiran Anda tidak cukup hanya di Google. Muncul di rekomendasi platform AI seperti ChatGPT adalah langkah strategis yang kami bantu wujudkan.</p>
+                </div>
+            </div>
+
+            <div class="why-us-item">
+                <img src="{{ asset('img/icon/ai-course.webp') }}" alt="Kursus AI untuk Pemula dan Profesional" loading="lazy">
+                <div class="why-us-info">
+                    <h3>Kursus AI Praktis & Terarah</h3>
+                    <p>Azolatekno juga menyediakan pelatihan AI dengan pendekatan hands-on dan kurikulum yang disusun berdasarkan kebutuhan industri terkini—cocok untuk pemula maupun profesional.</p>
                 </div>
             </div>
 
         </div>
     </div>
 </section>
+
 
 @endsection

@@ -5,8 +5,8 @@ use App\Http\Controllers\HomeController;
 use App\Http\Controllers\SitemapController;
 
 Route::get('/', [HomeController::class, 'index'])->name('home');
-Route::get('/armada', [HomeController::class, 'model'])->name('armada');
-Route::get('/armada/{slug_produk}', [HomeController::class, 'modelDetail'])->name('armada.detail');
+Route::get('/layanan', [HomeController::class, 'model'])->name('layanan');
+Route::get('/layanan/{slug_produk}', [HomeController::class, 'modelDetail'])->name('layanan.detail');
 Route::get('/about-us', [HomeController::class, 'aboutUs'])->name('about');
 Route::get('/contact-us', [HomeController::class, 'contactUs'])->name('contact');
 Route::get('/pricelist', [HomeController::class, 'pricelist'])->name('pricelist');

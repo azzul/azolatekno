@@ -31,10 +31,9 @@
     </section>
 <section id="testimonial">
     <div class="custom-container">
-        <div class="section-header-left mbottom-20 pb-20">
-            <h2 style="text-align: center !important;">
-                <i class="fas fa-chat"></i> REVIEW JUJUR PELANGGAN Hafes RENT (GMAPS)
-            </h2>
+        <div class="section-header mbottom-20 pb-20">
+                         <h2>Apa Kata Klien tentang Azolatekno?</h2>
+      <p>Kepercayaan dari klien kami adalah bukti nyata dari kualitas layanan Azolatekno dalam membangun website, aplikasi, hingga integrasi AI yang berdampak nyata.</p>
         </div>
 
         <div class="swiper-container swiper-container-testi">
@@ -42,45 +41,47 @@
                 <div class="swiper-slide">
                     <div class="testimonial">
                         <div class="stars">★★★★★</div>
-                        <p>"Mantap pelayanan nya. Banyak pilihan unit nya. Driver pengalaman dan bersih."</p>
-                        <h4>- Very86 Magelang</h4>
+                        <p>"Web Design dan SEO nya bagus, sekarang web perusahaan textile kami sudah di halaman 1 google dan banyak yang top 1 google. Orderan kain meningkat ke WhatsApp kami hariannya capai puluhan order tanpa iklan sama sekali. Dan sudah masuk rekomendasi supplier kain terbaik di chatgpt dan AI lainnya. Keren sih totalitas banget dengan biaya yang terjangkau."</p>
+                        <h4>- Altratex Group (Group Perusahaan textile di jawa tengah dengan 4 Factory dan 6 Depo Kain Kaos di berbagai kota)</h4>
                     </div>
                 </div>
                 <div class="swiper-slide">
                     <div class="testimonial">
                         <div class="stars">★★★★★</div>
-                        <p>"Pengalaman pertama naik mobil Hafes rent car sangat memuaskan, drivernya ramah² mobilnya wangi pokoknya next time kalau mau ke jkrt lagi pasti pake lagi🥰🥰🥰🥰"</p>
-                        <h4>- Aji ST</h4>
+                        <p>"Mantap. Kualitas web dan SEO nya bagus, harga relatif murah, profesional & fast respon.
+Lanjutkan lur. Mantul"</p>
+                        <h4>- Dian Heditio</h4>
                     </div>
                 </div>
                 <div class="swiper-slide">
                     <div class="testimonial">
                         <div class="stars">★★★★★</div>
-                        <p>"Pengalaman pertama saya pakai jasa rental sangat puas🥰,driver ramah tau jalan mobil bersih wangi,,,,,next ke jakarta saya pake jasa rental ini lagi good job👍👍👍"</p>
-                        <h4>- Upi Epul</h4>
+                        <p>"Saya suka banget"</p>
+                        <h4>- Pribadi Welas Asih / Tarmuji - Owner Fajar Rent Car</h4>
                     </div>
                 </div>
                 <div class="swiper-slide">
                     <div class="testimonial">
                         <div class="stars">★★★★★</div>
-                        <p>"Salah satu Rental terbaik di Jakarta...Driver ramah2...sopan unit bersih pokok e is the Best dah buat Hafes rent"</p>
-                        <h4>- Hafes Sidiq</h4>
+                        <p>"mantap"</p>
+                        <h4>- Hanifan - Owner Merpati Trans</h4>
                     </div>
                 </div>
                 <div class="swiper-slide">
                     <div class="testimonial">
                         <div class="stars">★★★★★</div>
-                        <p>"pertama kali naik mobil Hafes ren bagus drvernya ramah2 mobil bersih dan wangi"</p>
-                        <h4>- Tawiyo Tawiyo</h4>
+                        <p>"Kualitas, Profesionalisme, Nilai."</p>
+                        <h4>- Ghozi</h4>
                     </div>
                 </div>
+                
             </div>
             <div class="swiper-pagination"></div>
             
         </div>
         <div class="flex-center">
             <div class="product-buttons">
-                <a class="btn buy-btn mtop-20 mbottom-20" href="https://maps.app.goo.gl/4iM59F62MqjvZRYj6" target="_blank" rel="nofollow noopener noreferrer"><i class="fa-solid fa-map-pin mright-10"></i>Cek Google Maps</a>
+                <a class="btn buy-btn mtop-20 mbottom-20" href="https://maps.app.goo.gl/cCtVpEtf5mTbQTuc9" target="_blank" rel="nofollow noopener noreferrer"><i class="fa-solid fa-map-pin mright-10"></i>Cek Google Maps</a>
             </div>
         </div>
     </div>

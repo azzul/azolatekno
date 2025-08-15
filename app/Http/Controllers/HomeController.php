@@ -66,7 +66,7 @@ class HomeController extends Controller
     public function model()
     {
         
-        $meta = MetaTag::where('page', 'model')->first();
+        $meta = MetaTag::where('page', 'layanan')->first();
 
         
        $products = Produk::with(['harga' => function ($query) {
