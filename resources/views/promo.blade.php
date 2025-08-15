@@ -60,16 +60,16 @@
                         <img src="{{ asset('img/merpati-circle.webp')}}" alt="Logo Merpati Trans">
                     </div>
                     <div class="card-content">
-                        <h2 class="card-content-tittle">Hafes Rent Car</h2>
+                        <h2 class="card-content-tittle">Azolatekno</h2>
                         <p class="text-center pb-15">Hubungi Kami Via Whatsapp</p>
                         <div class="flex-icon-text">
                             <div class="btn-social"><i class="fab fa-whatsapp"></i></div>
                             @php
-                                $phone = '6282125423807';
-                                $message = "Halo admin Hafes Rent Car, saya mau tanya sewa mobilnya. Saya dapat info dari " . url()->current();
+                                $phone = '6287733930143';
+                                $message = "Halo admin Azolatekno, saya mau tanya sewa mobilnya. Saya dapat info dari " . url()->current();
                                 $whatsappLink = "https://wa.me/" . preg_replace('/[^0-9]/', '', $phone) . "?text=" . urlencode($message);
                             @endphp
-                            <a href="{{ $whatsappLink }}" target="_blank" rel="nofollow noopener noreferrer">6282125423807</a>
+                            <a href="{{ $whatsappLink }}" target="_blank" rel="nofollow noopener noreferrer">6287733930143</a>
                         </div>
                     </div>
                 </div>
@@ -99,7 +99,7 @@
                 <div class="swiper-slide">
                     <div class="testimonial">
                         <div class="stars">★★★★★</div>
-                        <p>"Pengalaman pertama naik mobil Hafes rent car sangat memuaskan, drivernya ramah² mobilnya wangi pokoknya next time kalau mau ke jkrt lagi pasti pake lagi🥰🥰🥰🥰"</p>
+                        <p>"Pengalaman pertama naik mobil Azolatekno sangat memuaskan, drivernya ramah² mobilnya wangi pokoknya next time kalau mau ke jkrt lagi pasti pake lagi🥰🥰🥰🥰"</p>
                         <h4>- Aji ST</h4>
                     </div>
                 </div>
@@ -155,8 +155,8 @@
                         
                         <div class="product-buttons">
                             @php
-                                $phone = '6282125423807';
-                                $message = "Halo admin Hafes Rent Car, saya mau tanya " . $product->nama_produk . ". Saya dapat info dari " . url()->current();
+                                $phone = '6287733930143';
+                                $message = "Halo admin Azolatekno, saya mau tanya " . $product->nama_produk . ". Saya dapat info dari " . url()->current();
                                 $whatsappChat = "https://wa.me/" . preg_replace('/[^0-9]/', '', $phone) . "?text=" . urlencode($message);
                             @endphp
                                 <a class="btn buy-btn" href="{{$whatsappChat}}" target="_blank" rel="nofollow noopener noreferrer">Hubungi Kami</a>
@@ -173,7 +173,7 @@
 <section id="why-us">
     <div class="custom-container">
         <div class="section-header">
-            <h2>Kenapa Sewa Mobil Di Hafes Rent Car?</h2>
+            <h2>Kenapa Sewa Mobil Di Azolatekno?</h2>
             
         </div>
         <div class="why-us-content">
@@ -252,8 +252,8 @@ document.addEventListener("DOMContentLoaded", function () {
 </script>
 <script>
     function openWhatsApp() {
-        let phone = '6282125423807';
-        let message = "Halo admin Hafes Rent Car, saya mau tanya sewa mobilnya. Saya dapat info dari " + window.location.href;
+        let phone = '6287733930143';
+        let message = "Halo admin Azolatekno, saya mau tanya sewa mobilnya. Saya dapat info dari " + window.location.href;
         let whatsappLink = "https://wa.me/" + phone + "?text=" + encodeURIComponent(message);
         
         window.open(whatsappLink, "_blank");

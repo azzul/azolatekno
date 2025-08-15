@@ -93,11 +93,11 @@ class HomeController extends Controller
 
         $meta = new MetaTag([
             'title' => "$product->nama_produk JAKARTA MULAI Rp 500 RIBU - Hafes RENTAL CAR",
-            'description' => "Hanya di Hafes Rent Car $product->nama_produk dengan harga rental paling terjangkau, pelayanan ramah, Dan Fleksibel",
+            'description' => "Hanya di Azolatekno $product->nama_produk dengan harga rental paling terjangkau, pelayanan ramah, Dan Fleksibel",
             'keywords' => "$product->nama, $product->nama Murah, $product->nama Terdekat ",
-            'og_title' => "$product->nama_produk PALING TERJANGKAU- Hafes RENT CAR",
+            'og_title' => "$product->nama_produk PALING TERJANGKAU- Azolatekno",
             'og_image' => "img/product/" . $product->image_produk,
-            'og_description' => "Hanya di Hafes Rent Car $product->nama_produk dengan harga paling terjangkau, pelayanan ramah, Dan Fleksibel"
+            'og_description' => "Hanya di Azolatekno $product->nama_produk dengan harga paling terjangkau, pelayanan ramah, Dan Fleksibel"
         ]);
 
         

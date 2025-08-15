@@ -42,7 +42,6 @@
               <li><a href="{{ url('/about-us') }}">
                            TENTANG KAMI
                         </a></li>
-            <li><a href="{{ url('/pricelist') }}">PRICELIST</a></li>
              <li><a href="{{ url('/testimonial') }}">TESTIMONIAL</a></li>
              <li><a href="{{ url('/artikel') }}">ARTIKEL</a></li>
             <li class="dropdown">

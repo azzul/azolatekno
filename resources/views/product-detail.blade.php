@@ -396,28 +396,28 @@
     var currentUrl = encodeURIComponent(window.location.href); // Mengambil URL halaman saat ini
     var message = 'Halo Admin Sakura Sandang, Saya mau tanya tentang kain {{ urlencode($product->nama_produk) }} yang ada di website. Berikut link produknya: ' + currentUrl;
 
-    var whatsappUrl = 'https://wa.me/6282125423807?text=' + message;
+    var whatsappUrl = 'https://wa.me/6287733930143?text=' + message;
     window.location.href = whatsappUrl; // Redirect ke WhatsApp
 }
 function mintaSample() {
     var currentUrl = encodeURIComponent(window.location.href); // Mengambil URL halaman saat ini
     var message = 'Halo Admin Sakura Sandang, Saya mau minta sample kain {{ urlencode($product->nama_produk) }} yang ada di website. Berikut link produknya : ' + currentUrl;
 
-    var whatsappUrl = 'https://wa.me/6282125423807?text=' + message;
+    var whatsappUrl = 'https://wa.me/6287733930143?text=' + message;
     window.location.href = whatsappUrl; // Redirect ke WhatsApp
 }
 function shareWhatsapp() {
     var currentUrl = encodeURIComponent(window.location.href); // Mengambil URL halaman saat ini
     var message = 'Bahan Kaos {{ urlencode($product->nama_produk) }} dari Sakura Sandang Group. Berikut link produknya : ' + currentUrl;
 
-    var whatsappUrl = 'https://wa.me/6282125423807?text=' + message;
+    var whatsappUrl = 'https://wa.me/6287733930143?text=' + message;
     window.location.href = whatsappUrl; // Redirect ke WhatsApp
 }
 function checkoutWhatsapp() {
     var currentUrl = encodeURIComponent(window.location.href); // Mengambil URL halaman saat ini
     var message = 'Halo Admin Sakura Sandang, Saya mau beli kain {{ urlencode($product->nama_produk) }}  yang ada di website. Berikut link produknya: ' + currentUrl;
 
-    var whatsappUrl = 'https://wa.me/6282125423807?text=' + message;
+    var whatsappUrl = 'https://wa.me/6287733930143?text=' + message;
     window.location.href = whatsappUrl; // Redirect ke WhatsApp
 }
 </script>

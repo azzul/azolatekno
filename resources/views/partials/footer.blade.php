@@ -60,7 +60,7 @@
           <div class="col-lg-3 col-md-6 footer-links">
             <h4>Informasi</h4>
             <ul>
-              <li><i class="fa fa-angle-right"></i> <a href="https://wa.me/6282125423807?text=Halo%20Admin%20Hafes%20Rent%20Saya%20mau%20tanya%20cara%20sewa%20mobil%20yang%20ada%20di%20website.%20Saya%20dapat%20info%20dari%20https:/Hafesrentcar.id" target="_blank" rel="nofollow noopener noreferrer">Cara Pesan</a></li>
+              <li><i class="fa fa-angle-right"></i> <a href="https://wa.me/6287733930143?text=Halo%20Admin%20Hafes%20Rent%20Saya%20mau%20tanya%20cara%20sewa%20mobil%20yang%20ada%20di%20website.%20Saya%20dapat%20info%20dari%20https:/Hafesrentcar.id" target="_blank" rel="nofollow noopener noreferrer">Cara Pesan</a></li>
               <li><i class="fa fa-angle-right"></i> <a href="{{ url('/privacy-policy') }}">Kebijakan Privasi & cookie</a></li>
               <li><i class="fa fa-angle-right"></i> <a href="{{ url('/terms-conditions') }}">Syarat Dan Ketentuan</a></li>
                 <li><i class="fa fa-angle-right"></i> <a href="{{ url('/license-info') }}">Informasi Lisensi</a></li>
@@ -88,8 +88,8 @@
      <div class="whatsapp-option"><i class="fab fa-whatsapp"></i><p data-number="6281328379339">Marketing Kain area Jawa Tengah</p></div>
      <div class="whatsapp-option"><i class="fab fa-whatsapp"></i><p data-number="6281393734535">Marketing Kain area Jabodetabek</p></div>
      <div class="whatsapp-option"><i class="fab fa-whatsapp"></i><p data-number="6281393734535">Marketing Kain area Jabar</p></div> -->
-     <div class="whatsapp-option"><i class="fab fa-whatsapp"></i><p data-number="6282125423807">Marketing Kain, Makloon & Printing</p></div>
-     <div class="whatsapp-option"><i class="fab fa-whatsapp"></i><p data-number="6282125423807">Marketing Plastik Opp</p></div>
+     <div class="whatsapp-option"><i class="fab fa-whatsapp"></i><p data-number="6287733930143">Marketing Kain, Makloon & Printing</p></div>
+     <div class="whatsapp-option"><i class="fab fa-whatsapp"></i><p data-number="6287733930143">Marketing Plastik Opp</p></div>
 </div>
   </footer><!-- #footer -->
 

@@ -44,7 +44,7 @@
     <div class="custom-container pt-0">
         <div class="section-header">
             <h1>DAFTAR HARGA SEWA MOBIL PT HAFES MEGAH LESTARI</h1>
-            <p>Rental Dengan Harga Terjangkau, Layanan Prima – Hafes Rent Car</p>
+            <p>Rental Dengan Harga Terjangkau, Layanan Prima – Azolatekno</p>
         </div>
          <picture>
             <!-- Source untuk layar kecil -->
@@ -54,7 +54,7 @@
             <source media="(min-width: 769px)" srcset="{{ asset('img/pricelist.jpg') }}">
 
             <!-- Fallback untuk browser yang tidak support <picture> -->
-            <img src="{{ asset('img/pricelist.jpg') }}" class="image-page" alt="Daftar Harga Rental Mobil Jakarta" loading="lazy">
+            <img src="{{ asset('img/pricelist.jpg') }}" class="image-page" alt="Daftar Harga Layanan Web, SEO, Digital, AI dan Course AI" loading="lazy">
         </picture>
         <div class="action-buttons">
                          <a href="javascript:void(0);" id="downloadPdf" class="add-to-cart">

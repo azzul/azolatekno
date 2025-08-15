@@ -7,7 +7,7 @@
         <p>Terakhir diperbarui: 04 Agustus 2025</p>
 
         <h2>Lisensi Gambar</h2>
-        <p>Semua gambar yang digunakan di situs ini, termasuk namun tidak terbatas pada gambar produk, thumbnail, dan ilustrasi, dilindungi oleh hak cipta yang dimiliki oleh Hafes Rent Car. Gambar-gambar tersebut dapat digunakan sesuai dengan ketentuan lisensi yang telah ditentukan.</p>
+        <p>Semua gambar yang digunakan di situs ini, termasuk namun tidak terbatas pada gambar produk, thumbnail, dan ilustrasi, dilindungi oleh hak cipta yang dimiliki oleh Azolatekno. Gambar-gambar tersebut dapat digunakan sesuai dengan ketentuan lisensi yang telah ditentukan.</p>
 
         <h3>Lisensi Penggunaan</h3>
         <p>Gambar-gambar yang tersedia di situs ini dapat digunakan hanya untuk tujuan yang sah dan sesuai dengan ketentuan yang berlaku. Penggunaan gambar tanpa izin atau melanggar hak cipta dapat dikenakan sanksi hukum sesuai dengan hukum yang berlaku.</p>

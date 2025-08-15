@@ -56,18 +56,18 @@
             <div class="sidebar pt-0">
                 <div class="card-sidebar">
                     <div class="card-sidebar-img">
-                        <img src="{{ asset('img/logo-Hafesrent.webp')}}" alt="Logo Hafes Rent Car">
+                        <img src="{{ asset('img/logo-Hafesrent.webp')}}" alt="Logo Azolatekno">
                     </div>
                     <div class="card-content">
-                        <h2 class="card-content-tittle">Hafes Rent Car</h2>
+                        <h2 class="card-content-tittle">Azolatekno</h2>
                         <div class="flex-icon-text">
                             <div class="btn-social"><i class="fab fa-whatsapp"></i></div>
                             @php
-                                $phone = '6282125423807';
-                                $message = "Halo admin Hafes Rent Car, saya mau tanya Rental Mobil. Saya dapat info dari " . url()->current();
+                                $phone = '6287733930143';
+                                $message = "Halo admin Azolatekno, saya mau tanya Layanan Digitalnya. Saya dapat info dari " . url()->current();
                                 $whatsappLink = "https://wa.me/" . preg_replace('/[^0-9]/', '', $phone) . "?text=" . urlencode($message);
                             @endphp
-                            <a href="{{ $whatsappLink }}" target="_blank" rel="nofollow noopener noreferrer">6282125423807</a>
+                            <a href="{{ $whatsappLink }}" target="_blank" rel="nofollow noopener noreferrer">6287733930143</a>
                         </div>
                     </div>
                 </div>
@@ -85,7 +85,7 @@
 <section id="armada">
     <div class="custom-container">
         <div class="section-header">
-            <h2>Pilihan Armada Rental Mobil - Hafes Rent Car</h2>
+            <h2>Pilihan Armada Rental Mobil - Azolatekno</h2>
         </div>
         <div class="product-grid">
             @foreach($products as $product)
@@ -106,8 +106,8 @@
                         
                         <div class="product-buttons">
                              @php
-                                $phone = '6282125423807';
-                                $message = "Halo admin Hafes Rent Car, saya mau tanya " . $product->nama_produk . ". Saya dapat info dari " . url()->current();
+                                $phone = '6287733930143';
+                                $message = "Halo admin Azolatekno, saya mau tanya " . $product->nama_produk . ". Saya dapat info dari " . url()->current();
                                 $whatsappChat = "https://wa.me/" . preg_replace('/[^0-9]/', '', $phone) . "?text=" . urlencode($message);
                             @endphp
                                 <a class="btn buy-btn" href="{{$whatsappChat}}" target="_blank" rel="nofollow noopener noreferrer">Hubungi Kami</a>
@@ -123,8 +123,8 @@
 
 <script>
     function openWhatsApp() {
-        let phone = '6282125423807';
-        let message = "Halo admin Hafes Rent Car, saya mau tanya sewa mobilnya. Saya dapat info dari " + window.location.href;
+        let phone = '6287733930143';
+        let message = "Halo admin Azolatekno, saya mau tanya sewa mobilnya. Saya dapat info dari " + window.location.href;
         let whatsappLink = "https://wa.me/" + phone + "?text=" + encodeURIComponent(message);
         
         window.open(whatsappLink, "_blank");
