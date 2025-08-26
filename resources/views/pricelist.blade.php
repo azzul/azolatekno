@@ -92,7 +92,7 @@
                                         <td>Rp {{ number_format($price->harga, 0, ',', '.') }}</td>
                                         <td>{{ $price->jenisHarga->jenis_harga ?? '-' }}</td>
                                         <td>
-                                            <a href="{{url('/armada/$price->produk->slug_produk')}}" class="btn btn-sm btn-primary">Detail</a>
+                                            <a href="{{url('/layanan/$price->produk->slug_produk')}}" class="btn btn-sm btn-primary">Detail</a>
                                         </td>
                                     </tr>
                                 @endforeach

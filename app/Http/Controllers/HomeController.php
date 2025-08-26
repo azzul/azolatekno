@@ -49,9 +49,7 @@ class HomeController extends Controller
         $meta = MetaTag::where('page', 'index')->first();
 
         $mainContent = Konten::where('nama_konten', 'home_main')->first();
-        $products = Produk::with(['harga' => function ($query) {
-            $query->where('kode_jharga', '12JAMSPR');
-        }])->with('harga.jenisHarga')->get();
+        $products = Produk::with(['harga'])->get();
         //dd($products);
         
      $footerCategory = Cache::remember('footerCategory', 30 * 60, function() {
@@ -92,12 +90,12 @@ class HomeController extends Controller
         ])->where('slug_produk', $slug_produk)->first(); 
 
         $meta = new MetaTag([
-            'title' => "$product->nama_produk JAKARTA MULAI Rp 500 RIBU - Hafes RENTAL CAR",
-            'description' => "Hanya di Azolatekno $product->nama_produk dengan harga rental paling terjangkau, pelayanan ramah, Dan Fleksibel",
+            'title' => "$product->judul_meta",
+            'description' => "$product->desc_meta",
             'keywords' => "$product->nama, $product->nama Murah, $product->nama Terdekat ",
-            'og_title' => "$product->nama_produk PALING TERJANGKAU- Azolatekno",
+            'og_title' => "$product->keyword",
             'og_image' => "img/product/" . $product->image_produk,
-            'og_description' => "Hanya di Azolatekno $product->nama_produk dengan harga paling terjangkau, pelayanan ramah, Dan Fleksibel"
+            'og_description' => "$product->desc_meta"
         ]);
 
         

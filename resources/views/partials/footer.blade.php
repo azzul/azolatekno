@@ -37,7 +37,7 @@
             <ul>
               <li><i class="fa fa-angle-right"></i> <a href="{{ url('/') }}">Beranda</a></li>
               <li><i class="fa fa-angle-right"></i> <a href="{{ url('/about-us') }}">Tentang Kami</a></li>
-              <li><i class="fa fa-angle-right"></i> <a href="{{ url('/armada') }}">Armada Kami</a></li>
+              <li><i class="fa fa-angle-right"></i> <a href="{{ url('/layanan') }}">Layanan Kami</a></li>
               
             </ul>
           </div>
@@ -60,11 +60,10 @@
           <div class="col-lg-3 col-md-6 footer-links">
             <h4>Informasi</h4>
             <ul>
-              <li><i class="fa fa-angle-right"></i> <a href="https://wa.me/6287733930143?text=Halo%20Admin%20Hafes%20Rent%20Saya%20mau%20tanya%20cara%20sewa%20mobil%20yang%20ada%20di%20website.%20Saya%20dapat%20info%20dari%20https:/Hafesrentcar.id" target="_blank" rel="nofollow noopener noreferrer">Cara Pesan</a></li>
+              <li><i class="fa fa-angle-right"></i> <a href="https://wa.me/6287733930143?text=Halo%20Admin%20Azolatekno%20Saya%20mau%20tanya%20cara%20psan%20layanan%20digital%20yang%20ada%20di%20website.%20Saya%20dapat%20info%20dari%20https:/azolatekno.com" target="_blank" rel="nofollow noopener noreferrer">Cara Pesan</a></li>
               <li><i class="fa fa-angle-right"></i> <a href="{{ url('/privacy-policy') }}">Kebijakan Privasi & cookie</a></li>
               <li><i class="fa fa-angle-right"></i> <a href="{{ url('/terms-conditions') }}">Syarat Dan Ketentuan</a></li>
                 <li><i class="fa fa-angle-right"></i> <a href="{{ url('/license-info') }}">Informasi Lisensi</a></li>
-                <li><i class="fa fa-angle-right"></i> <a href="https://merpati-trans.id">Rekanan</a></li>
             </ul>
           </div>
         </div>
@@ -100,14 +99,14 @@
     Beranda
   </a>
   <div class="divider"></div>
-  <a href="{{ url('/artikel') }}">
+  <a href="{{ url('/testimonial') }}">
     <i class="fas fa-book"></i>
-    Artikel
+    Testimoni
   </a>
   <div class="divider"></div>
-  <a href="{{ url('/armada') }}">
+  <a href="{{ url('/Layanan') }}">
     <i class="fas fa-car"></i>
-    Armada
+    Layanan
   </a>
   <div class="divider"></div>
   <a href="#" class="bottom-navbar-whatsapp" id="whatsappBottom">

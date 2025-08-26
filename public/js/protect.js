@@ -13,6 +13,7 @@ document.addEventListener("DOMContentLoaded", function () {
         const isAllowedSrc =
             src.includes('youtube.com') ||
             src.includes('youtu.be') ||
+            src.includes('vimeo.com') ||
             src.includes('google.com/maps');
 
         // Hapus iframe yang mencurigakan atau tidak dari sumber resmi

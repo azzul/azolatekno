@@ -106,7 +106,7 @@
     </script>
     <!-- Main Stylesheet File -->
 
-    <link rel="stylesheet" href="{{ asset('css/style.css') }}?v={{ time() }}">
+    <link rel="stylesheet" href="{{ asset('css/style.min.css') }}?v={{ time() }}">
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js" defer></script>
@@ -128,7 +128,7 @@
     @include('partials.footer')
 
     <!-- Add your JS files here -->
-     <script src="{{ asset('js/utama.js') }}"></script>
-     <script src="{{ asset('js/protect.js') }}"></script>
+     <script src="{{ asset('js/utama.min.js') }}"></script>
+     <script src="{{ asset('js/protect.min.js') }}"></script>
 </body>
 </html>

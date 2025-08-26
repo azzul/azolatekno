@@ -53,7 +53,7 @@
             </div>
             <div class="sidebar pt-0">
                 <div class="card-sidebar">
-                    <img src="{{ asset('img/azolatekno-width-small.jpg')}}" alt="Logo Azolatekno">
+                    <img src="{{ asset('img/azolatekno-square.webp')}}" alt="Logo Azolatekno">
                     <div class="card-content">
                         <h2 class="card-content-tittle">Azolatekno - Layanan Web, SEO, Digital, AI dan Course AI</h2>
                         <div class="flex-icon-text">
@@ -102,7 +102,7 @@
                         <div class="description">Unit terbatas, pastikan Anda jadi yang pertama!</div>
                         <!-- <p class="product-content-price ">Rp {{ number_format($harga->harga, 0, ',', '.') }}</p> -->
                       @endforeach
-                        
+                        {!!$product->spesifikasi!!}
                         <div class="product-buttons">
                             @php
                                 $phone = '6287733930143';

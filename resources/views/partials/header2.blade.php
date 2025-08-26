@@ -12,10 +12,11 @@
     };
 
     // Preload sesuai device
+     // Preload sesuai device
     if (isMobile) {
-        preloadImage('{{ asset("img/azolatekno-width-small.webp") }}');
+        preloadImage('{{ asset("img/azolatekno-width-white-mobile.webp") }}');
     } else {
-        preloadImage('{{ asset("img/azolatekno-width.webp") }}');
+        preloadImage('{{ asset("img/azolatekno-width-white.webp") }}');
     }
 </script>
 @endpush
@@ -25,11 +26,11 @@
         <a href="{{ route('home') }}" class="scrollto" title="Logo Azolatekno Web SEO AI">
             <picture>
                 <!-- Logo khusus mobile -->
-                <source media="(max-width: 768px)" srcset="{{ asset('img/azolatekno-width-small.webp') }}">
+                <source media="(max-width: 768px)" srcset="{{ asset('img/azolatekno-width-white-mobile.webp') }}">
                 <!-- Logo default (desktop) -->
-                <source media="(min-width: 769px)" srcset="{{ asset('img/azolatekno-width.webp') }}">
+                <source media="(min-width: 769px)" srcset="{{ asset('img/azolatekno-width-white.webp') }}">
                 <!-- Fallback -->
-                <img src="{{ asset('img/Hafes-width-original.webp') }}" alt="Logo Azolatekno Web SEO AI" loading="lazy">
+                <img src="{{ asset('img/azolatekno-width.webp') }}" alt="Logo Azolatekno Web SEO AI" loading="lazy">
             </picture>
         </a>
     </div>
@@ -43,7 +44,7 @@
                            TENTANG KAMI
                         </a></li>
              <li><a href="{{ url('/testimonial') }}">TESTIMONIAL</a></li>
-             <li><a href="{{ url('/artikel') }}">ARTIKEL</a></li>
+             <li><a href="{{ url('/artikel/') }}">ARTIKEL</a></li>
             <li class="dropdown">
                     <a href="javascript:void(0);" class="dropbtn" aria-label="dropdown opsi informasi">INFORMASI <i class="fa fa-chevron-down"></i></a>
                     <ul class="dropdown-content">

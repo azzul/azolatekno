@@ -30,7 +30,7 @@ class SitemapController extends Controller
         ];
 
         $sitemapData[] = [
-            'url' => route('armada'),
+            'url' => route('layanan'),
             'priority' => 1,
             'lastmod' => Carbon::now(),
         ];
@@ -41,11 +41,11 @@ class SitemapController extends Controller
             'lastmod' => Carbon::now(),
         ];
 
-        $sitemapData[] = [
-            'url' => route('pricelist'),
-            'priority' => 1,
-            'lastmod' => Carbon::now(),
-        ];
+        // $sitemapData[] = [
+        //     'url' => route('pricelist'),
+        //     'priority' => 1,
+        //     'lastmod' => Carbon::now(),
+        // ];
 
         $sitemapData[] = [
             'url' => route('testimonial'),
@@ -79,7 +79,7 @@ class SitemapController extends Controller
 
         foreach ($products as $product) {
             $sitemapData[] = [
-                'url' => route('armada.detail', [
+                'url' => route('layanan.detail', [
                     'slug_produk' => $product->slug_produk,
                 ]),
                 'priority' => 1.0,

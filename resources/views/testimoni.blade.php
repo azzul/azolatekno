@@ -96,7 +96,7 @@ Lanjutkan lur. Mantul"</p>
         <div class="product-grid">
             @foreach($products as $product)
                 <div class="card-product">
-                    <a href="{{ url('/armada/' . $product->slug_produk) }}">
+                    <a href="{{ url('/layanan/' . $product->slug_produk) }}">
                         <div class="product-image-wrapper">
                             <img src="{{ asset('img/product/' . $product->image_produk) }}" alt="{{$product->nama_produk}}" loading="lazy">
                             <!-- @foreach ($product->harga as $harga)

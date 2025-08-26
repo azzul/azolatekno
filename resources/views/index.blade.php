@@ -6,9 +6,9 @@
         <!-- Initially display this image -->
             <!-- Fallback untuk browser yang tidak support <picture> -->
             <img id="endImage"
-     src="{{ asset('img/rental-mobil-jakarta.jpg') }}"
-     data-src-mobile="{{ asset('img/rental-mobil-jakarta-mobile.jpg') }}"
-     data-src-desktop="{{ asset('img/rental-mobil-jakarta.jpg') }}"
+     src="{{ asset('img/bg-azolatekno.jpg') }}"
+     data-src-mobile="{{ asset('img/bg-azolatekno-mobile.jpg') }}"
+     data-src-desktop="{{ asset('img/bg-azolatekno.jpg') }}"
      class="endImage"
      alt="End Image">
     </div>
@@ -24,8 +24,8 @@
     <p class="pb-0 subtext show">Rating 5 di Aplikasi Google Maps</p>
 
     @php
-                $phone2 = '62';
-                $message2 = "Halo admin Azolatekno, saya mau tanya sewa mobilnya. Saya dapat info dari " . url()->current();
+                $phone2 = '6287733930143';
+                $message2 = "Halo admin Azolatekno, saya mau tanya layanan digitalnya. Saya dapat info dari " . url()->current();
                 $whatsappLink2 = "https://wa.me/" . preg_replace('/[^0-9]/', '', $phone2) . "?text=" . urlencode($message2);
             @endphp
     <div class="welcome-buttons">
@@ -67,7 +67,7 @@
         <div class="product-grid">
             @foreach($products as $product)
                 <div class="card-product">
-                    <a href="{{ url('/armada/' . $product->slug_produk) }}">
+                    <a href="{{ url('/layanan/' . $product->slug_produk) }}">
                         <div class="product-image-wrapper">
                             <img src="{{ asset('img/product/' . $product->image_produk) }}" alt="{{$product->nama_produk}}" loading="lazy">
                             <!-- @foreach ($product->harga as $harga)
@@ -80,6 +80,11 @@
                             <p class="product-content-tittle">{{$product->nama_produk}}</p>
 
                            {!!$product->spesifikasi!!}
+                           <div class="description">Mulai</div>
+                           @foreach ($product->harga as $h)
+                                <p class="product-content-price">Rp{{ number_format($h->harga, 0, ',', '.') }}</p>
+                            @endforeach
+                           
                         </div>
                     </a>
                 </div>
@@ -208,7 +213,7 @@
                     <div class="testimonial">
                         <div class="stars">★★★★★</div>
                         <p>"Web Design dan SEO nya bagus, sekarang web perusahaan textile kami sudah di halaman 1 google dan banyak yang top 1 google. Orderan kain meningkat ke WhatsApp kami hariannya capai puluhan order tanpa iklan sama sekali. Dan sudah masuk rekomendasi supplier kain terbaik di chatgpt dan AI lainnya. Keren sih totalitas banget dengan biaya yang terjangkau."</p>
-                        <h4>- Altratex Group (Group Perusahaan textile di jawa tengah dengan 4 Factory dan 6 Depo Kain Kaos di berbagai kota)</h4>
+                        <h4>- Altratex Group (Group Perusahaan textile dengan 4 Factory dan 6 Depo Kain Kaos di berbagai kota)</h4>
                     </div>
                 </div>
                 <div class="swiper-slide">
@@ -278,7 +283,7 @@ Lanjutkan lur. Mantul"</p>
             // Tambahkan iframe Vimeo
             const iframe = document.createElement('iframe');
             iframe.id = 'introVideo';
-            iframe.src = "https://player.vimeo.com/video/1089227577?h=5dbdea13e0&autoplay=1&muted=1&loop=1&background=1";
+            iframe.src = "https://player.vimeo.com/video/1110429533?h=5588577461&autoplay=1&muted=1&loop=1&background=1";
             iframe.frameBorder = "0";
             iframe.allowFullscreen = true;
             iframe.allow = "autoplay; fullscreen";

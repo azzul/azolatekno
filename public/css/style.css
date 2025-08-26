@@ -221,7 +221,7 @@ h6 {
 #header.header-fixed {
   transition: all 0.5s;
   z-index: 996;
-  background-color: #F9F9F9 !important;
+  background-color: #121212 !important;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 #header.header-scrolled img,
@@ -453,13 +453,13 @@ font-weight: 700;
   transition: all 0.5s;
   z-index: 996;
   max-width: 100vw;
-  background: #F9F9F9;
+  background: #121212;
   height: 90px;
 }
 
 #header2.header-scrolled,
 #header2.header-fixed {
-  background: #F9F7F7;
+  background: #121212;
   height: 80px;
   padding: 15px 0;
   transition: all 0.5s;
@@ -494,7 +494,7 @@ font-weight: 700;
   padding: 0;
   margin: 0;
    max-height: 65px;
-   margin-top: -15px;
+   margin-top: -5px;
 }
 @media (max-width: 767px) {
   #header2 {
@@ -551,7 +551,6 @@ font-weight: 700;
   padding: 0;
   margin: 0;
   max-height: 40px;
-  margin-left: 25px !important;
 
 }
   #header2 {
@@ -752,7 +751,7 @@ font-weight: 700;
   text-decoration: none;
   display: flex; /* Gunakan flex untuk memusatkan teks */
   align-items: center; /* Pusatkan teks dalam a */
-  color: #FF9800;
+  color: #ffffff;
   font-family: Poppins, sans-serif;
   font-weight: 600;
   font-size: 1rem;
@@ -851,7 +850,7 @@ font-weight: 700;
 }
 .nav-menu ul li:hover > a {
   background: #011e33;
-  color: #FF9800;
+  color: #121212;
 }
 
 .nav-menu ul ul {
@@ -1160,7 +1159,7 @@ font-weight: 700;
 
 /* Saat header fixed atau scrolled */
 #mobile-nav-toggle.header-scrolled i {
- color: #333333;
+ color: #ffffff;
  }
 
 #mobile-nav-toggle i {
@@ -1289,8 +1288,8 @@ body.mobile-nav-active #mobile-nav-toggle {
     position: absolute;
     top: 50%;
     left: 50%;
-    min-width: 110%;
-    min-height: 115%;
+    min-width: 135%;
+    min-height: 130%;
     width: 100%; /* Adjust the width to zoom in */
     height: 100%; /* Adjust the height to zoom in */
     transform: translate(-50%, -50%);
@@ -1855,7 +1854,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #footer .copyright {
   text-align: center;
   padding-top: 30px;
-  background-color: #333333 !important;
+  background-color: #121212 !important;
 }
 
 #footer .credits {
@@ -1863,8 +1862,13 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 13px;
   color: #fff;
   padding-bottom: 10px;
-  background-color: #333333 !important;
+  background-color: #121212 !important;
+  padding-bottom: 70px;
 }
+#footer .credits a {
+  color: #fff;
+}
+
 
 /*--------------------------------------------------------------
 # Responsive Media Queries
@@ -2052,7 +2056,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 .bottom-navbar {
   overflow: hidden;
-  background-color: #F9F9F9 !important;
+  background-color: #121212 !important;
   position: fixed;
   bottom: 0;
   width: 100%;
@@ -2066,7 +2070,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .bottom-navbar a {
   flex: 1;
-  color: #333333;
+  color: #ffffff;
   text-align: center;
   padding: 10px 0;
   text-decoration: none;
@@ -2079,7 +2083,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 24px;
   display: block;
   transition: transform 0.3s ease;
-  color: #00C853;
+  color: #FF9800;
 }
 
 .bottom-navbar a:hover {
@@ -5449,7 +5453,7 @@ p {
   position: absolute;
   top: -8px;
   left: 0px;
-  background: #F9F9F9;
+  background: #333333;
   color: white;
   font-weight: bold;
   padding: 8px 20px;
@@ -5480,7 +5484,7 @@ p {
   position: absolute;
   top: -8px;
   left: 0px;
-  background: #F9F9F9;
+  background: #333333;
   color: white;
   font-weight: bold;
   padding: 15px 20px;
@@ -5572,8 +5576,8 @@ p {
   align-content: center;
 }
 .card-sidebar img {
-  aspect-ratio: 590 / 377;
-  max-width: 300px;
+  aspect-ratio: 500/ 500;
+  max-width: 250px;
   width: 100%;
   display: block;         /* penting untuk margin auto bekerja */
   margin: 0 auto;         /* ini yang membuat gambar center secara horizontal */
@@ -5921,6 +5925,14 @@ p {
     width: 100%;
     height: auto;
 }
+.testimonial h4{
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+.testimonial p{
+  font-size: 1rem;
+}
+
         .testimonial img {
             width: 80px;
             height: 80px;
@@ -6014,6 +6026,16 @@ p {
     margin-right: 8px;
 }
 
+@media (max-width: 500px){
+  .testimonial h4{
+  font-size: 1rem;
+  font-weight: bold;
+}
+.testimonial p{
+  font-size: 0.9rem;
+}
+
+}
 
 
 @media print {
@@ -6542,17 +6564,7 @@ p {
 #partner {
   margin-top: 20px;
 }
-#partner::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: url('/img/rental-mobil-jakarta.webp') center/cover no-repeat;
-  opacity: 0.2;
-  z-index: -1;
-}
+
 .partner-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -6589,6 +6601,11 @@ p {
   .partner-card {
     border-radius: 5px;
   }
+  .partner-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+}
 }
 
 .service-grid {
