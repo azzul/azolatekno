@@ -1,7 +1,7 @@
-@extends('layouts.app2')
+@extends('layouts.app-privacy')
 
 @section('content')
-<section class="privacy-policy"  style="margin-top: 300px;">
+<section class="privacy-policy" >
     <div class="custom-container">
         <h1>Kebijakan Privasi & Cookie</h1>
         <p>Terakhir diperbarui: 04 Agustus 2025</p>

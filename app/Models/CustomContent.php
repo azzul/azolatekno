@@ -15,13 +15,16 @@ class CustomContent extends Model
     
     protected $fillable = [
         'judul',
-        'nama_halaman',
+        'page_name',
         'slug_content',
         'short_desc',
         'isi',
         'keyword',
         'kategori_konten',
         'img_content',
+        'img_medium',
+        'img_small',
+        'is_product',
         'created_at',
         'updated_at'
     ];

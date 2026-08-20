@@ -43,8 +43,8 @@
 <section id="pricelist-table" class="pt-0">
     <div class="custom-container pt-0">
         <div class="section-header">
-            <h1>DAFTAR HARGA SEWA MOBIL PT HAFES MEGAH LESTARI</h1>
-            <p>Rental Dengan Harga Terjangkau, Layanan Prima – Azolatekno</p>
+            <h1>{{$meta->title}}</h1>
+            <p>{{$meta->description}}</p>
         </div>
          <picture>
             <!-- Source untuk layar kecil -->
@@ -57,7 +57,7 @@
             <img src="{{ asset('img/pricelist.jpg') }}" class="image-page" alt="Daftar Harga Layanan Web, SEO, Digital, AI dan Course AI" loading="lazy">
         </picture>
         <div class="action-buttons">
-                         <a href="javascript:void(0);" id="downloadPdf" class="add-to-cart">
+                         <a href="{{ route('pricelist.pdf') }}" class="add-to-cart" target="_blank">
                             <i class="fas fa-download"></i> Download Pricelist PDF
                         </a>
                          <p>* Klik Tombol download untuk download pricelist pdf</p>
@@ -90,9 +90,9 @@
                                         </td>
                                         <td>{{ $price->produk->nama_produk ?? '-' }}</td>
                                         <td>Rp {{ number_format($price->harga, 0, ',', '.') }}</td>
-                                        <td>{{ $price->jenisHarga->jenis_harga ?? '-' }}</td>
+                                        <td>{{ $price->produk->short_desc ?? '-' }}</td>
                                         <td>
-                                            <a href="{{url('/armada/$price->produk->slug_produk')}}" class="btn btn-sm btn-primary">Detail</a>
+                                            <a href="{{url('/layanan/' .$price->produk->slug_produk)}}" class="btn btn-sm btn-primary">Detail</a>
                                         </td>
                                     </tr>
                                 @endforeach
@@ -103,40 +103,4 @@
         </div>
     </div>
 </section>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
-<script>
-document.addEventListener("DOMContentLoaded", function () {
-    const downloadBtn = document.getElementById("downloadPdf");
-
-    if (downloadBtn) {
-        downloadBtn.addEventListener("click", function () {
-            const pricelistTable = document.getElementById("pricelist-table");
-            const breadcumb = document.getElementById("breadcrumb-section-about");
-            if (breadcumb) breadcumb.style.display = "none";
-            // Sembunyikan action-buttons sebelum download
-            const actionButtons = document.querySelector(".action-buttons");
-            if (actionButtons) actionButtons.style.display = "none";
-
-            // Konversi ke PDF dengan pengaturan pagebreak
-            html2pdf()
-                .set({
-                    margin: 3,
-                    filename: 'pricelist_sewa_mobil.pdf',
-                    image: { type: 'jpeg', quality: 0.98 },
-                    html2canvas: { scale: 2 },
-                    jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' },
-                    pagebreak: { mode: ['avoid-all', 'css', 'legacy'] } // Hindari pemotongan elemen
-                })
-                .from(pricelistTable)
-                .save()
-                .then(() => {
-                    // Tampilkan kembali action-buttons setelah selesai
-                    if (actionButtons) actionButtons.style.display = "flex";
-                    if (breadcumb) breadcumb.style.display = "block";
-                });
-        });
-    }
-});
-</script>
 @endsection

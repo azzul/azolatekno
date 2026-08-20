@@ -30,7 +30,7 @@ class SitemapController extends Controller
         ];
 
         $sitemapData[] = [
-            'url' => route('armada'),
+            'url' => route('layanan'),
             'priority' => 1,
             'lastmod' => Carbon::now(),
         ];
@@ -40,7 +40,35 @@ class SitemapController extends Controller
             'priority' => 1,
             'lastmod' => Carbon::now(),
         ];
-
+        $sitemapData[] = [
+            'url' => route('tools'),
+            'priority' => 1,
+            'lastmod' => Carbon::now(),
+        ];
+        
+         $sitemapData[] = [
+            'url' => route('hpp.index'),
+            'priority' => 1,
+            'lastmod' => Carbon::now(),
+        ];
+        
+         $sitemapData[] = [
+            'url' => route('invoice.index'),
+            'priority' => 1,
+            'lastmod' => Carbon::now(),
+        ];
+        
+        $sitemapData[] = [
+            'url' => route('quotation.index'),
+            'priority' => 1,
+            'lastmod' => Carbon::now(),
+        ];
+        $sitemapData[] = [
+            'url' => route('struk.index'),
+            'priority' => 1,
+            'lastmod' => Carbon::now(),
+        ];
+        
         $sitemapData[] = [
             'url' => route('pricelist'),
             'priority' => 1,
@@ -53,7 +81,6 @@ class SitemapController extends Controller
             'lastmod' => Carbon::now(),
         ];
 
-        
         $sitemapData[] = [
             'url' => route('terms'),
             'priority' => 0.8,
@@ -79,11 +106,11 @@ class SitemapController extends Controller
 
         foreach ($products as $product) {
             $sitemapData[] = [
-                'url' => route('armada.detail', [
+                'url' => route('layanan.detail', [
                     'slug_produk' => $product->slug_produk,
                 ]),
                 'priority' => 1.0,
-                'lastmod' => Carbon::parse($product->updated_at)->format(\DateTime::ATOM),
+                'lastmod' => Carbon::now(),
             ];
         }
         $customContents = CustomContent::all();
@@ -94,7 +121,7 @@ class SitemapController extends Controller
                     'slug_content' => $content->slug_content,
                 ]),
                 'priority' => 1.0,
-                'lastmod' => Carbon::parse($content->updated_at)->format(\DateTime::ATOM),
+                'lastmod' => Carbon::now(),
             ];
         }
        

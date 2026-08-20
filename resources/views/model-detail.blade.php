@@ -1,7 +1,9 @@
-@extends('layouts.app2')
+@extends('layouts.app-detail')
 @push('preload')
-    <link rel="preload" as="image" href="{{asset('img/product/' .$product->image_produk)}}">
+    <link rel="preload" as="image" href="{{asset('img/product/' .$product->image_produk)}}" fetchpriority="high" imagesrcset="{{asset('img/product/' .$product->image_produk)}}" imagesizes="100vw">
+    <link rel="preload" as="image" href="{{ asset('img/azolatekno-square.webp') }}">
 @endpush
+
 @push('json-ld')
 <script type="application/ld+json">
 {
@@ -48,26 +50,39 @@
         <div class="flex-content">
             <div class="main-content-image">
                 <div class="image-wrapper"> 
-                <img src="{{asset('img/product/' .$product->image_produk)}}" alt="{{$product->nama_produk}}">
-                </div>
+                <x-responsive-img 
+                    src="{{ asset('img/product/' . $product->image_produk) }}"
+                    alt="{{ $product->nama_produk }}"
+                    loading="eager"
+                    class="hero-img"
+                />
             </div>
-            <div class="sidebar pt-0">
+            
+            <!--@if(!$isMobile)-->
+            <div class="sidebar pt-0" id="sidebar-azolatekno">
                 <div class="card-sidebar">
-                    <img src="{{ asset('img/azolatekno-width-small.jpg')}}" alt="Logo Azolatekno">
+                    <img src="{{ asset('img/azolatekno-square.webp') }}" 
+                         alt="Logo Azolatekno" 
+                         width="250" 
+                         height="250">
+            
                     <div class="card-content">
-                        <h2 class="card-content-tittle">Azolatekno - Layanan Web, SEO, Digital, AI dan Course AI</h2>
+                        <h2 class="card-content-tittle">
+                            Azolatekno - Layanan Web, SEO, Digital, AI dan Course AI
+                        </h2>
                         <div class="flex-icon-text">
                             <div class="btn-social"><i class="fab fa-whatsapp"></i></div>
                             @php
-                                $phone = '6287733930143';
+                                $phone = '6285129370703';
                                 $message = "Halo admin Azolatekno, saya mau tanya " . $product->nama_produk . ". Saya dapat info dari " . url()->current();
                                 $whatsappLink = "https://wa.me/" . preg_replace('/[^0-9]/', '', $phone) . "?text=" . urlencode($message);
                             @endphp
-                            <a href="{{ $whatsappLink }}" target="_blank">6287733930143</a>
+                            <a href="{{ $whatsappLink }}" target="_blank">085129370703</a>
                         </div>
                     </div>
                 </div>
             </div>
+            <!--@endif-->
         </div>
         <div class="main-content-detail">
             <div class="content-detail-wrapper">
@@ -88,24 +103,25 @@
         <div class="swiper-container-latest">
             <div class="swiper-wrapper latest-product-container">
                 @foreach ($recomendations as $recomendation)
-                @if($loop->index < 3) {{-- Preload hanya untuk 3 gambar pertama --}}
-                @push('preload')
-                    <link rel="preload" as="image" href="{{ asset('img/product/' . $recomendation->image_produk) }}">
-                @endpush
-            @endif
+
                     <div class="swiper-slide card-product">
                      <a href="{{ url('/layanan/' . $recomendation->slug_produk) }}">
-                    <img src="{{ asset('img/product/' . $recomendation->image_produk)}}" alt="{{$recomendation->nama_produk}}" >
+                         <x-responsive-img 
+                            src="{{ asset('img/product/' . $recomendation->image_produk) }}"
+                            alt="{{$recomendation->nama_produk}}"
+                            class="card-product-img"
+                            loading="lazy"
+                        />
                     <div class="product-content">
                         <p class="product-content-tittle ">{{$recomendation->nama_produk}}</p>
                          @foreach ($recomendation->harga as $harga)
                         <div class="description">Unit terbatas, pastikan Anda jadi yang pertama!</div>
                         <!-- <p class="product-content-price ">Rp {{ number_format($harga->harga, 0, ',', '.') }}</p> -->
                       @endforeach
-                        
+                        {!!$product->spesifikasi!!}
                         <div class="product-buttons">
                             @php
-                                $phone = '6287733930143';
+                                $phone = '6285129370703';
                                 $message = "Halo admin Azolatekno, saya mau tanya " . $recomendation->nama_produk . ". Saya dapat info dari " . url()->current();
                                 $whatsappChat = "https://wa.me/" . preg_replace('/[^0-9]/', '', $phone) . "?text=" . urlencode($message);
                             @endphp

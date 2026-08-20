@@ -1,0 +1,5 @@
+[10-Sep-2025 09:28:15 Asia/Jakarta] PHP Fatal error:  DISEVAL - Use of eval is forbidden in phar:///home/azolatek/azolatekno/composer.phar/src/Composer/Repository/FilesystemRepository.php(216) : eval()'d code on line 3
+[10-Sep-2025 09:29:22 Asia/Jakarta] PHP Fatal error:  DISEVAL - Use of eval is forbidden in phar:///home/azolatek/azolatekno/composer.phar/src/Composer/Repository/FilesystemRepository.php(216) : eval()'d code on line 3
+[10-Sep-2025 09:37:47 Asia/Jakarta] PHP Fatal error:  DISEVAL - Use of eval is forbidden in /home/azolatek/azolatekno/vendor/psy/psysh/src/ExecutionLoopClosure.php(52) : eval()'d code on line 1
+[10-Sep-2025 09:37:55 Asia/Jakarta] PHP Fatal error:  DISEVAL - Use of eval is forbidden in /home/azolatek/azolatekno/vendor/psy/psysh/src/ExecutionLoopClosure.php(52) : eval()'d code on line 1
+[01-Oct-2025 10:13:58 Asia/Jakarta] PHP Fatal error:  DISEVAL - Use of eval is forbidden in phar:///home/azolatek/azolatekno/composer.phar/src/Composer/Repository/FilesystemRepository.php(216) : eval()'d code on line 3

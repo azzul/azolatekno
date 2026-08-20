@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.app2')
 @push('json-ld')
 <script type="application/ld+json">
 {
@@ -32,7 +32,7 @@
 <section id="testimonial">
     <div class="custom-container">
         <div class="section-header mbottom-20 pb-20">
-                         <h2>Apa Kata Klien tentang Azolatekno?</h2>
+                         <h1>Testimonial - Apa Kata Klien tentang Azolatekno?</h1>
       <p>Kepercayaan dari klien kami adalah bukti nyata dari kualitas layanan Azolatekno dalam membangun website, aplikasi, hingga integrasi AI yang berdampak nyata.</p>
         </div>
 
@@ -88,7 +88,7 @@ Lanjutkan lur. Mantul"</p>
 </section>
 
 
-<section id="armada">
+<section id="layanan">
     <div class="custom-container">
         <div class="section-header">
             <h2>Layanan Web, SEO, Digital, AI dan Course AI</h2>
@@ -96,7 +96,7 @@ Lanjutkan lur. Mantul"</p>
         <div class="product-grid">
             @foreach($products as $product)
                 <div class="card-product">
-                    <a href="{{ url('/armada/' . $product->slug_produk) }}">
+                    <a href="{{ url('/layanan/' . $product->slug_produk) }}">
                         <div class="product-image-wrapper">
                             <img src="{{ asset('img/product/' . $product->image_produk) }}" alt="{{$product->nama_produk}}" loading="lazy">
                             <!-- @foreach ($product->harga as $harga)
@@ -117,6 +117,7 @@ Lanjutkan lur. Mantul"</p>
     </div>
 </section>
 
+<script>
 document.addEventListener("DOMContentLoaded", function () {
     // Initialize Swiper for Testimonial with Auto-Slide
     const swiperTesti = new Swiper(".swiper-container-testi", {

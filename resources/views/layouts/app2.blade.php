@@ -31,13 +31,17 @@
     <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('azolatekno-180x180.png') }}">
     <link rel="apple-touch-icon" sizes="152x152" href="{{ asset('azolatekno-152x152.png') }}">
     <link rel="apple-touch-icon" sizes="120x120" href="{{ asset('azolatekno-120x120.png') }}">
-
+    <link rel="alternate" type="text/plain" href="{{ asset('llms.txt') }}" title="LLM Content Guide">
     <!-- Favicon untuk Windows -->
     <meta name="msapplication-TileImage" content="{{ asset('azolatekno-150x150.png') }}">
     <meta name="msapplication-TileColor" content="#ffffff">
+       <!-- Preload font Poppins (400, 600, 700) -->
+    <link rel="preload" as="style" href="{{ asset('css/layout/app2.css') }}?v={{ filemtime(public_path('css/layout/app2.css')) }}" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="{{ asset('css/layout/app2.css') }}"></noscript>
    <!-- Preload font Poppins (400, 600, 700) -->
-
-     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    
+    
+     <!--<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>-->
     <!-- Font Awesome -->
      <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
     <noscript>
@@ -49,18 +53,35 @@
     <noscript>
         <link href="{{ asset('lib/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
     </noscript>
-    
+    <script data-cfasync="false">
+    const head = document.getElementsByTagName('head')[0];
+    const isMobile = window.innerWidth <= 768;
+
+    function preloadImage(src) {
+      const link = document.createElement('link');
+      link.rel = 'preload';
+      link.as = 'image';
+      link.href = src;
+      head.appendChild(link);
+    }
+
+    if (isMobile) {
+      preloadImage('{{ asset("img/azolatekno-width-white-mobile.webp") }}');
+    } else {
+      preloadImage('{{ asset("img/azolatekno-width-white.webp") }}');
+    }
+  </script>
     <!-- Google Tag Manager -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
-  "name": "Azolatekno - Web, SEO & AI Developer",
+  "name": "Jasa Pembuatan Web, SEO dan AI Solo - Azolatekno",
   "image": "https://azolatekno.com/img/share.jpg",
   "url": "https://azolatekno.com",
   "logo": "https://azolatekno.com/img/logo-azolatekno.png",
   "email": "info@azolatekno.com",
-  "telephone": "+6287733930143",
+  "telephone": "+6285129370703",
   "address": {
     "@type": "PostalAddress",
     "streetAddress": "Dalon, RT 03 RW 04 Sroyo, Kec. Jaten, Kab. Karanganyar, Jawa tengah 57731",
@@ -77,11 +98,11 @@
   "aggregateRating": {
     "@type": "AggregateRating",
     "ratingValue": "5.0",
-    "reviewCount": "15"
+    "reviewCount": "6"
   },
   "contactPoint": {
     "@type": "ContactPoint",
-    "telephone": "+6287733930143",
+    "telephone": "+6285129370703",
     "contactType": "Customer Support",
     "areaServed": "ID",
     "availableLanguage": ["Indonesian", "English"]
@@ -95,8 +116,28 @@
   ]
 }
 </script>
+<style>
+     .row-tools {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    margin-top: 16px;
+  }
 
-
+  .row-tools.item-row {
+    display: grid;
+    grid-template-columns: 2fr 0.7fr 1fr 1fr;
+    gap: 12px;
+    margin-bottom: 12px;
+  }
+  
+ @media (max-width: 600px) {
+    .section-header h1 { font-size: 26px; }
+    .card-tools { padding: 16px; }
+    .btn-tools { padding: 10px 16px; font-size: 14px; }
+    .row-tools.item-row { grid-template-columns: 1fr;  padding-bottom: 12px; border-bottom: 1px solid #ddd;}
+  }
+</style>
 
 <!-- Area untuk JSON-LD tambahan -->
 @stack('json-ld')
@@ -106,13 +147,20 @@
     </script>
     <!-- Main Stylesheet File -->
 
-    <link rel="stylesheet" href="{{ asset('css/style.css') }}?v={{ time() }}">
-    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js" defer></script>
+
     <!-- Add your CSS files here -->
      <meta name="csrf-token" content="{{ csrf_token() }}">
      <!-- Google tag (gtag.js) -->
+     <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MBG4JWS');</script>
+<!-- End Google Tag Manager -->
+ @stack('scripts')
+ <link rel="preload" href="{{ asset('css/style.min.css')}}" as="style" onload="this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="{{ asset('css/style.min.css') }}?v={{ time() }}"></noscript>
 </head>
 <body class="">
 <!-- Google Tag Manager (noscript) -->
@@ -126,9 +174,33 @@
 
     <!-- Footer -->
     @include('partials.footer')
+     <script>
+         document.addEventListener('DOMContentLoaded', function () {
+    const waNumber = '6287733930143';
+    const marketingMessage = 'Halo admin Azolatekno, saya mau tanya jasa azolatekno. Saya dapat info dari https://azolatekno.com';
 
+    function openWA() {
+        window.open(`https://wa.me/${waNumber}?text=${encodeURIComponent(marketingMessage)}`, '_blank');
+    }
+
+    const whatsappIcon = document.getElementById('whatsappIcon');
+    if (whatsappIcon) whatsappIcon.addEventListener('click', openWA);
+
+    const whatsappBottom = document.getElementById('whatsappBottom');
+    if (whatsappBottom) whatsappBottom.addEventListener('click', openWA);
+});
+     </script>
     <!-- Add your JS files here -->
-     <script src="{{ asset('js/utama.js') }}"></script>
-     <script src="{{ asset('js/protect.js') }}"></script>
+     <script src="{{ asset('js/utama.min.js') }}"></script>
+     <script src="{{ asset('js/protect.min.js') }}"></script>
+         <!--<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>-->
+    <link rel="preload" href="https://unpkg.com/swiper/swiper-bundle.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"></noscript>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js" defer></script>
+     
+      <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBG4JWS"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 </body>
 </html>

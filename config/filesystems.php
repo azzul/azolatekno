@@ -30,88 +30,90 @@ return [
 
     'disks' => [
 
-        'local' => [
-            'driver' => 'local',
-            'root' => storage_path('app/private'),
-            'serve' => true,
-            'throw' => false,
-        ],
-
-        'public' => [
-            'driver' => 'local',
-            'root' => public_path('public'),
-            'url' => env('APP_URL').'/storage',
-            'visibility' => 'public',
-            'throw' => false,
-        ],
-        'public_main' => [
-            'driver' => 'local',
-            'root' => public_path(), // Path ke folder public
-            'url' => env('APP_URL'), // URL dasar aplikasi
-            'visibility' => 'public',
-        ],
-        'public_img' => [
-            'driver' => 'local',
-            'root' => public_path(), // Pastikan ini mengarah ke folder public
-            'url' => env('APP_URL').'/img', // URL untuk mengakses file
-            'visibility' => 'public',
-        ],
-        's3' => [
-            'driver' => 's3',
-            'key' => env('AWS_ACCESS_KEY_ID'),
-            'secret' => env('AWS_SECRET_ACCESS_KEY'),
-            'region' => env('AWS_DEFAULT_REGION'),
-            'bucket' => env('AWS_BUCKET'),
-            'url' => env('AWS_URL'),
-            'endpoint' => env('AWS_ENDPOINT'),
-            'use_path_style_endpoint' => env('AWS_USE_PATH_STYLE_ENDPOINT', false),
-            'throw' => false,
-        ],
-        'custom_category' => [
-            'driver' => 'local',
-            'root' => public_path('img/category'),  // Pastikan ini mengarah ke folder public/img
-            'url' => env('APP_URL').'/img/category', // URL untuk mengakses file
-            'visibility' => 'public',
-        ],
-        'custom_product' => [
-            'driver' => 'local',
-            'root' => public_path('img/product'),  // Pastikan ini mengarah ke folder public/img
-            'url' => env('APP_URL').'/img/product', // URL untuk mengakses file
-            'visibility' => 'public',
-        ],
-        'custom_productgallery' => [
-            'driver' => 'local',
-            'root' => public_path('img/product/gallery'),  // Pastikan ini mengarah ke folder public/img
-            'url' => env('APP_URL').'/img/product/gallery', // URL untuk mengakses file
-            'visibility' => 'public',
-        ],
-        'custom_etalase' => [
-            'driver' => 'local',
-            'root' => public_path('img/etalase'),  // Pastikan ini mengarah ke folder public/img
-            'url' => env('APP_URL').'/img/etalase', // URL untuk mengakses file
-            'visibility' => 'public',
-        ],
-        'custom_contentcategory' => [
-            'driver' => 'local',
-            'root' => public_path('img/category/content'),  // Pastikan ini mengarah ke folder public/img
-            'url' => env('APP_URL').'/img/category/content', // URL untuk mengakses file
-            'visibility' => 'public',
-        ],
-        'custom_contentetalase' => [
-            'driver' => 'local',
-            'root' => public_path('img/etalase/content'),  // Pastikan ini mengarah ke folder public/img
-            'url' => env('APP_URL').'/img/etalase/content', // URL untuk mengakses file
-            'visibility' => 'public',
-        ],
-        'custom_video' => [
-            'driver' => 'local',
-            'root' => public_path('video'),  // Pastikan ini mengarah ke folder public/img
-            'url' => env('APP_URL').'/video', // URL untuk mengakses file
-            'visibility' => 'public',
-        ],
-
-
+    'local' => [
+        'driver' => 'local',
+        'root' => storage_path('app/private'),
+        'serve' => true,
+        'throw' => false,
     ],
+
+    'public' => [
+        'driver' => 'local',
+        'root' => base_path('../public_html'), // ubah ke public_html
+        'url' => env('APP_URL'),
+        'visibility' => 'public',
+        'throw' => false,
+    ],
+
+    'public_main' => [
+        'driver' => 'local',
+        'root' => base_path('../public_html'), // bukan public_path()
+        'url' => env('APP_URL'),
+        'visibility' => 'public',
+    ],
+
+    'public_img' => [
+        'driver' => 'local',
+        'root' => base_path('../public_html/img'),
+        'url' => env('APP_URL').'/img',
+        'visibility' => 'public',
+    ],
+
+    'custom_category' => [
+        'driver' => 'local',
+        'root' => base_path('../public_html/img/category'),
+        'url' => env('APP_URL').'/img/category',
+        'visibility' => 'public',
+    ],
+
+    'custom_product' => [
+        'driver' => 'local',
+        'root' => base_path('../public_html/img/product'),
+        'url' => env('APP_URL').'/img/product',
+        'visibility' => 'public',
+    ],
+
+    'custom_productgallery' => [
+        'driver' => 'local',
+        'root' => base_path('../public_html/img/product/gallery'),
+        'url' => env('APP_URL').'/img/product/gallery',
+        'visibility' => 'public',
+    ],
+
+    'custom_etalase' => [
+        'driver' => 'local',
+        'root' => base_path('../public_html/img/etalase'),
+        'url' => env('APP_URL').'/img/etalase',
+        'visibility' => 'public',
+    ],
+
+    'custom_contentcategory' => [
+        'driver' => 'local',
+        'root' => base_path('../public_html/img/category/content'),
+        'url' => env('APP_URL').'/img/category/content',
+        'visibility' => 'public',
+    ],
+
+    'custom_contentetalase' => [
+        'driver' => 'local',
+        'root' => base_path('../public_html/img/etalase/content'),
+        'url' => env('APP_URL').'/img/etalase/content',
+        'visibility' => 'public',
+    ],
+
+    'custom_video' => [
+        'driver' => 'local',
+        'root' => base_path('../public_html/video'),
+        'url' => env('APP_URL').'/video',
+        'visibility' => 'public',
+    ],
+    'public_invoice' => [
+        'driver' => 'local',
+        'root' => base_path('../public_html/img/invoice'), // folder tujuan
+        'url' => env('APP_URL') . '/img/invoice',          // URL akses
+        'visibility' => 'public',
+    ],
+],
 
     /*
     |--------------------------------------------------------------------------

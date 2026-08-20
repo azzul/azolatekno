@@ -1,396 +1,235 @@
 @extends('layouts.app')
 
 @section('content')
-<section id="intro">
-    <div class="video-container">
-        <!-- Initially display this image -->
-            <!-- Fallback untuk browser yang tidak support <picture> -->
-            <img id="endImage"
-     src="{{ asset('img/rental-mobil-jakarta.jpg') }}"
-     data-src-mobile="{{ asset('img/rental-mobil-jakarta-mobile.jpg') }}"
-     data-src-desktop="{{ asset('img/rental-mobil-jakarta.jpg') }}"
-     class="endImage"
-     alt="End Image">
-    </div>
-    <div class="intro-container hide fadeIn">
-        <h1 class="mb-4 pb-0 subtext show">Jasa Pembuatan Website, SEO Google, dan Integrasi AI Terbaik <br><span>Azolatekno</span></h1>
-     <p class=" pb-0 subtext show">
-  <i class="fas fa-star text-warning"></i>
-  <i class="fas fa-star text-warning"></i>
-  <i class="fas fa-star text-warning"></i>
-  <i class="fas fa-star text-warning"></i>
-  <i class="fas fa-star text-warning"></i>
-</p>
-    <p class="pb-0 subtext show">Rating 5 di Aplikasi Google Maps</p>
 
-    @php
-                $phone2 = '62';
-                $message2 = "Halo admin Azolatekno, saya mau tanya sewa mobilnya. Saya dapat info dari " . url()->current();
-                $whatsappLink2 = "https://wa.me/" . preg_replace('/[^0-9]/', '', $phone2) . "?text=" . urlencode($message2);
-            @endphp
-    <div class="welcome-buttons">
-    <a class="welcome-btn yuk-btn" href="{{ $whatsappLink2 }}">
-        <i class="fab fa-whatsapp"></i>HUBUNGI KAMI
-    </a>
-</div>
-</div>
-</section>
+@php
+    $waHref = 'https://wa.me/6287733930143?text=' . rawurlencode('Halo admin Azolatekno, saya mau konsultasi kebutuhan digital bisnis saya.');
 
-<section id="about-azolatekno" class="mtop-40">
-  <div class="custom-container pt-0 pb-0">
-    <div class="flex-row-main">
-      <div class="column-left-50">
-        <div class="section-header-left">
-          <h2>Jasa Pembuatan Website, Aplikasi, dan Integrasi AI Terpercaya Sejak 2018</h2>
+    $valueProps = [
+        [
+            'title' => 'Bukan Sekadar Bikin Website',
+            'desc' => 'Kami mulai dari riset masalah bisnis Anda dulu, baru menentukan solusi tekniknya — website, SEO, AIO, atau kombinasi ketiganya.',
+        ],
+        [
+            'title' => 'Satu Tim, Semua Kebutuhan',
+            'desc' => 'Website, SEO, AIO, social media, branding, sampai e-commerce ditangani satu tim yang saling terhubung strateginya.',
+        ],
+        [
+            'title' => 'Terukur, Bukan Janji Kosong',
+            'desc' => 'Setiap project punya target terukur: ranking, traffic, atau konversi — dilaporkan berkala, bukan sekadar serah terima website.',
+        ],
+    ];
+
+    $clients = config('clients.list');
+
+    $testimonials = [
+        [
+            'quote' => 'Keren sih, konsultasi gratis dan bener-bener diarahin saran strateginya seperti apa. Jadi plong dan tau strategi ke depannya mau gimana.',
+            'name' => 'AMS Buran',
+            'context' => 'Ulasan Google Maps · 5.0 ★',
+        ],
+        [
+            'quote' => 'Mantap. Kualitas bagus, harga relatif murah, profesional & fast respon. Lanjutkan, mantul.',
+            'name' => 'Dian Heditio',
+            'context' => 'Local Guide · Ulasan Google Maps',
+        ],
+        [
+            'quote' => 'Buat web di sini bagus, jadinya cepat dan fast respon.',
+            'name' => 'Vensensia',
+            'context' => 'Ulasan Google Maps · 5.0 ★',
+        ],
+    ];
+@endphp
+
+{{-- Hero --}}
+<section class="relative overflow-hidden bg-ink-950 pb-24 pt-36 sm:pb-28 sm:pt-44">
+    <div class="pointer-events-none absolute inset-0 bg-brand-gradient opacity-[0.85]"></div>
+    <div class="pointer-events-none absolute inset-0 opacity-[0.07]" style="background-image:radial-gradient(circle,#fff 1px,transparent 1px);background-size:26px 26px;"></div>
+    <div class="pointer-events-none absolute -left-24 top-1/3 h-72 w-72 rounded-full bg-white/10 blur-3xl"></div>
+    <div class="pointer-events-none absolute -right-16 top-10 h-80 w-80 rounded-full bg-ink-950/40 blur-3xl"></div>
+
+    <div class="container-app relative">
+        <div class="mx-auto max-w-3xl text-center">
+            <span class="eyebrow bg-white/10 text-white ring-1 ring-white/25">Agency Digital Sejak 2018</span>
+
+            <h1 class="mt-6 text-4xl font-semibold leading-tight text-white sm:text-5xl lg:text-6xl">
+                Kami Mengatasi Solusi,<br class="hidden sm:block"> Bukan Hanya Membuat Aplikasi dan Website
+            </h1>
+
+            <p class="mx-auto mt-6 max-w-xl text-base leading-relaxed text-white/80 sm:text-lg">
+                Azolatekno membantu bisnis Anda tumbuh lewat pendekatan solusi menyeluruh: website, SEO, optimasi AI/answer engine, social media, branding, dan e-commerce &mdash; bukan sekadar vendor pembuatan website.
+            </p>
+
+            <div class="mt-9 flex flex-col items-center justify-center gap-3 sm:flex-row">
+                <a href="{{ $waHref }}" target="_blank" rel="noopener" class="btn-primary w-full sm:w-auto">
+                    Konsultasi Gratis Sekarang
+                </a>
+                <a href="{{ url('/layanan') }}" class="btn-ghost-light w-full sm:w-auto">
+                    Lihat Semua Layanan
+                </a>
+            </div>
+
+            <div class="mt-8 flex items-center justify-center gap-2 text-sm text-white/80">
+                <span class="flex text-amber-400">
+                    @for ($i = 0; $i < 5; $i++)
+                        <svg class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor"><path d="M10 1.5l2.6 5.4 5.9.7-4.3 4.1 1.1 5.9L10 14.8l-5.3 2.8 1.1-5.9L1.5 7.6l5.9-.7L10 1.5z"/></svg>
+                    @endfor
+                </span>
+                <span>Rating 5.0 di Google Maps</span>
+            </div>
         </div>
-        <p>
-          Azolatekno adalah agensi digital kreatif yang telah berdiri sejak 2018, menyediakan layanan pembuatan website profesional, aplikasi custom, serta integrasi AI untuk kebutuhan bisnis modern. Kami telah dipercaya oleh berbagai perusahaan, UMKM, dan instansi untuk membangun solusi digital yang efisien dan berdaya saing.
-        </p>
-        <p>
-          Puluhan proyek website buatan kami berhasil menembus halaman pertama Google, berkat pendekatan yang menggabungkan desain elegan, performa optimal, dan strategi SEO yang tepat sasaran.
-        </p>
-        <p>
-          Komitmen kami adalah membantu Anda tumbuh melalui teknologi yang relevan dan terukur.
-        </p>
-      </div>
-    </div>
-  </div>
-</section>
 
-
-
-<section id="armada">
-    <div class="custom-container">
-        <div class="section-header">
-            <h2>Layanan Web, SEO, Digital, AI dan Course AI</h2>
-        </div>
-        <div class="product-grid">
-            @foreach($products as $product)
-                <div class="card-product">
-                    <a href="{{ url('/armada/' . $product->slug_produk) }}">
-                        <div class="product-image-wrapper">
-                            <img src="{{ asset('img/product/' . $product->image_produk) }}" alt="{{$product->nama_produk}}" loading="lazy">
-                            <!-- @foreach ($product->harga as $harga)
-                            @if($harga->diskon > 0)
-                                <div class="badge-diskon">Diskon {{ $harga->diskon }}%</div>
-                            @endif
-                             @endforeach -->
-                        </div>
-                        <div class="product-content">
-                            <p class="product-content-tittle">{{$product->nama_produk}}</p>
-
-                           {!!$product->spesifikasi!!}
-                        </div>
-                    </a>
+        <div class="mx-auto mt-16 grid max-w-3xl grid-cols-2 gap-6 sm:grid-cols-4">
+            @foreach ([['7+', 'Tahun Pengalaman'], ['50+', 'Project Selesai'], ['5.0', 'Rating Google'], ['100%', 'Konsultasi Gratis']] as [$num, $label])
+                <div class="text-center">
+                    <p class="font-display text-2xl font-semibold text-white sm:text-3xl">{{ $num }}</p>
+                    <p class="mt-1 text-xs text-white/60 sm:text-sm">{{ $label }}</p>
                 </div>
             @endforeach
         </div>
     </div>
 </section>
-<section id="partner">
-  <div class="custom-container">
-    <div class="section-header">
-      <h2>Dipercaya oleh Klien dari Berbagai Industri Sejak 2018</h2>
-      <p>Berikut adalah beberapa perusahaan dan brand yang telah mempercayakan pengembangan website, SEO, dan layanan digital lainnya kepada Azolatekno.</p>
+
+{{-- Value proposition --}}
+<section class="container-app py-20 sm:py-28">
+    <div class="reveal mx-auto max-w-2xl text-center">
+        <span class="eyebrow">Kenapa Azolatekno</span>
+        <h2 class="mt-4 text-3xl sm:text-4xl">Partner Solusi, Bukan Sekadar Vendor Teknis</h2>
+        <p class="mt-4 text-ink-500">
+            Tagline kami &mdash; <em>"Kami mengatasi Solusi bukan hanya membuat aplikasi dan website"</em> &mdash; berarti kami menempatkan diri sebagai partner pertumbuhan bisnis Anda, bukan sekadar pihak yang menyelesaikan pesanan teknis.
+        </p>
     </div>
-    <div class="partner-grid">
 
-      <div class="partner-card">
-        <div class="partner-card-content">
-          <img src="{{ asset('img/client/altra-width.webp') }}" alt="Website Perusahaan Textile Altratex Group" loading="lazy">
-          <p class="partner-caption">Altratex Group – Grup Textile Jawa Tengah, 4 Pabrik & 6 Depo</p>
-        </div>
-      </div>
-
-      <div class="partner-card">
-        <div class="partner-card-content">
-          <img src="{{ asset('img/client/merpati-width.webp') }}" alt="Website Rental Mobil Merpati Trans Jakarta" loading="lazy">
-          <p class="partner-caption">Merpati Trans – Rental Mobil Jakarta | Web + SEO</p>
-        </div>
-      </div>
-
-      <div class="partner-card">
-        <div class="partner-card-content">
-          <img src="{{ asset('img/client/fajar-width.webp') }}" alt="Fajar Rent Car Website & SEO Ads" loading="lazy">
-          <p class="partner-caption">Fajar Rent Car – Web, SEO, & Google Ads</p>
-        </div>
-      </div>
-
-      <div class="partner-card">
-        <div class="partner-card-content">
-          <img src="{{ asset('img/client/hafes-width.webp') }}" alt="Website Rental Mobil Tangerang Azolatekno" loading="lazy">
-          <p class="partner-caption">PT Hafes Megah Lestari – Rental Mobil Tangerang | Web Only</p>
-        </div>
-      </div>
-
-      <div class="partner-card">
-        <div class="partner-card-content">
-          <img src="{{ asset('img/client/sakura-width.webp') }}" alt="Toko Bahan Kaos Sakura Website Ecer Grosir" loading="lazy">
-          <p class="partner-caption">Toko Bahan Kaos Sakura – 6 Website di Jakarta, Solo, Jogja, Bali, Cirebon, Semarang</p>
-        </div>
-      </div>
-
+    <div class="mt-14 grid gap-6 sm:grid-cols-3">
+        @foreach ($valueProps as $i => $vp)
+            <div class="reveal card p-8" style="transition-delay: {{ $i * 100 }}ms">
+                <div class="flex h-11 w-11 items-center justify-center rounded-2xl bg-brand-50 text-brand-700">
+                    <span class="font-display text-lg font-semibold">{{ $i + 1 }}</span>
+                </div>
+                <h3 class="mt-5 text-lg">{{ $vp['title'] }}</h3>
+                <p class="mt-2 text-sm leading-relaxed text-ink-500">{{ $vp['desc'] }}</p>
+            </div>
+        @endforeach
     </div>
-  </div>
 </section>
 
-
-<section id="why-us">
-    <div class="custom-container">
-        <div class="section-header">
-            <h2>Kenapa Azolatekno Menjadi Pilihan Terbaik untuk Website, Aplikasi, dan Integrasi AI?</h2>
-            <p>Azolatekno adalah partner digital terpercaya sejak 2018 yang telah membantu puluhan klien mencapai posisi Top 1 Google. Beberapa website buatan kami bahkan telah direkomendasikan langsung oleh ChatGPT untuk kata kunci tertentu. Di era digital yang semakin bergeser ke AI, muncul sebagai entitas terpercaya di mesin pencari dan platform AI seperti ChatGPT adalah strategi bisnis yang wajib dilakukan.</p>
+{{-- Layanan --}}
+<section class="bg-ink-50/60 py-20 sm:py-28">
+    <div class="container-app">
+        <div class="reveal mx-auto max-w-2xl text-center">
+            <span class="eyebrow">Layanan Kami</span>
+            <h2 class="mt-4 text-3xl sm:text-4xl">Solusi Digital yang Bisa Anda Pilih</h2>
+            <p class="mt-4 text-ink-500">Mulai dari pembuatan website sampai optimasi untuk mesin pencari AI &mdash; semua bisa disesuaikan dengan kebutuhan dan skala bisnis Anda.</p>
         </div>
-        <div class="why-us-content">
 
-            <div class="why-us-item">
-                <img src="{{ asset('img/icon/custom-solution.webp') }}" alt="Pembuatan Website dan Aplikasi Sesuai Kebutuhan" loading="lazy">
-                <div class="why-us-info">
-                    <h3>Solusi Aplikasi & Website Custom</h3>
-                    <p>Setiap proyek dirancang khusus untuk memenuhi kebutuhan bisnis Anda—dari tampilan hingga fungsionalitas.</p>
-                </div>
-            </div>
-
-            <div class="why-us-item">
-                <img src="{{ asset('img/icon/seo-optimized.webp') }}" alt="Website SEO Friendly Top 1 Google" loading="lazy">
-                <div class="why-us-info">
-                    <h3>Website SEO Friendly – Banyak Masuk Halaman 1 Google</h3>
-                    <p>Website yang kami kembangkan telah terbukti menembus peringkat #1 Google di berbagai kata kunci lokal maupun nasional.</p>
-                </div>
-            </div>
-
-            <div class="why-us-item">
-                <img src="{{ asset('img/icon/ai-integration.webp') }}" alt="Integrasi Kecerdasan Buatan AI untuk Bisnis" loading="lazy">
-                <div class="why-us-info">
-                    <h3>Integrasi AI & Automasi Bisnis</h3>
-                    <p>Kami bantu bisnis Anda lebih efisien dengan solusi AI seperti chatbot, workflow otomatis, dan analitik prediktif.</p>
-                </div>
-            </div>
-
-            <div class="why-us-item">
-                <img src="{{ asset('img/icon/recognized.webp') }}" alt="Website Rekomendasi ChatGPT" loading="lazy">
-                <div class="why-us-info">
-                    <h3>Direkomendasikan oleh ChatGPT</h3>
-                    <p>Beberapa website klien Azolatekno telah muncul sebagai rekomendasi terpercaya dari ChatGPT karena struktur dan performanya yang optimal.</p>
-                </div>
-            </div>
-
-            <div class="why-us-item">
-                <img src="{{ asset('img/icon/digital-shift.webp') }}" alt="Era Digital dan AI Marketing" loading="lazy">
-                <div class="why-us-info">
-                    <h3>Bisnis Harus Hadir di Era AI</h3>
-                    <p>Dunia digital telah bergeser: kehadiran Anda tidak cukup hanya di Google. Muncul di rekomendasi platform AI seperti ChatGPT adalah langkah strategis yang kami bantu wujudkan.</p>
-                </div>
-            </div>
-
-            <div class="why-us-item">
-                <img src="{{ asset('img/icon/ai-course.webp') }}" alt="Kursus AI untuk Pemula dan Profesional" loading="lazy">
-                <div class="why-us-info">
-                    <h3>Kursus AI Praktis & Terarah</h3>
-                    <p>Azolatekno juga menyediakan pelatihan AI dengan pendekatan hands-on dan kurikulum yang disusun berdasarkan kebutuhan industri terkini—cocok untuk pemula maupun profesional.</p>
-                </div>
-            </div>
-
+        <div class="mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+            @foreach ($products as $i => $product)
+                @php
+                    $hargaMin = optional($product->harga)->min('harga');
+                @endphp
+                <a href="{{ url('/layanan/' . $product->slug_produk) }}" class="reveal card group flex flex-col overflow-hidden" style="transition-delay: {{ ($i % 3) * 100 }}ms">
+                    <div class="aspect-[16/10] w-full overflow-hidden bg-ink-100">
+                        <img
+                            src="{{ asset('img/product/' . $product->image_produk) }}"
+                            alt="{{ $product->nama_produk }}"
+                            loading="lazy"
+                            class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
+                        >
+                    </div>
+                    <div class="flex flex-1 flex-col p-6">
+                        <h3 class="text-lg">{{ $product->nama_produk }}</h3>
+                        <p class="mt-2 line-clamp-2 flex-1 text-sm text-ink-500">{{ trim(preg_replace('/\s+/', ' ', strip_tags($product->spesifikasi))) }}</p>
+                        <div class="mt-5 flex items-center justify-between">
+                            <span class="text-sm font-semibold text-brand-700">
+                                @if ($hargaMin)
+                                    Mulai Rp{{ number_format($hargaMin, 0, ',', '.') }}
+                                @else
+                                    Konsultasikan Kebutuhan
+                                @endif
+                            </span>
+                            <span class="flex h-8 w-8 items-center justify-center rounded-full bg-brand-50 text-brand-700 transition-colors group-hover:bg-brand-600 group-hover:text-white">
+                                <svg class="h-4 w-4" viewBox="0 0 20 20" fill="none"><path d="M5 10h10M11 5l5 5-5 5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                            </span>
+                        </div>
+                    </div>
+                </a>
+            @endforeach
         </div>
     </div>
 </section>
 
-<section id="testimonial">
-    <div class="custom-container">
-        <div class="section-header mbottom-20 pb-20">
-                         <h2>Apa Kata Klien tentang Azolatekno?</h2>
-      <p>Kepercayaan dari klien kami adalah bukti nyata dari kualitas layanan Azolatekno dalam membangun website, aplikasi, hingga integrasi AI yang berdampak nyata.</p>
+{{-- Klien Kami --}}
+<section class="container-app py-20 sm:py-28">
+    <div class="reveal mx-auto max-w-2xl text-center">
+        <span class="eyebrow">Klien Kami</span>
+        <h2 class="mt-4 text-3xl sm:text-4xl">Dipercaya Berbagai Bisnis dari Beragam Sektor</h2>
+        <p class="mt-4 text-ink-500">Sebagian bisnis yang sudah kami bantu wujudkan solusi digitalnya.</p>
+    </div>
+
+    <div class="mt-14 grid grid-cols-2 gap-6 sm:grid-cols-3 lg:grid-cols-5">
+        @foreach ($clients as $i => $client)
+            <div class="reveal flex h-28 items-center justify-center rounded-2xl border border-ink-100 bg-white p-5 grayscale transition-all duration-300 hover:grayscale-0 hover:shadow-soft" style="transition-delay: {{ ($i % 5) * 80 }}ms">
+                <img src="{{ asset($client['logo']) }}" alt="{{ $client['name'] }}" loading="lazy" class="max-h-14 w-auto object-contain">
+            </div>
+        @endforeach
+    </div>
+
+    <div class="reveal mt-10 text-center">
+        <a href="{{ url('/klien-kami') }}" class="btn-outline">Lihat Semua Klien Kami</a>
+    </div>
+</section>
+
+{{-- Testimonials --}}
+<section class="bg-ink-950 py-20 sm:py-28">
+    <div class="container-app">
+        <div class="reveal mx-auto max-w-2xl text-center">
+            <span class="eyebrow bg-white/10 text-white ring-1 ring-white/25">Testimoni</span>
+            <h2 class="mt-4 text-3xl text-white sm:text-4xl">Kata Klien Tentang Azolatekno</h2>
         </div>
 
-        <div class="swiper-container swiper-container-testi">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                    <div class="testimonial">
-                        <div class="stars">★★★★★</div>
-                        <p>"Web Design dan SEO nya bagus, sekarang web perusahaan textile kami sudah di halaman 1 google dan banyak yang top 1 google. Orderan kain meningkat ke WhatsApp kami hariannya capai puluhan order tanpa iklan sama sekali. Dan sudah masuk rekomendasi supplier kain terbaik di chatgpt dan AI lainnya. Keren sih totalitas banget dengan biaya yang terjangkau."</p>
-                        <h4>- Altratex Group (Group Perusahaan textile di jawa tengah dengan 4 Factory dan 6 Depo Kain Kaos di berbagai kota)</h4>
+        <div class="mt-14 grid gap-6 lg:grid-cols-3">
+            @foreach ($testimonials as $i => $t)
+                <div class="reveal rounded-3xl border border-white/10 bg-white/5 p-8" style="transition-delay: {{ $i * 100 }}ms">
+                    <svg class="h-7 w-7 text-brand-400" viewBox="0 0 32 32" fill="currentColor"><path d="M10 8c-3.3 0-6 2.7-6 6v10h10V14H8c0-1.7 1.3-3 3-3V8h-1zm14 0c-3.3 0-6 2.7-6 6v10h10V14h-6c0-1.7 1.3-3 3-3V8h-1z"/></svg>
+                    <p class="mt-5 text-sm leading-relaxed text-white/85">&ldquo;{{ $t['quote'] }}&rdquo;</p>
+                    <div class="mt-6">
+                        <p class="text-sm font-semibold text-white">{{ $t['name'] }}</p>
+                        <p class="text-xs text-white/50">{{ $t['context'] }}</p>
                     </div>
                 </div>
-                <div class="swiper-slide">
-                    <div class="testimonial">
-                        <div class="stars">★★★★★</div>
-                        <p>"Mantap. Kualitas web dan SEO nya bagus, harga relatif murah, profesional & fast respon.
-Lanjutkan lur. Mantul"</p>
-                        <h4>- Dian Heditio</h4>
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="testimonial">
-                        <div class="stars">★★★★★</div>
-                        <p>"Saya suka banget"</p>
-                        <h4>- Pribadi Welas Asih / Tarmuji - Owner Fajar Rent Car</h4>
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="testimonial">
-                        <div class="stars">★★★★★</div>
-                        <p>"mantap"</p>
-                        <h4>- Hanifan - Owner Merpati Trans</h4>
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="testimonial">
-                        <div class="stars">★★★★★</div>
-                        <p>"Kualitas, Profesionalisme, Nilai."</p>
-                        <h4>- Ghozi</h4>
-                    </div>
-                </div>
-                
-            </div>
-            <div class="swiper-pagination"></div>
-            
+            @endforeach
         </div>
-        <div class="flex-center">
-            <div class="product-buttons">
-                <a class="btn buy-btn mtop-20 mbottom-20" href="https://maps.app.goo.gl/cCtVpEtf5mTbQTuc9" target="_blank" rel="nofollow noopener noreferrer"><i class="fa-solid fa-map-pin mright-10"></i>Cek Google Maps</a>
-            </div>
+
+        <div class="reveal mt-10 text-center">
+            <a href="{{ url('/testimonial') }}" class="btn-ghost-light">Lihat Semua Testimoni</a>
         </div>
     </div>
 </section>
 
+{{-- Blog teaser --}}
+<section class="container-app py-20 sm:py-24">
+    <div class="reveal card flex flex-col items-center gap-6 p-10 text-center sm:flex-row sm:justify-between sm:text-left">
+        <div>
+            <span class="eyebrow">Insight &amp; Blog</span>
+            <h3 class="mt-3 text-2xl">Tips Website, SEO, dan AI dari Tim Kami</h3>
+            <p class="mt-2 text-sm text-ink-500">Artikel praktis seputar pengembangan web, strategi SEO, dan digital marketing.</p>
+        </div>
+        <a href="{{ url('/artikel/') }}" class="btn-primary shrink-0">Baca Artikel</a>
+    </div>
+</section>
 
- <script src="https://player.vimeo.com/api/player.js"></script>
-<script>
-     function updateImageSource() {
-    const endImage = document.getElementById("endImage");
-    const mobileSrc = endImage.getAttribute("data-src-mobile");
-    const desktopSrc = endImage.getAttribute("data-src-desktop");
-    endImage.src = window.innerWidth <= 500 ? mobileSrc : desktopSrc;
-}
+{{-- Final CTA --}}
+<section class="container-app pb-24">
+    <div class="reveal relative overflow-hidden rounded-3xl bg-brand-gradient px-8 py-16 text-center sm:px-16">
+        <div class="pointer-events-none absolute inset-0 opacity-[0.08]" style="background-image:radial-gradient(circle,#fff 1px,transparent 1px);background-size:22px 22px;"></div>
+        <div class="relative mx-auto max-w-xl">
+            <h2 class="text-3xl text-white sm:text-4xl">Siap Bertumbuh Bersama Azolatekno?</h2>
+            <p class="mt-4 text-white/85">Konsultasikan kebutuhan website, SEO, atau AI bisnis Anda sekarang &mdash; gratis, tanpa komitmen.</p>
+            <a href="{{ $waHref }}" target="_blank" rel="noopener" class="btn-ghost-light mt-8 bg-white text-brand-700 ring-0 hover:bg-white/90">
+                Mulai Konsultasi Gratis
+            </a>
+        </div>
+    </div>
+</section>
 
-    
-    window.addEventListener("resize", updateImageSource);
-
-    // Jalankan setelah load
-    window.addEventListener("load", function () {
-        const videoContainer = document.querySelector('.video-container');
-        const endImage = document.getElementById('endImage');
-
-        setTimeout(() => {
-            // Sembunyikan gambar awal
-            endImage.style.display = 'none';
-
-            // Tambahkan iframe Vimeo
-            const iframe = document.createElement('iframe');
-            iframe.id = 'introVideo';
-            iframe.src = "https://player.vimeo.com/video/1089227577?h=5dbdea13e0&autoplay=1&muted=1&loop=1&background=1";
-            iframe.frameBorder = "0";
-            iframe.allowFullscreen = true;
-            iframe.allow = "autoplay; fullscreen";
-
-            // Tambahkan styling sesuai CSS-mu
-            iframe.style.position = "absolute";
-            // iframe.style.top = "50%";
-            // iframe.style.left = "50%";
-            // iframe.style.minWidth = "110%";
-            // iframe.style.minHeight = "113%";
-            // iframe.style.width = "100%";
-            // iframe.style.height = "100%";
-            // iframe.style.transform = "translate(-50%, -50%)";
-            // iframe.style.pointerEvents = "none";
-            iframe.style.zIndex = "-1";
-
-            videoContainer.appendChild(iframe);
-
-            // Optional: kontrol dengan Vimeo Player API
-            const player = new Vimeo.Player(iframe);
-            player.on('ended', function () {
-                // jika tidak pakai loop, bisa tampilkan gambar lagi
-                iframe.style.display = 'none';
-                endImage.style.display = 'block';
-                updateImageSource;
-            });
-
-        }, 2000); // Delay 5 detik
-    });
-    // Memasukkan API YouTube IFrame
-    let tag = document.createElement('script');
-    tag.src = "https://www.youtube.com/iframe_api";
-    let firstScriptTag = document.getElementsByTagName('script')[0];
-    firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
-    // Pencarian produk dinamis
-    document.addEventListener('DOMContentLoaded', function() {
-        var mainTexts = [
-  "Jasa Teknologi Digital<br><span>Aplikasi & Website</span> Untuk Bisnis Anda",
-  "Kami Kembangkan<br><span>Web & App</span> Berbasis AI Modern",
-  "Layanan Komplit<br><span>Coding, SEO</span> Hingga AI Solution",
-  "Kursus Teknologi<br><span>Siapkan Skill</span> Untuk Masa Depan",
-  "Azolatekno<br><span>Human. Code.</span> Intelligence"
-];
-
-        var subTexts = [
-            "Karena kepuasan pelanggan adalah kebanggaan kami.",
-            "Dapatkan harga terbaik dengan belanja langsung dari pabrik.",
-            "Kami memiliki tim laboratorium terbaik untuk memberikan warna dan kualitas kain terbaik untukmu.",
-            ""
-        ];
-
-        var typed = new Typed('.typed-text', {
-            strings: mainTexts,
-            typeSpeed: 80, // Kecepatan mengetik
-            backSpeed: 0, // Kecepatan menghapus teks (0 berarti tidak ada efek hapus)
-            loop: true, // Tidak ada loop untuk menghindari animasi ulang
-            showCursor: false, // Menyembunyikan kursor
-            cursorChar: '|',
-            onStringTyped: function(index) {},
-            onComplete: function(self) {}
-        });
-    });
-
-
- 
-
-    
-</script>
-<script>
-document.addEventListener("DOMContentLoaded", function () {
-    // Initialize Swiper for Testimonial with Auto-Slide
-    const swiperTesti = new Swiper(".swiper-container-testi", {
-        slidesPerView: "auto",
-        spaceBetween: 20,
-        freeMode: true,
-        autoplay: {
-            delay: 3000, // Ganti angka ini untuk mengatur kecepatan (ms)
-            disableOnInteraction: false, // Tetap autoplay setelah user geser manual
-        },
-        loop: true, // Supaya looping terus tanpa berhenti
-        breakpoints: {
-            300: { slidesPerView: 1, spaceBetween: 10 },
-            400: { slidesPerView: 1, spaceBetween: 15 },
-            500: { slidesPerView: 1, spaceBetween: 15 },
-            768: { slidesPerView: 2, spaceBetween: 20 },
-            1024: { slidesPerView: 3, spaceBetween: 20 },
-        },
-    });
-
-    // Custom button navigation for Testimonial
-    const prevBtnTesti = document.getElementById("testi-prevBtn");
-    const nextBtnTesti = document.getElementById("testi-nextBtn");
-
-    if (prevBtnTesti && nextBtnTesti) {
-        prevBtnTesti.addEventListener("click", function () {
-            swiperTesti.slidePrev();
-        });
-
-        nextBtnTesti.addEventListener("click", function () {
-            swiperTesti.slideNext();
-        });
-    }
-});
-</script>
-
-<script>
-    function openWhatsApp() {
-        let phone = '6287733930143';
-        let message = "Halo admin Azolatekno, saya mau tanya sewa mobilnya. Saya dapat info dari " + window.location.href;
-        let whatsappLink = "https://wa.me/" + phone + "?text=" + encodeURIComponent(message);
-        
-        window.open(whatsappLink, "_blank");
-    }
-</script>
 @endsection

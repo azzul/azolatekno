@@ -20,7 +20,11 @@
                 <!-- Logo default (desktop) -->
                 <source media="(min-width: 769px)" srcset="{{ asset('img/azolatekno-width-small.webp') }}">
                 <!-- Fallback -->
-                <img src="{{ asset('img/azolatekno-width-small.webp') }}" alt="Logo Azolatekno Web SEO AI" loading="lazy">
+                <img src="{{ asset('img/azolatekno-width-small.webp') }}" alt="Logo Azolatekno Web SEO AI" width="400"
+  height="120"
+  style="max-width: 200px; height: auto; aspect-ratio: 400/120; display: block;"
+  loading="lazy" 
+  >
             </picture>
             <div class="footer-contact">
             <p>Dalon, RT 03 RW 04 Sroyo, Kec. Jaten, Kab. Karanganyar, Jawa tengah 57731<br>
@@ -37,7 +41,7 @@
             <ul>
               <li><i class="fa fa-angle-right"></i> <a href="{{ url('/') }}">Beranda</a></li>
               <li><i class="fa fa-angle-right"></i> <a href="{{ url('/about-us') }}">Tentang Kami</a></li>
-              <li><i class="fa fa-angle-right"></i> <a href="{{ url('/armada') }}">Armada Kami</a></li>
+              <li><i class="fa fa-angle-right"></i> <a href="{{ url('/layanan') }}">Layanan Kami</a></li>
               
             </ul>
           </div>
@@ -50,8 +54,16 @@
         <li>
             <i class="fa fa-angle-right"></i>
 
-            <a href="{{ url('/armada/' . $categoryFooter->slug_produk )}}">
+            <a href="{{ url('/layanan/' . $categoryFooter->slug_produk )}}">
                 {{$categoryFooter->nama_produk}}
+            </a>
+        </li>
+    @endforeach
+    @foreach($customHead as $headCustom)
+        <li>
+            <i class="fa fa-angle-right"></i>
+            <a href="{{ url('/' .$headCustom->slug_content) }}">
+                            {{ capitalizeWordsFromUppercase($headCustom->page_name)}}
             </a>
         </li>
     @endforeach
@@ -60,11 +72,15 @@
           <div class="col-lg-3 col-md-6 footer-links">
             <h4>Informasi</h4>
             <ul>
-              <li><i class="fa fa-angle-right"></i> <a href="https://wa.me/6287733930143?text=Halo%20Admin%20Hafes%20Rent%20Saya%20mau%20tanya%20cara%20sewa%20mobil%20yang%20ada%20di%20website.%20Saya%20dapat%20info%20dari%20https:/Hafesrentcar.id" target="_blank" rel="nofollow noopener noreferrer">Cara Pesan</a></li>
+              <li><i class="fa fa-angle-right"></i> <a href="https://wa.me/6287733930143?text=Halo%20Admin%20Azolatekno%20Saya%20mau%20tanya%20cara%20psan%20layanan%20digital%20yang%20ada%20di%20website.%20Saya%20dapat%20info%20dari%20https:/azolatekno.com" target="_blank" rel="nofollow noopener noreferrer">Cara Pesan</a></li>
               <li><i class="fa fa-angle-right"></i> <a href="{{ url('/privacy-policy') }}">Kebijakan Privasi & cookie</a></li>
               <li><i class="fa fa-angle-right"></i> <a href="{{ url('/terms-conditions') }}">Syarat Dan Ketentuan</a></li>
                 <li><i class="fa fa-angle-right"></i> <a href="{{ url('/license-info') }}">Informasi Lisensi</a></li>
-                <li><i class="fa fa-angle-right"></i> <a href="https://merpati-trans.id">Rekanan</a></li>
+             <li><i class="fa fa-angle-right"></i> <a href="{{ url('/tools') }}">Tools Online Gratis</a></li>
+             <li><i class="fa fa-angle-right"></i> <a href="{{ url('/tools/invoice-generator-online-gratis-pdf') }}">Buat Invoice Online Gratis</a></li>
+             <li><i class="fa fa-angle-right"></i> <a href="{{ url('/tools/hpp-calculator-online') }}">Hitung HPP Online Gratis</a></li>
+             <li><i class="fa fa-angle-right"></i> <a href="{{ url('/tools/quotation-penawaran-harga-online-gratis') }}">Buat Penawaran Online Gratis</a></li>
+             <li><i class="fa fa-angle-right"></i> <a href="{{ url('/tools/struk-online-generator') }}">Struk Online Generator</a></li>
             </ul>
           </div>
         </div>
@@ -83,14 +99,6 @@
     <i class="fab fa-whatsapp"></i>
 </a>
 
-<div class="whatsapp-options" style="display: none;">
-   <!--  <div class="whatsapp-option"><i class="fab fa-whatsapp"></i><p data-number="6281390095758">Marketing Kain area Jatim & Bali</p></div>
-     <div class="whatsapp-option"><i class="fab fa-whatsapp"></i><p data-number="6281328379339">Marketing Kain area Jawa Tengah</p></div>
-     <div class="whatsapp-option"><i class="fab fa-whatsapp"></i><p data-number="6281393734535">Marketing Kain area Jabodetabek</p></div>
-     <div class="whatsapp-option"><i class="fab fa-whatsapp"></i><p data-number="6281393734535">Marketing Kain area Jabar</p></div> -->
-     <div class="whatsapp-option"><i class="fab fa-whatsapp"></i><p data-number="6287733930143">Marketing Kain, Makloon & Printing</p></div>
-     <div class="whatsapp-option"><i class="fab fa-whatsapp"></i><p data-number="6287733930143">Marketing Plastik Opp</p></div>
-</div>
   </footer><!-- #footer -->
 
 
@@ -100,14 +108,14 @@
     Beranda
   </a>
   <div class="divider"></div>
-  <a href="{{ url('/artikel') }}">
-    <i class="fas fa-book"></i>
-    Artikel
+  <a href="{{ url('/testimonial') }}">
+    <i class="fas fa-star"></i>
+    Testimoni
   </a>
   <div class="divider"></div>
-  <a href="{{ url('/armada') }}">
-    <i class="fas fa-car"></i>
-    Armada
+  <a href="{{ url('/layanan') }}">
+    <i class="fas fa-computer"></i>
+    Layanan
   </a>
   <div class="divider"></div>
   <a href="#" class="bottom-navbar-whatsapp" id="whatsappBottom">

@@ -144,7 +144,7 @@
         <div class="product-grid">
             @foreach($products as $product)
                 <div class="card-product">
-                     <a href="{{ url('/armada/' . $product->slug_produk) }}" >
+                     <a href="{{ url('/layanan/' . $product->slug_produk) }}" >
                     <img src="{{ asset('img/product/' . $product->image_produk)}}" alt="{{$product->nama_produk}}" loading="lazy">
                     <div class="product-content">
                         <p class="product-content-tittle ">{{$product->nama_produk}}</p>

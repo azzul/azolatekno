@@ -40,7 +40,7 @@
                     <a href="https://maps.app.goo.gl/gFkE8o9RDReEhshq5" target="_blank" class="store-button" rel="nofollow noopener noreferrer">
                         <i class="fas fa-map-marker-alt"></i> Petunjuk Lokasi
                     </a>
-                    <a href="https://wa.me/6287733930143?text=Halo%20Azolatekno,%20Saya%20tertarik%20dengan%20layanan%20web%2FSEO%20%2F%20AI%20yang%20ada%20di%20website%20https://azolatekno.com" target="_blank" class="store-button" rel="nofollow noopener noreferrer">
+                    <a href="https://wa.me/6285129370703?text=Halo%20Azolatekno,%20Saya%20tertarik%20dengan%20layanan%20web%2FSEO%20%2F%20AI%20yang%20ada%20di%20website%20https://azolatekno.com" target="_blank" class="store-button" rel="nofollow noopener noreferrer">
                         <i class="fab fa-whatsapp"></i> Konsultasi via WhatsApp
                     </a>
                 </div>
@@ -52,7 +52,7 @@
                     <li>Minggu & Libur Nasional: Tetap Melayani via WhatsApp</li>
                 </ul>
                 <h3 class="operational-header text-center">Whatsapp</h3>
-                <p class="operational-hours text-center">+6287733930143</p>
+                <p class="operational-hours text-center">+6285129370703</p>
                 <p class="operational-hours text-center note pt-20">“Kami percaya masa depan dimulai dari diskusi hari ini. Hubungi Azolatekno untuk solusi digital yang relevan dengan kebutuhan Anda.”</p>
             </div>
         </div>

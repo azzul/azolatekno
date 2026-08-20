@@ -1,7 +1,7 @@
 @extends('layouts.app2')
 
 @section('content')
-<section class="terms-and-conditions" style="margin-top: 300px;">
+<section class="terms-and-conditions" >
     <div class="custom-container">
         <h1>Syarat dan Ketentuan Layanan Azolatekno</h1>
         <p>Terakhir diperbarui: 15 Agustus 2025</p>
