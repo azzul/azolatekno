@@ -1,5 +1,17 @@
-@extends('layouts.app-new-tools')
+@extends('layouts.app')
+
 @push('json-ld')
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Beranda", "item": "{{ url('/') }}" },
+    { "@type": "ListItem", "position": 2, "name": "Alat Online", "item": "{{ url('/tools') }}" },
+    { "@type": "ListItem", "position": 3, "name": "Quotation Generator Online Gratis", "item": "{{ url()->current() }}" }
+  ]
+}
+</script>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -9,220 +21,168 @@
   "applicationCategory": "BusinessApplication",
   "operatingSystem": "Any",
   "description": "Buat penawaran harga profesional dalam bentuk PDF secara gratis. Cocok untuk UMKM, startup, hingga perusahaan besar.",
-  "offers": {
-    "@type": "Offer",
-    "price": "0",
-    "priceCurrency": "IDR",
-    "category": "Free"
-  },
+  "offers": { "@type": "Offer", "price": "0", "priceCurrency": "IDR", "category": "Free" },
   "publisher": {
     "@type": "Organization",
-    "name": "Fajar Rent Car",
+    "name": "Azolatekno",
     "url": "{{ url('/') }}",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://azolatekno.com/img/azolatekno-square.webp"
-    }
+    "logo": { "@type": "ImageObject", "url": "https://azolatekno.com/img/azolatekno-square.webp" }
   }
 }
 </script>
-@endpush
-@push('json-ld')
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "FAQPage",
   "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Apa itu Quotation Penawaran Harga Online?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Quotation Penawaran Harga Online adalah tool gratis untuk membuat penawaran harga instan yang bisa diunduh dalam format PDF."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Apakah saya harus daftar akun untuk membuat quotation?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Tidak. Anda bisa langsung membuat quotation tanpa login atau registrasi."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Apakah hasil quotation atau penawaran harga bisa diunduh dalam bentuk PDF?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Ya, hasil penawaran harga dapat diunduh dalam format PDF dan langsung dibagikan ke klien."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Apakah quotation ini bisa digunakan untuk kebutuhan bisnis resmi?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Tentu. Template quotation yang dihasilkan cocok digunakan oleh UMKM, freelancer, maupun perusahaan."
-      }
-    }
+    { "@type": "Question", "name": "Apa itu Quotation Penawaran Harga Online?", "acceptedAnswer": { "@type": "Answer", "text": "Quotation Penawaran Harga Online adalah tool gratis untuk membuat penawaran harga instan yang bisa diunduh dalam format PDF." } },
+    { "@type": "Question", "name": "Apakah saya harus daftar akun untuk membuat quotation?", "acceptedAnswer": { "@type": "Answer", "text": "Tidak. Anda bisa langsung membuat quotation tanpa login atau registrasi." } },
+    { "@type": "Question", "name": "Apakah hasil quotation atau penawaran harga bisa diunduh dalam bentuk PDF?", "acceptedAnswer": { "@type": "Answer", "text": "Ya, hasil penawaran harga dapat diunduh dalam format PDF dan langsung dibagikan ke klien." } },
+    { "@type": "Question", "name": "Apakah quotation ini bisa digunakan untuk kebutuhan bisnis resmi?", "acceptedAnswer": { "@type": "Answer", "text": "Tentu. Template quotation yang dihasilkan cocok digunakan oleh UMKM, freelancer, maupun perusahaan." } }
   ]
 }
 </script>
 @endpush
+
 @section('content')
-<section id="tools">
-<div class="custom-container pt-90">
-    <h1 class="mb-4 text-center">Quotation atau Penawaran Harga Generator Online Gratis</h1>
-    <p class="text-muted text-center">
-        Buat penawaran harga profesional dalam bentuk PDF secara gratis. Cocok untuk UMKM, startup, hingga perusahaan besar.
-    </p>
 
-    <form action="{{ route('quotation.generate') }}" method="POST" enctype="multipart/form-data">
-        @csrf
-        <div class="mb-3">
-            <label>Logo Perusahaan (opsional)</label>
-            <input type="file" name="logo" class="form-control" accept="image/png,image/jpeg,image/jpg,image/webp">
-            <small class="text-muted">Format: JPG, PNG, atau WEBP. Maks 2MB.</small>
+<section class="relative overflow-hidden bg-ink-950 pb-16 pt-32 sm:pb-20 sm:pt-40">
+    <div class="pointer-events-none absolute inset-0 bg-brand-gradient opacity-[0.85]"></div>
+    <div class="pointer-events-none absolute inset-0 opacity-[0.07]" style="background-image:radial-gradient(circle,#fff 1px,transparent 1px);background-size:26px 26px;"></div>
+    <div class="container-app relative">
+        <nav class="text-sm text-white/70">
+            <a href="{{ url('/') }}" class="hover:text-white">Beranda</a>
+            <span class="mx-2">/</span>
+            <a href="{{ url('/tools') }}" class="hover:text-white">Tools</a>
+            <span class="mx-2">/</span>
+            <span class="text-white">Quotation Generator</span>
+        </nav>
+        <div class="mx-auto mt-6 max-w-2xl text-center">
+            <span class="eyebrow bg-white/10 text-white ring-1 ring-white/25">Gratis, Tanpa Login</span>
+            <h1 class="mt-5 text-3xl font-semibold text-white sm:text-4xl">Quotation / Penawaran Harga Generator Online</h1>
+            <p class="mx-auto mt-4 max-w-xl text-white/80">Buat penawaran harga profesional dalam bentuk PDF secara gratis. Cocok untuk UMKM, startup, hingga perusahaan besar.</p>
         </div>
-        <div class="mb-3">
-            <label>Dari (Perusahaan Anda)</label>
-            <textarea name="from" class="form-control" required></textarea>
-        </div>
-        <div class="mb-3">
-            <label>Kepada (Client)</label>
-            <textarea name="to" class="form-control" required></textarea>
-        </div>
-        <div class="row mb-3">
-            <div class="col">
-                <label>No. Quotation</label>
-                <input type="text" name="quotation_no" class="form-control" required>
-            </div>
-            <div class="col">
-                <label>Tanggal</label>
-                <input type="date" name="date" class="form-control" required>
-            </div>
-        </div>
-        <h4 class="mt-4">Item Penawaran</h4>
-        <div id="items-wrapper">
-            <div class="row mb-2">
-                <div class="col"><input type="text" name="items[0][desc]" placeholder="Deskripsi" class="form-control" required></div>
-                <div class="col-2"><input type="number" name="items[0][qty]" placeholder="Qty" class="form-control" required></div>
-                <div class="col-2"><input type="text" name="items[0][unit]" placeholder="Satuan" class="form-control"></div>
-                <div class="col-3"><input type="number" name="items[0][unit_price]" placeholder="Harga/Unit" class="form-control" required></div>
-            </div>
-        </div>
-        <button type="button" class="btn btn-sm btn-outline-primary mb-3" onclick="addItem()">+ Tambah Item</button>
-        <div class="mb-3">
-            <label>PPN (%)</label>
-            <input type="number" name="ppn_rate" class="form-control" placeholder="Contoh : 11. Isi 0 jika tanpa PPN">
-        </div>
-        <button type="submit" class="btn btn-success w-100">Generate PDF</button>
-    </form>
-</div>
-</section>
-
-<hr class="my-5">
-<section id="seo">
-<div class="seo-section">
-    <div class="custom-container">
-    <h2 class="mb-3">Apa Itu Quotation atau Penawaran Harga?</h2>
-    <p>
-        Quotation atau penawaran harga adalah dokumen resmi yang dibuat oleh perusahaan atau penyedia jasa untuk memberikan estimasi biaya kepada calon pelanggan. 
-        Dokumen ini biasanya mencakup detail produk atau jasa, jumlah, harga satuan, total harga, serta syarat dan ketentuan. 
-        Dengan adanya quotation, baik perusahaan maupun klien memiliki acuan tertulis yang jelas sebelum terjadi transaksi.
-    </p>
-
-    <h2 class="mt-5 mb-3">Mengapa Quotation Penting untuk Bisnis?</h2>
-    <ul>
-        <li><strong>Transparansi:</strong> Menunjukkan rincian biaya secara jelas kepada calon pelanggan.</li>
-        <li><strong>Profesional:</strong> Memberikan citra perusahaan yang lebih terpercaya di mata klien.</li>
-        <li><strong>Efisiensi:</strong> Mempercepat proses negosiasi karena sudah ada dasar harga yang tertulis.</li>
-        <li><strong>Legalitas:</strong> Dapat dijadikan dasar kesepakatan sebelum pembuatan kontrak.</li>
-    </ul>
-
-    <h2 class="mt-5 mb-3">Ciri-Ciri Quotation yang Baik</h2>
-    <p>
-        Sebuah penawaran harga yang baik sebaiknya memenuhi beberapa kriteria berikut:
-    </p>
-    <ol>
-        <li>Mencantumkan identitas perusahaan dengan jelas (nama, alamat, dan logo bila ada).</li>
-        <li>Memuat detail item barang/jasa yang ditawarkan, termasuk deskripsi, kuantitas, dan harga.</li>
-        <li>Memberikan informasi tambahan seperti pajak (PPN), diskon, dan total harga akhir.</li>
-        <li>Mudah dipahami oleh klien tanpa istilah yang membingungkan.</li>
-        <li>Menggunakan format profesional agar terlihat rapi dan resmi.</li>
-    </ol>
-
-    <h2 class="mt-5 mb-3">Contoh Penggunaan Quotation Generator Online</h2>
-    <p>
-        Dengan menggunakan <strong>Quotation Generator Online Gratis</strong>, Anda bisa membuat penawaran harga untuk berbagai kebutuhan bisnis, seperti:
-    </p>
-    <ul>
-        <li>Quotation untuk jasa sewa mobil perusahaan.</li>
-        <li>Quotation untuk penjualan produk retail atau grosir.</li>
-        <li>Quotation proyek konstruksi atau kontraktor.</li>
-        <li>Quotation untuk jasa kreatif seperti desain grafis atau digital marketing.</li>
-    </ul>
-
-    <h2 class="mt-5 mb-3">Tips Membuat Penawaran Harga yang Menarik</h2>
-    <p>
-        Selain mencantumkan harga, sebuah quotation yang menarik juga bisa menyertakan keunggulan layanan atau nilai tambah dari perusahaan Anda. 
-        Misalnya, garansi, after sales service, atau bonus tertentu. Hal ini bisa membuat calon klien lebih yakin untuk memilih penawaran Anda dibandingkan kompetitor.
-    </p>
-
-    <h2 class="mt-5 mb-3">Gunakan Quotation Generator untuk Mempermudah Bisnis Anda</h2>
-    <p>
-        Tidak perlu lagi repot membuat penawaran harga manual menggunakan Excel atau Word. 
-        Dengan tool ini, Anda bisa membuat <em>quotation</em> secara otomatis, profesional, dan langsung tersimpan dalam bentuk PDF. 
-        Cobalah sekarang juga untuk mempercepat proses bisnis Anda!
-    </p>
     </div>
-</div>
+</section>
 
-<div class="related-services mt-5 pt-4 border-top">
-    <div class="custom-container">
-    <h2 class="mb-3">Layanan Terkait untuk Mendukung Bisnis Anda</h2>
-    <p>
-        Selain menggunakan <strong>Quotation Generator Online Gratis</strong>, Anda juga bisa mengoptimalkan bisnis dengan layanan digital terbaik dari Azola Tekno, seperti:
-    </p>
-    <ul>
-        <li><a href="https://azolatekno.com/layanan/paket-web-hosting-seo" target="_blank">Paket Web Hosting SEO</a> untuk website cepat, aman, dan mudah ditemukan di Google.</li>
-        <li><a href="https://azolatekno.com/layanan/jasa-pembuatan-website" target="_blank">Jasa Pembuatan Website</a> profesional untuk UMKM, startup, maupun perusahaan besar.</li>
-        <li><a href="https://azolatekno.com/layanan/jasa-seo-google-ai" target="_blank">Jasa SEO Google AI</a> agar website Anda tampil di halaman pertama pencarian.</li>
-        <li><a href="https://azolatekno.com/layanan/course-online-ai" target="_blank">Course Online AI</a> untuk menguasai teknologi kecerdasan buatan yang sedang tren.</li>
-        <li><a href="https://azolatekno.com/layanan/layanan-integrasi-ai" target="_blank">Layanan Integrasi AI</a> agar bisnis Anda semakin efisien dengan otomatisasi modern.</li>
-        <li><a href="https://azolatekno.com/layanan/optimasi-google-maps" target="_blank">Optimasi Google Maps</a> supaya lokasi bisnis Anda lebih mudah ditemukan pelanggan.</li>
-        <li><a href="https://azolatekno.com/jasa-pembuatan-web-solo" target="_blank">Jasa Pembuatan Web Solo</a> khusus untuk pelaku usaha di wilayah Solo dan sekitarnya.</li>
-        <li><a href="https://azolatekno.com/jasa-seo-google-solo" target="_blank">Jasa SEO Google Solo</a> untuk membantu bisnis lokal bersaing di pencarian Google.</li>
-    </ul>
-    <p>
-        Semua layanan ini dirancang untuk membantu bisnis Anda tumbuh lebih cepat dan menjangkau lebih banyak pelanggan potensial. 
-        Gunakan tool gratis kami bersama layanan digital profesional agar usaha Anda semakin unggul.
-    </p>
+<section class="container-app py-16 sm:py-20">
+    <div class="reveal card mx-auto max-w-2xl p-8 sm:p-10">
+        <form action="{{ route('quotation.generate') }}" method="POST" enctype="multipart/form-data" class="space-y-5">
+            @csrf
+            <div>
+                <label class="field-label">Logo Perusahaan (opsional)</label>
+                <input type="file" name="logo" class="field-input" accept="image/png,image/jpeg,image/jpg,image/webp">
+                <p class="mt-1 text-xs text-ink-400">Format: JPG, PNG, atau WEBP. Maks 2MB.</p>
+            </div>
+            <div>
+                <label class="field-label">Dari (Perusahaan Anda)</label>
+                <textarea name="from" class="field-input" rows="3" required></textarea>
+            </div>
+            <div>
+                <label class="field-label">Kepada (Client)</label>
+                <textarea name="to" class="field-input" rows="3" required></textarea>
+            </div>
+            <div class="grid grid-cols-1 gap-4 sm:grid-cols-2">
+                <div>
+                    <label class="field-label">No. Quotation</label>
+                    <input type="text" name="quotation_no" class="field-input" required>
+                </div>
+                <div>
+                    <label class="field-label">Tanggal</label>
+                    <input type="date" name="date" class="field-input" required>
+                </div>
+            </div>
+
+            <div>
+                <h3 class="text-sm font-semibold text-ink-900">Item Penawaran</h3>
+                <div id="items-wrapper" class="mt-3 space-y-3">
+                    <div class="grid grid-cols-2 gap-3 sm:grid-cols-4">
+                        <input type="text" name="items[0][desc]" placeholder="Deskripsi" class="field-input col-span-2 sm:col-span-1" required>
+                        <input type="number" name="items[0][qty]" placeholder="Qty" class="field-input">
+                        <input type="text" name="items[0][unit]" placeholder="Satuan" class="field-input">
+                        <input type="number" name="items[0][unit_price]" placeholder="Harga/Unit" class="field-input" required>
+                    </div>
+                </div>
+                <button type="button" class="btn-outline mt-3 text-sm" onclick="addItem()">+ Tambah Item</button>
+            </div>
+
+            <div>
+                <label class="field-label">PPN (%)</label>
+                <input type="number" name="ppn_rate" class="field-input" placeholder="Contoh: 11. Isi 0 jika tanpa PPN">
+            </div>
+
+            <button type="submit" class="btn-primary w-full">Generate PDF</button>
+        </form>
     </div>
-</div>
 </section>
-<hr class="my-5">
-<section class="faq">
-    <div class="custom-container">
-  <h2>Pertanyaan yang Sering Diajukan (FAQ)</h2>
-  <div class="faq-item">
-    <button class="faq-question">Apa itu Quotation Penawaran Harga Online?</button>
-    <div class="faq-answer"><p>Quotation Penawaran Harga Online adalah tool gratis untuk membuat penawaran harga instan yang bisa diunduh dalam format PDF.</p></div>
-  </div>
-  <div class="faq-item">
-    <button class="faq-question">Apakah saya harus daftar akun untuk membuat quotation?</button>
-    <div class="faq-answer"><p>Tidak. Anda bisa langsung membuat quotation tanpa login atau registrasi.</p></div>
-  </div>
-  <div class="faq-item">
-    <button class="faq-question">Apakah hasil quotation bisa diunduh dalam bentuk PDF?</button>
-    <div class="faq-answer"><p>Ya, hasil penawaran harga dapat diunduh dalam format PDF dan langsung dibagikan ke klien.</p></div>
-  </div>
-  <div class="faq-item">
-    <button class="faq-question">Apakah quotation ini bisa digunakan untuk kebutuhan bisnis resmi?</button>
-    <div class="faq-answer"><p>Tentu. Template quotation yang dihasilkan cocok digunakan oleh UMKM, freelancer, maupun perusahaan.</p></div>
-  </div>
-  </div>
+
+<section class="bg-ink-50/60 py-16 sm:py-20">
+    <div class="container-app">
+        <div class="reveal mx-auto max-w-2xl text-center">
+            <span class="eyebrow">FAQ</span>
+            <h2 class="mt-4 text-3xl">Pertanyaan yang Sering Diajukan</h2>
+        </div>
+        <div class="faq-accordion reveal mx-auto mt-10 max-w-2xl">
+            <div class="faq-item">
+                <button class="faq-question">Apa itu Quotation Penawaran Harga Online?</button>
+                <div class="faq-answer"><p>Quotation Penawaran Harga Online adalah tool gratis untuk membuat penawaran harga instan yang bisa diunduh dalam format PDF.</p></div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question">Apakah saya harus daftar akun untuk membuat quotation?</button>
+                <div class="faq-answer"><p>Tidak. Anda bisa langsung membuat quotation tanpa login atau registrasi.</p></div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question">Apakah hasil quotation bisa diunduh dalam bentuk PDF?</button>
+                <div class="faq-answer"><p>Ya, hasil penawaran harga dapat diunduh dalam format PDF dan langsung dibagikan ke klien.</p></div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question">Apakah quotation ini bisa digunakan untuk kebutuhan bisnis resmi?</button>
+                <div class="faq-answer"><p>Tentu. Template quotation yang dihasilkan cocok digunakan oleh UMKM, freelancer, maupun perusahaan.</p></div>
+            </div>
+        </div>
+    </div>
 </section>
+
+<section class="container-app py-16 sm:py-20">
+    <article class="reveal prose prose-slate mx-auto max-w-3xl prose-headings:font-display prose-headings:font-medium prose-headings:text-ink-900 prose-a:text-brand-700 prose-strong:text-ink-900">
+        <h2>Apa Itu Quotation atau Penawaran Harga?</h2>
+        <p>Quotation atau penawaran harga adalah dokumen resmi yang dibuat oleh perusahaan atau penyedia jasa untuk memberikan estimasi biaya kepada calon pelanggan. Dokumen ini biasanya mencakup detail produk atau jasa, jumlah, harga satuan, total harga, serta syarat dan ketentuan.</p>
+
+        <h3>Mengapa Quotation Penting untuk Bisnis?</h3>
+        <ul>
+            <li><strong>Transparansi:</strong> Menunjukkan rincian biaya secara jelas kepada calon pelanggan.</li>
+            <li><strong>Profesional:</strong> Memberikan citra perusahaan yang lebih terpercaya di mata klien.</li>
+            <li><strong>Efisiensi:</strong> Mempercepat proses negosiasi karena sudah ada dasar harga yang tertulis.</li>
+            <li><strong>Legalitas:</strong> Dapat dijadikan dasar kesepakatan sebelum pembuatan kontrak.</li>
+        </ul>
+
+        <h3>Ciri-Ciri Quotation yang Baik</h3>
+        <ol>
+            <li>Mencantumkan identitas perusahaan dengan jelas (nama, alamat, dan logo bila ada).</li>
+            <li>Memuat detail item barang/jasa yang ditawarkan, termasuk deskripsi, kuantitas, dan harga.</li>
+            <li>Memberikan informasi tambahan seperti pajak (PPN), diskon, dan total harga akhir.</li>
+            <li>Mudah dipahami oleh klien tanpa istilah yang membingungkan.</li>
+            <li>Menggunakan format profesional agar terlihat rapi dan resmi.</li>
+        </ol>
+
+        <h3>Layanan Terkait untuk Mendukung Bisnis Anda</h3>
+        <p>Selain menggunakan Quotation Generator, Anda juga bisa mengoptimalkan bisnis dengan layanan digital dari Azolatekno:</p>
+        <ul>
+            <li><a href="{{ url('/layanan/paket-web-hosting-seo') }}">Paket Web Hosting + SEO</a> untuk website cepat, aman, dan mudah ditemukan di Google.</li>
+            <li><a href="{{ url('/layanan/jasa-pembuatan-website') }}">Jasa Pembuatan Website</a> profesional untuk UMKM, startup, maupun perusahaan besar.</li>
+            <li><a href="{{ url('/layanan/jasa-seo-google-ai') }}">Jasa SEO Google &amp; AI</a> agar website Anda tampil di halaman pertama pencarian.</li>
+            <li><a href="{{ url('/layanan/layanan-integrasi-ai') }}">Layanan Integrasi AI</a> agar bisnis Anda semakin efisien dengan otomatisasi modern.</li>
+        </ul>
+    </article>
+
+    <div class="reveal mt-8 text-center">
+        <a href="{{ url('/contact-us') }}" class="btn-primary">Konsultasi Gratis dengan Tim Azolatekno</a>
+    </div>
+</section>
+
+@endsection
+
+@push('scripts-bottom')
 <script>
 document.querySelectorAll(".faq-question").forEach(btn=>{
   btn.addEventListener("click",()=>{
@@ -231,21 +191,20 @@ document.querySelectorAll(".faq-question").forEach(btn=>{
     answer.style.display=answer.style.display==="block"?"none":"block";
   });
 });
-</script>
-<script>
+
 let itemIndex = 1;
 function addItem() {
     const wrapper = document.getElementById('items-wrapper');
     const row = document.createElement('div');
-    row.className = 'row mb-2';
+    row.className = 'grid grid-cols-2 gap-3 sm:grid-cols-4';
     row.innerHTML = `
-        <div class="col"><input type="text" name="items[${itemIndex}][desc]" placeholder="Deskripsi" class="form-control" required></div>
-        <div class="col-2"><input type="number" name="items[${itemIndex}][qty]" placeholder="Qty" class="form-control" required></div>
-        <div class="col-2"><input type="text" name="items[${itemIndex}][unit]" placeholder="Satuan" class="form-control"></div>
-        <div class="col-3"><input type="number" name="items[${itemIndex}][unit_price]" placeholder="Harga/Unit" class="form-control" required></div>
+        <input type="text" name="items[${itemIndex}][desc]" placeholder="Deskripsi" class="field-input col-span-2 sm:col-span-1" required>
+        <input type="number" name="items[${itemIndex}][qty]" placeholder="Qty" class="field-input">
+        <input type="text" name="items[${itemIndex}][unit]" placeholder="Satuan" class="field-input">
+        <input type="number" name="items[${itemIndex}][unit_price]" placeholder="Harga/Unit" class="field-input" required>
     `;
     wrapper.appendChild(row);
     itemIndex++;
 }
 </script>
-@endsection
+@endpush

@@ -6,9 +6,9 @@
 <footer class="relative overflow-hidden bg-ink-950 pb-10 pt-20 text-ink-300">
     <div class="pointer-events-none absolute -top-40 right-0 h-96 w-96 rounded-full bg-brand-600/20 blur-3xl"></div>
 
-    <div class="container-app relative grid grid-cols-1 gap-12 sm:grid-cols-2 lg:grid-cols-5">
-        <div class="sm:col-span-2 lg:col-span-1">
-            <img src="{{ asset('img/azolatekno-width-white.webp') }}" alt="Azolatekno" class="h-9 w-auto" loading="lazy">
+    <div class="container-app relative grid grid-cols-1 gap-12 sm:grid-cols-2 lg:grid-cols-6">
+        <div class="sm:col-span-2 lg:col-span-2">
+            <img src="{{ asset('img/azolatekno-width.webp') }}" alt="Azolatekno" class="h-9 w-auto" style="filter: brightness(0) invert(1);" loading="lazy">
             <p class="mt-4 max-w-xs text-sm leading-relaxed text-ink-400">
                 Partner solusi digital &mdash; website, SEO, AIO, dan integrasi AI untuk bisnis Anda tumbuh lebih cepat.
             </p>
@@ -24,15 +24,15 @@
             </div>
         </div>
 
-        <div>
+        <div class="lg:col-span-2">
             <p class="text-sm font-semibold uppercase tracking-wider text-white">Layanan</p>
-            <ul class="mt-4 space-y-2.5 text-sm">
-                <li><a href="{{ url('/layanan') }}" class="font-semibold text-white hover:text-brand-400">Semua Layanan</a></li>
+            <a href="{{ url('/layanan') }}" class="mt-4 inline-block text-sm font-semibold text-brand-400 hover:text-brand-300">Semua Layanan &rarr;</a>
+            <ul class="mt-3 grid grid-cols-1 gap-x-6 gap-y-2.5 text-sm sm:grid-cols-2">
                 @foreach ($footerCategory ?? [] as $service)
                     <li><a href="{{ url('/layanan/' . $service->slug_produk) }}" class="hover:text-brand-400">{{ $service->nama_produk }}</a></li>
                 @endforeach
-                <li><a href="{{ url('/pricelist') }}" class="hover:text-brand-400">Daftar Harga</a></li>
             </ul>
+            <a href="{{ url('/pricelist') }}" class="mt-3 inline-block text-sm hover:text-brand-400">Daftar Harga &rarr;</a>
         </div>
 
         <div>

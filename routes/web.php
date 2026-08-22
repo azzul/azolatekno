@@ -24,20 +24,32 @@ Route::get('/tools', [HomeController::class, 'tools'])->name('tools');
 //SITEMAP
 Route::get('/sitemap', [SitemapController::class, 'generate'])->name('sitemap');
 
-Route::get('/tools/invoice-generator-online-gratis-pdf', [HomeController::class, 'indexInvoice'])->name('invoice.index');
+Route::get('/tools/invoice-generator-online-gratis-pdf', [HomeController::class, 'indexInvoice'])
+    ->name('invoice.index')
+    ->middleware(DoNotCacheResponse::class); // form CSRF token — jangan di-cache, lihat catatan struk.index
 
 Route::post('/tools/invoice-generator-online-gratis-pdf', [HomeController::class, 'generateInvoice'])->name('invoice.generate');
-Route::get('/tools/hpp-calculator-online', [HomeController::class, 'indexHpp'])->name('hpp.index');
+Route::get('/tools/hpp-calculator-online', [HomeController::class, 'indexHpp'])
+    ->name('hpp.index')
+    ->middleware(DoNotCacheResponse::class); // form CSRF token — jangan di-cache, lihat catatan struk.index
 Route::post('/tools/hpp-calculator-online', [HomeController::class, 'calculateHpp'])->name('hpp.calculate');
 
 
 // Route::get('/tools/quotation-penawaran-harga-online-gratis', function () {
 //     return 'sukses';
 // })->name('quotation.index');
-Route::get('/tools/quotation-penawaran-harga-online-gratis', [HomeController::class, 'indexPenawaran'])->name('quotation.index');
+Route::get('/tools/quotation-penawaran-harga-online-gratis', [HomeController::class, 'indexPenawaran'])
+    ->name('quotation.index')
+    ->middleware(DoNotCacheResponse::class); // form CSRF token — jangan di-cache, lihat catatan struk.index
 Route::post('/tools/quotation-penawaran-harga-online-gratis', [HomeController::class, 'generatePenawaran'])->name('quotation.generate');
 
-Route::get('/tools/struk-online-generator', [HomeController::class, 'indexStruk'])->name('struk.index');
+Route::get('/tools/struk-online-generator', [HomeController::class, 'indexStruk'])
+    ->name('struk.index')
+    ->middleware(DoNotCacheResponse::class); // Halaman ini punya form + token CSRF di meta tag.
+    // Kalau di-cache, semua pengunjung dapat HTML yang sama persis termasuk token CSRF
+    // milik sesi pengunjung PERTAMA yang me-request halaman ini — pengunjung lain akan
+    // gagal submit form (419 Page Expired) karena token di halaman tidak cocok dengan
+    // token sesi mereka sendiri. Sudah diverifikasi reproducible sebelum fix ini.
 // Generate PDF
 Route::post('/tools/struk-online-generator/pdf', [HomeController::class, 'generatePdfStruk'])->name('struk.pdf');
 // Print via RawBT (Bluetooth)

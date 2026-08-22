@@ -1,7 +1,28 @@
-@extends('layouts.app-detail')
+@extends('layouts.app')
+
+@php
+    $waHref = 'https://wa.me/6285129370703?text=' . rawurlencode('Halo admin Azolatekno, saya mau tanya ' . $product->nama_produk . '. Saya dapat info dari ' . url()->current());
+    $hargaMin = optional($product->harga)->min('harga');
+
+    // Extract FAQ Q&A pairs embedded in long_desc (schema.org microdata) to build JSON-LD.
+    $faqItems = [];
+    if (preg_match_all(
+        '/<h3[^>]*itemprop="name"[^>]*>(.*?)<\/h3>.*?itemprop="text"[^>]*>(.*?)<\/div>/s',
+        $product->long_desc ?? '',
+        $faqMatches,
+        PREG_SET_ORDER
+    )) {
+        foreach ($faqMatches as $match) {
+            $faqItems[] = [
+                'question' => trim(strip_tags($match[1])),
+                'answer' => trim(strip_tags($match[2])),
+            ];
+        }
+    }
+@endphp
+
 @push('preload')
-    <link rel="preload" as="image" href="{{asset('img/product/' .$product->image_produk)}}" fetchpriority="high" imagesrcset="{{asset('img/product/' .$product->image_produk)}}" imagesizes="100vw">
-    <link rel="preload" as="image" href="{{ asset('img/azolatekno-square.webp') }}">
+    <link rel="preload" as="image" href="{{ asset('img/product/' . $product->image_produk) }}" fetchpriority="high">
 @endpush
 
 @push('json-ld')
@@ -10,201 +31,164 @@
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   "itemListElement": [
-    {
-      "@type": "ListItem",
-      "position": 1,
-      "name": "Beranda",
-      "item": "{{ url('/') }}"
-    },
-    {
-      "@type": "ListItem",
-      "position": 2,
-      "name": "Layanan",
-      "item": "{{ url('/layanan') }}"
-    },
-    {
-      "@type": "ListItem",
-      "position": 3,
-      "name": "{{ $product->nama_produk }}"
-    }
+    { "@type": "ListItem", "position": 1, "name": "Beranda", "item": "{{ url('/') }}" },
+    { "@type": "ListItem", "position": 2, "name": "Layanan", "item": "{{ url('/layanan') }}" },
+    { "@type": "ListItem", "position": 3, "name": "{{ $product->nama_produk }}", "item": "{{ url()->current() }}" }
   ]
 }
 </script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": {!! json_encode($product->nama_produk) !!},
+  "description": {!! json_encode($product->desc_meta ?: strip_tags($product->spesifikasi ?? '')) !!},
+  "url": {!! json_encode(url()->current()) !!},
+  "image": {!! json_encode(asset('img/product/' . $product->image_produk)) !!},
+  "provider": {
+    "@type": "Organization",
+    "name": "Azolatekno",
+    "url": "https://azolatekno.com",
+    "telephone": "+6285129370703",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Dalon, RT 03 RW 04 Sroyo, Kec. Jaten",
+      "addressLocality": "Karanganyar",
+      "addressRegion": "Jawa Tengah",
+      "postalCode": "57731",
+      "addressCountry": "ID"
+    }
+  },
+  "areaServed": "ID"
+  @if ($hargaMin)
+  ,"offers": {
+    "@type": "Offer",
+    "priceCurrency": "IDR",
+    "price": "{{ (int) $hargaMin }}",
+    "availability": "https://schema.org/InStock",
+    "url": {!! json_encode(url()->current()) !!}
+  }
+  @endif
+}
+</script>
+@if (count($faqItems))
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    @foreach ($faqItems as $i => $faq)
+    {
+      "@type": "Question",
+      "name": {!! json_encode($faq['question']) !!},
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": {!! json_encode($faq['answer']) !!}
+      }
+    }@if (!$loop->last),@endif
+    @endforeach
+  ]
+}
+</script>
+@endif
 @endpush
-@section('content')
-<section id="breadcrumb-section-about" >
-        <div class="custom-container">
-            <div class="breadcrumb-text">
-                 <a href="{{ url('/') }}">Beranda</a> / 
-                 <a href="{{ url('/layanan') }}">Layanan</a> / 
-                <span class="W-500">{{$product->nama_produk}}</span>
-            </div>
-        </div>
-    </section>
 
-<section id="detail-product" class="mtop-0">
-    <div class="custom-container">
-        <div class="section-header-left mtop-0">
-                    <h1>{{$product->nama_produk}}</h1> 
-                </div>
-        <div class="flex-content">
-            <div class="main-content-image">
-                <div class="image-wrapper"> 
-                <x-responsive-img 
-                    src="{{ asset('img/product/' . $product->image_produk) }}"
-                    alt="{{ $product->nama_produk }}"
-                    loading="eager"
-                    class="hero-img"
-                />
-            </div>
-            
-            <!--@if(!$isMobile)-->
-            <div class="sidebar pt-0" id="sidebar-azolatekno">
-                <div class="card-sidebar">
-                    <img src="{{ asset('img/azolatekno-square.webp') }}" 
-                         alt="Logo Azolatekno" 
-                         width="250" 
-                         height="250">
-            
-                    <div class="card-content">
-                        <h2 class="card-content-tittle">
-                            Azolatekno - Layanan Web, SEO, Digital, AI dan Course AI
-                        </h2>
-                        <div class="flex-icon-text">
-                            <div class="btn-social"><i class="fab fa-whatsapp"></i></div>
-                            @php
-                                $phone = '6285129370703';
-                                $message = "Halo admin Azolatekno, saya mau tanya " . $product->nama_produk . ". Saya dapat info dari " . url()->current();
-                                $whatsappLink = "https://wa.me/" . preg_replace('/[^0-9]/', '', $phone) . "?text=" . urlencode($message);
-                            @endphp
-                            <a href="{{ $whatsappLink }}" target="_blank">085129370703</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--@endif-->
+@section('content')
+
+{{-- Hero --}}
+<section class="relative overflow-hidden bg-ink-950 pb-16 pt-32 sm:pb-20 sm:pt-40">
+    <div class="pointer-events-none absolute inset-0 bg-brand-gradient opacity-[0.85]"></div>
+    <div class="pointer-events-none absolute inset-0 opacity-[0.07]" style="background-image:radial-gradient(circle,#fff 1px,transparent 1px);background-size:26px 26px;"></div>
+
+    <div class="container-app relative">
+        <nav class="text-sm text-white/70">
+            <a href="{{ url('/') }}" class="hover:text-white">Beranda</a>
+            <span class="mx-2">/</span>
+            <a href="{{ url('/layanan') }}" class="hover:text-white">Layanan</a>
+            <span class="mx-2">/</span>
+            <span class="text-white">{{ $product->nama_produk }}</span>
+        </nav>
+
+        <div class="mx-auto mt-6 max-w-2xl text-center">
+            <span class="eyebrow bg-white/10 text-white ring-1 ring-white/25">Layanan</span>
+            <h1 class="mt-5 text-3xl font-semibold text-white sm:text-4xl">{{ $product->nama_produk }}</h1>
+            @if (!empty($product->spesifikasi))
+                <p class="mx-auto mt-4 max-w-xl text-white/80">{{ trim(preg_replace('/\s+/', ' ', strip_tags($product->spesifikasi))) }}</p>
+            @endif
         </div>
-        <div class="main-content-detail">
-            <div class="content-detail-wrapper">
-                {!!$product->long_desc!!}
-            </div>
-        </div>
-        
     </div>
 </section>
-<section id="recomendations">
-    <div class="custom-container">
-        <div class="recomendation" data-title="Lainnya">
-            <div class="pricelist-badge"><h2><i class="fas fa-shuffle"></i> REKOMENDASI LAYANAN LAINNYA<h2></div>
+
+<section class="container-app py-16 sm:py-20">
+    <div class="grid gap-10 lg:grid-cols-3">
+        <div class="lg:col-span-2">
+            <div class="reveal aspect-[16/9] w-full overflow-hidden rounded-3xl bg-ink-100">
+                <x-product-image :product="$product" class="h-full w-full object-cover" />
+            </div>
+
+            <article class="reveal prose prose-slate mt-10 max-w-none prose-headings:font-display prose-headings:font-medium prose-headings:text-ink-900 prose-a:text-brand-700 prose-strong:text-ink-900">
+                {!! $product->long_desc !!}
+            </article>
         </div>
 
-<!--                 <div class="slider-wrapper-latest">
-            <div class="latest-product-slider"> -->
-        <div class="swiper-container-latest">
-            <div class="swiper-wrapper latest-product-container">
-                @foreach ($recomendations as $recomendation)
-
-                    <div class="swiper-slide card-product">
-                     <a href="{{ url('/layanan/' . $recomendation->slug_produk) }}">
-                         <x-responsive-img 
-                            src="{{ asset('img/product/' . $recomendation->image_produk) }}"
-                            alt="{{$recomendation->nama_produk}}"
-                            class="card-product-img"
-                            loading="lazy"
-                        />
-                    <div class="product-content">
-                        <p class="product-content-tittle ">{{$recomendation->nama_produk}}</p>
-                         @foreach ($recomendation->harga as $harga)
-                        <div class="description">Unit terbatas, pastikan Anda jadi yang pertama!</div>
-                        <!-- <p class="product-content-price ">Rp {{ number_format($harga->harga, 0, ',', '.') }}</p> -->
-                      @endforeach
-                        {!!$product->spesifikasi!!}
-                        <div class="product-buttons">
-                            @php
-                                $phone = '6285129370703';
-                                $message = "Halo admin Azolatekno, saya mau tanya " . $recomendation->nama_produk . ". Saya dapat info dari " . url()->current();
-                                $whatsappChat = "https://wa.me/" . preg_replace('/[^0-9]/', '', $phone) . "?text=" . urlencode($message);
-                            @endphp
-                                <a class="btn buy-btn" href="{{$whatsappChat}}" target="_blank" rel="nofollow noopener noreferrer">Hubungi Kami</a>
-                                <!-- <button class="btn sample-btn">Sample Gratis</button> -->
-                            </div>
-                        </div>
-                         </a>
-                    </div>
-                @endforeach
+        <aside class="lg:col-span-1">
+            <div class="reveal card sticky top-28 p-8">
+                @if ($hargaMin)
+                    <p class="text-xs font-semibold uppercase tracking-wider text-ink-400">Mulai Dari</p>
+                    <p class="mt-1 text-3xl font-semibold text-brand-700">Rp{{ number_format($hargaMin, 0, ',', '.') }}</p>
+                @endif
+                <a href="{{ $waHref }}" target="_blank" rel="noopener" class="btn-primary mt-6 w-full">
+                    Konsultasi via WhatsApp
+                </a>
+                <a href="tel:+6285129370703" class="btn-outline mt-3 w-full">
+                    +62 851 2937 0703
+                </a>
+                <div class="mt-6 space-y-2 border-t border-ink-100 pt-6 text-sm text-ink-500">
+                    <p>&bull; Konsultasi gratis, tanpa komitmen</p>
+                    <p>&bull; Dikerjakan tim Azolatekno sejak 2018</p>
+                    <p>&bull; Rating 5,0 di Google Maps</p>
+                </div>
             </div>
-            </div>
-            <div class="latest-product-navigation">
-                <button id="latest-prevBtn" aria-label="Previous">
-                    <i class="fas fa-chevron-left"></i>
-                </button>
-                <button id="latest-nextBtn" aria-label="Next">
-                    <i class="fas fa-chevron-right"></i>
-                </button>
-            </div> 
-        </div>
-
+        </aside>
+    </div>
 </section>
 
-<script>
- document.addEventListener('DOMContentLoaded', function () {
-    // Initialize Swiper
-    const swiper = new Swiper('.swiper-container-latest', {
-        slidesPerView: 'auto',
-        spaceBetween: 20,
-        navigation: false, // Disable default Swiper navigation
-        breakpoints: {
-            300: {
-                slidesPerView: 1,
-                spaceBetween: 10,
-            },
-            400: {
-                slidesPerView: 1,
-                spaceBetween: 15,
-            },
-            500: {
-                slidesPerView: 2,
-                spaceBetween: 15,
-            },
-            768: {
-                slidesPerView: 3,
-                spaceBetween: 20,
-            },
-            1024: {
-                slidesPerView: 4,
-                spaceBetween: 20,
-            }
-        },
-        freeMode: true, // Enable free scrolling mode
-    });
+@if (count($recomendations))
+<section class="bg-ink-50/60 py-16 sm:py-20">
+    <div class="container-app">
+        <div class="reveal mx-auto max-w-2xl text-center">
+            <span class="eyebrow">Layanan Lainnya</span>
+            <h2 class="mt-4 text-3xl">Rekomendasi Layanan Lain untuk Anda</h2>
+        </div>
 
-    // Custom button navigation
-    const prevBtn = document.getElementById('latest-prevBtn');
-    const nextBtn = document.getElementById('latest-nextBtn');
+        <div class="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+            @foreach ($recomendations->where('slug_produk', '!=', $product->slug_produk)->take(3) as $i => $rec)
+                <a href="{{ url('/layanan/' . $rec->slug_produk) }}" class="reveal card group flex flex-col overflow-hidden" style="transition-delay: {{ ($i % 3) * 100 }}ms">
+                    <div class="aspect-[16/10] w-full overflow-hidden bg-ink-100">
+                        <x-product-image :product="$rec" class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105" />
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-lg">{{ $rec->nama_produk }}</h3>
+                        <p class="mt-2 line-clamp-2 text-sm text-ink-500">{{ trim(preg_replace('/\s+/', ' ', strip_tags($rec->spesifikasi))) }}</p>
+                    </div>
+                </a>
+            @endforeach
+        </div>
+    </div>
+</section>
+@endif
 
-    prevBtn.addEventListener('click', function () {
-        swiper.slidePrev(); // Use swiper instance
-    });
-
-    nextBtn.addEventListener('click', function () {
-        swiper.slideNext(); // Use swiper instance
-    });
-});
-
-
-</script>
-<script>
-    document.addEventListener("DOMContentLoaded", function () {
-    document.querySelectorAll(".pricelist-detail").forEach(function (element) {
-        let title = element.getAttribute("data-title");
-        let badge = document.createElement("span");
-
-        badge.classList.add("pricelist-badge");
-        badge.innerHTML = `<h2><i class="fas fa-tag"></i> Harga ${title}<h2>`;
-
-        element.appendChild(badge);
-    });
-});
-</script>
+<section class="container-app py-16 sm:py-20">
+    <div class="reveal relative overflow-hidden rounded-3xl bg-brand-gradient px-8 py-16 text-center sm:px-16">
+        <div class="pointer-events-none absolute inset-0 opacity-[0.08]" style="background-image:radial-gradient(circle,#fff 1px,transparent 1px);background-size:22px 22px;"></div>
+        <div class="relative mx-auto max-w-xl">
+            <h2 class="text-3xl text-white sm:text-4xl">Tertarik dengan {{ $product->nama_produk }}?</h2>
+            <p class="mt-4 text-white/85">Konsultasikan kebutuhan Anda sekarang &mdash; gratis, tanpa komitmen.</p>
+            <a href="{{ $waHref }}" target="_blank" rel="noopener" class="btn-ghost-light mt-8 bg-white text-brand-700 ring-0 hover:bg-white/90">
+                Konsultasi Gratis Sekarang
+            </a>
+        </div>
+    </div>
+</section>
 
 @endsection

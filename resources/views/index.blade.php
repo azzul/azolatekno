@@ -24,18 +24,18 @@
 
     $testimonials = [
         [
-            'quote' => 'Keren sih, konsultasi gratis dan bener-bener diarahin saran strateginya seperti apa. Jadi plong dan tau strategi ke depannya mau gimana.',
-            'name' => 'AMS Buran',
-            'context' => 'Ulasan Google Maps · 5.0 ★',
+            'quote' => 'Web design dan SEO-nya bagus, sekarang web perusahaan textile kami sudah di halaman 1 Google dan banyak yang top 1. Orderan kain meningkat ke WhatsApp hariannya capai puluhan order tanpa iklan sama sekali, dan sudah masuk rekomendasi supplier kain terbaik di ChatGPT dan AI lainnya.',
+            'name' => 'Altratex Group',
+            'context' => 'Klien · Industri Tekstil Terintegrasi',
         ],
         [
-            'quote' => 'Mantap. Kualitas bagus, harga relatif murah, profesional & fast respon. Lanjutkan, mantul.',
+            'quote' => 'Mantap. Kualitas bagus, harga relatif murah, profesional & fast respon. Lanjutkan lur, mantul.',
             'name' => 'Dian Heditio',
             'context' => 'Local Guide · Ulasan Google Maps',
         ],
         [
-            'quote' => 'Buat web di sini bagus, jadinya cepat dan fast respon.',
-            'name' => 'Vensensia',
+            'quote' => 'Keren sih, konsultasi gratis dan bener-bener diarahin saran strateginya seperti apa. Jadi plong dan tau strategi ke depannya mau gimana.',
+            'name' => 'AMS Buran',
             'context' => 'Ulasan Google Maps · 5.0 ★',
         ],
     ];
@@ -129,12 +129,7 @@
                 @endphp
                 <a href="{{ url('/layanan/' . $product->slug_produk) }}" class="reveal card group flex flex-col overflow-hidden" style="transition-delay: {{ ($i % 3) * 100 }}ms">
                     <div class="aspect-[16/10] w-full overflow-hidden bg-ink-100">
-                        <img
-                            src="{{ asset('img/product/' . $product->image_produk) }}"
-                            alt="{{ $product->nama_produk }}"
-                            loading="lazy"
-                            class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
-                        >
+                        <x-product-image :product="$product" class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105" />
                     </div>
                     <div class="flex flex-1 flex-col p-6">
                         <h3 class="text-lg">{{ $product->nama_produk }}</h3>
@@ -165,19 +160,42 @@
         <h2 class="mt-4 text-3xl sm:text-4xl">Dipercaya Berbagai Bisnis dari Beragam Sektor</h2>
         <p class="mt-4 text-ink-500">Sebagian bisnis yang sudah kami bantu wujudkan solusi digitalnya.</p>
     </div>
+</section>
 
-    <div class="mt-14 grid grid-cols-2 gap-6 sm:grid-cols-3 lg:grid-cols-5">
-        @foreach ($clients as $i => $client)
-            <div class="reveal flex h-28 items-center justify-center rounded-2xl border border-ink-100 bg-white p-5 grayscale transition-all duration-300 hover:grayscale-0 hover:shadow-soft" style="transition-delay: {{ ($i % 5) * 80 }}ms">
-                <img src="{{ asset($client['logo']) }}" alt="{{ $client['name'] }}" loading="lazy" class="max-h-14 w-auto object-contain">
-            </div>
-        @endforeach
+@php
+    $clientsMid = (int) ceil(count($clients) / 2);
+    $clientsRow1 = array_slice($clients, 0, $clientsMid);
+    $clientsRow2 = array_slice($clients, $clientsMid);
+@endphp
+
+<div class="marquee-viewport reveal relative space-y-4 overflow-hidden py-2 [mask-image:linear-gradient(90deg,transparent,#000_8%,#000_92%,transparent)]">
+    <div class="marquee-track flex w-max items-center gap-6">
+        @for ($rep = 0; $rep < 2; $rep++)
+            @foreach ($clientsRow1 as $client)
+                <div class="flex h-36 w-64 shrink-0 items-center justify-center rounded-2xl border border-ink-100 bg-white p-6 grayscale transition-all duration-300 hover:grayscale-0 hover:shadow-soft">
+                    <img src="{{ asset($client['logo']) }}" alt="{{ $client['name'] }}" loading="lazy" class="max-h-20 w-auto object-contain">
+                </div>
+            @endforeach
+        @endfor
     </div>
+    @if (count($clientsRow2))
+        <div class="marquee-track-reverse flex w-max items-center gap-6">
+            @for ($rep = 0; $rep < 2; $rep++)
+                @foreach ($clientsRow2 as $client)
+                    <div class="flex h-36 w-64 shrink-0 items-center justify-center rounded-2xl border border-ink-100 bg-white p-6 grayscale transition-all duration-300 hover:grayscale-0 hover:shadow-soft">
+                        <img src="{{ asset($client['logo']) }}" alt="{{ $client['name'] }}" loading="lazy" class="max-h-20 w-auto object-contain">
+                    </div>
+                @endforeach
+            @endfor
+        </div>
+    @endif
+</div>
 
+<div class="container-app pb-20 sm:pb-28">
     <div class="reveal mt-10 text-center">
         <a href="{{ url('/klien-kami') }}" class="btn-outline">Lihat Semua Klien Kami</a>
     </div>
-</section>
+</div>
 
 {{-- Testimonials --}}
 <section class="bg-ink-950 py-20 sm:py-28">

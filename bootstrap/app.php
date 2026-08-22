@@ -11,8 +11,10 @@ return Application::configure(basePath: dirname(__DIR__))
         health: '/up',
     )
     ->withMiddleware(function (Middleware $middleware) {
-        //
-         $middleware->append(\App\Http\Middleware\CacheResponse::class);
+        // Didaftarkan ke grup 'web' (bukan append() global) supaya route sudah
+        // ter-resolve saat middleware ini jalan — dibutuhkan supaya CacheResponse
+        // bisa mengecek middleware DoNotCacheResponse pada route saat ini.
+        $middleware->web(append: [\App\Http\Middleware\CacheResponse::class]);
     })
     ->withExceptions(function (Exceptions $exceptions) {
         //

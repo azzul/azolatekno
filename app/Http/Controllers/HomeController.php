@@ -58,6 +58,7 @@ class HomeController extends Controller
         });
 
         $products = Produk::select('kode_produk', 'slug_produk', 'image_produk', 'nama_produk', 'spesifikasi')
+            ->where('is_available', 'Y')
             ->with(['harga:id_harga,kode_produk,harga,diskon'])
             ->get();
         //dd($products);
@@ -78,18 +79,19 @@ class HomeController extends Controller
 
         $products = Cache::remember("produk_list", 30 * 60, function () {
                 return  Produk::select('kode_produk', 'slug_produk', 'image_produk', 'nama_produk', 'spesifikasi')
+            ->where('is_available', 'Y')
             ->with(['harga:id_harga,kode_produk,harga,diskon'])
             ->get();
         });
-        
+
      $footerCategory = Cache::remember('footerCategory', 30 * 60, function() {
             return Produk::select('nama_produk', 'slug_produk')->where('is_available', 'Y')->get();
         });
     $customHead = Cache::remember('customHead', 30 * 60, function() {
             return CustomContent::select('page_name', 'slug_content')->get();
             });
-    
-      
+
+
         return view('model', compact('meta',  'footerCategory', 'products', 'customHead'));
     }
 
@@ -115,6 +117,7 @@ class HomeController extends Controller
         
         $recomendations = Cache::remember("recomendations_{$slug_produk}", 30 * 60, function () {
             return Produk::select('kode_produk', 'slug_produk', 'image_produk', 'nama_produk', 'spesifikasi')
+                ->where('is_available', 'Y')
                 ->with(['harga:id_harga,kode_produk,harga,diskon'])
                 ->get();
         });
@@ -136,7 +139,9 @@ class HomeController extends Controller
         $meta = MetaTag::where('page', 'pricelist')->first();
 
         
-        $prices = Harga::with(['produk', 'jenisHarga'])->get();
+        $prices = Harga::whereHas('produk', function ($q) {
+            $q->where('is_available', 'Y');
+        })->with(['produk', 'jenisHarga'])->get();
      $footerCategory = Cache::remember('footerCategory', 30 * 60, function() {
             return Produk::select('nama_produk', 'slug_produk')->where('is_available', 'Y')->get();
         });
@@ -171,7 +176,7 @@ public function pricelistPdf()
     {
         
         $meta = MetaTag::where('page', 'testimonial')->first();
-        $products = Produk::with(['harga' => function ($query) {
+        $products = Produk::where('is_available', 'Y')->with(['harga' => function ($query) {
             $query->where('kode_jharga', '12JAMSPR');
         }])->with('harga.jenisHarga')->get();
      $footerCategory = Cache::remember('footerCategory', 30 * 60, function() {
@@ -807,6 +812,7 @@ public function stores()
         
         $products = Cache::remember("produk_index", 30 * 60, function () {
             return Produk::select('kode_produk','slug_produk','image_produk','nama_produk','spesifikasi','updated_at')
+                ->where('is_available', 'Y')
                 ->with(['harga:id_harga,kode_produk,harga,diskon'])
                 ->get();
         });
@@ -1316,6 +1322,7 @@ public function stores()
         });
         $products = Cache::remember("produk_index", 30 * 60, function () {
             return Produk::select('kode_produk','slug_produk','image_produk','nama_produk','spesifikasi','updated_at')
+                ->where('is_available', 'Y')
                 ->with(['harga:id_harga,kode_produk,harga,diskon'])
                 ->get();
         });

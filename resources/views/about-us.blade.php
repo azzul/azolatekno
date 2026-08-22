@@ -1,4 +1,4 @@
-@extends('layouts.app2')
+@extends('layouts.app')
 
 @push('json-ld')
 <script type="application/ld+json">
@@ -6,157 +6,155 @@
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   "itemListElement": [
-    {
-      "@type": "ListItem",
-      "position": 1,
-      "name": "Beranda",
-      "item": "{{ url('/') }}"
-    },
-    {
-      "@type": "ListItem",
-      "position": 2,
-      "name": "Tentang Azolatekno",
-      "item": "{{ url('/about-us') }}"
-    }
+    { "@type": "ListItem", "position": 1, "name": "Beranda", "item": "{{ url('/') }}" },
+    { "@type": "ListItem", "position": 2, "name": "Tentang Kami", "item": "{{ url('/about-us') }}" }
   ]
 }
 </script>
 @endpush
-@push('scripts')
-<script>
 
-    if (isMobile) {
-        preloadImage('{{ asset("img/tentang-kami-mobile.jpg") }}');
-    } else {
-        preloadImage('{{ asset("img/tentang-kami.jpg") }}');
-    }
-</script>
-@endpush
 @section('content')
 
-    <!-- Navigasi Breadcrumb -->
-    <section id="breadcrumb-section-about pt-90" >
-        <div class="custom-container">
-            <div class="breadcrumb-text">
-                 <a href="{{ url('/') }}">Beranda</a> / 
-                <span class="W-500">Tentang Kami</span>
-            </div>
-        </div>
-    </section>
+@php
+    $waHref = 'https://wa.me/6287733930143?text=' . rawurlencode('Halo admin Azolatekno, saya mau konsultasi kebutuhan digital bisnis saya.');
 
-    <section class="about-us-section">
-      <div class="custom-container ">
-        <div class="flex-main-image">
-            <picture>
-            <!-- Source untuk layar kecil -->
-            <source media="(max-width: 768px)" srcset="{{ asset('img/tentang-kami-mobile.jpg') }}">
-            
-            <!-- Source default (untuk desktop) -->
-            <source media="(min-width: 769px)" srcset="{{ asset('img/tentang-kami.jpg') }}">
+    $whyUs = [
+        [
+            'title' => 'Solusi Custom, Bukan Template',
+            'desc' => 'Setiap project dirancang khusus untuk memenuhi kebutuhan bisnis Anda — dari tampilan hingga fungsionalitas.',
+            'icon' => 'code',
+        ],
+        [
+            'title' => 'SEO Friendly Sejak Awal',
+            'desc' => 'Website yang kami kembangkan terbukti menembus halaman 1 Google di berbagai kata kunci lokal maupun nasional.',
+            'icon' => 'search',
+        ],
+        [
+            'title' => 'Integrasi AI & Automasi',
+            'desc' => 'Kami bantu bisnis Anda lebih efisien dengan solusi AI seperti chatbot, workflow otomatis, dan analitik prediktif.',
+            'icon' => 'cpu',
+        ],
+        [
+            'title' => 'Siap untuk Era AI Search',
+            'desc' => 'Struktur konten kami dioptimalkan supaya mudah dikutip AI Overview, ChatGPT, dan answer engine lain — bukan cuma Google klasik.',
+            'icon' => 'sparkle',
+        ],
+        [
+            'title' => 'Terukur & Transparan',
+            'desc' => 'Progress dan hasil dilaporkan berkala — Anda selalu tahu di mana posisi project Anda.',
+            'icon' => 'chart',
+        ],
+        [
+            'title' => 'Edukasi Lewat Course AI',
+            'desc' => 'Kami juga menyediakan pelatihan AI praktis berbasis kebutuhan industri, untuk pemula maupun profesional.',
+            'icon' => 'academic',
+        ],
+    ];
 
-            <!-- Fallback untuk browser yang tidak support <picture> -->
-            <img id="main-image" src="{{ asset('img/tentang-kami.jpg') }}" class="thumbnail-image" alt="Tentang Web, SEO dan AI - Azolatekno">
-        </picture>
-    </div>
-      <div class="section-header">
-  <h1>Tentang Azolatekno</h1>
-  <p>Mitra Digital & AI Anda Sejak 2018</p>
-</div>
+    $icons = [
+        'code' => '<path d="M9 8L4 12l5 4M15 8l5 4-5 4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>',
+        'search' => '<circle cx="11" cy="11" r="6" stroke="currentColor" stroke-width="1.8"/><path d="M20 20l-4.5-4.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>',
+        'cpu' => '<rect x="7" y="7" width="10" height="10" rx="2" stroke="currentColor" stroke-width="1.8"/><path d="M9 3v3M15 3v3M9 18v3M15 18v3M3 9h3M3 15h3M18 9h3M18 15h3" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>',
+        'sparkle' => '<path d="M12 3l1.8 5.2L19 10l-5.2 1.8L12 17l-1.8-5.2L5 10l5.2-1.8L12 3z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/>',
+        'chart' => '<path d="M4 19V9M11 19V4M18 19v-6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>',
+        'academic' => '<path d="M3 9l9-4 9 4-9 4-9-4z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M7 11v5c0 1 2.2 2 5 2s5-1 5-2v-5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>',
+    ];
+@endphp
 
-<p class="about-description">
-  <strong>Azolatekno</strong> adalah penyedia solusi teknologi digital yang berfokus pada pengembangan website, aplikasi, SEO, dan integrasi Artificial Intelligence (AI). Sejak 2018, kami telah membantu ratusan klien—dari UMKM, korporasi, hingga institusi pendidikan—dalam membangun kehadiran digital yang kuat dan berkelanjutan.
-  <br><br>
-  Tidak hanya membangun, kami juga mengembangkan. Website klien kami tak hanya tampil menarik, tetapi juga masuk halaman pertama Google, bahkan beberapa muncul dalam hasil referensi ChatGPT—sebagai bukti kualitas dan struktur teknis yang mumpuni.
-  <br><br>
-  Di tengah era transformasi digital dan revolusi AI, Azolatekno hadir sebagai mitra teknologi yang siap membawa bisnis Anda melangkah lebih jauh.
-</p>
+{{-- Hero --}}
+<section class="relative overflow-hidden bg-ink-950 pb-24 pt-36 sm:pb-28 sm:pt-44">
+    <div class="pointer-events-none absolute inset-0 bg-brand-gradient opacity-[0.85]"></div>
+    <div class="pointer-events-none absolute inset-0 opacity-[0.07]" style="background-image:radial-gradient(circle,#fff 1px,transparent 1px);background-size:26px 26px;"></div>
+    <div class="pointer-events-none absolute -left-24 top-1/3 h-72 w-72 rounded-full bg-white/10 blur-3xl"></div>
 
-<p class="about-highlight">
-  “Azolatekno – From Code to Intelligence. Solusi Digital dan AI untuk Masa Depan Bisnis Anda.”
-</p>
+    <div class="container-app relative">
+        <nav class="text-sm text-white/70">
+            <a href="{{ url('/') }}" class="hover:text-white">Beranda</a>
+            <span class="mx-2">/</span>
+            <span class="text-white">Tentang Kami</span>
+        </nav>
 
-<div class="about-content">
-  <div class="about-column">
-    <h2>Visi Kami</h2>
-    <p>
-      Menjadi perusahaan teknologi lokal yang terpercaya dan berpengaruh dalam pengembangan solusi digital dan kecerdasan buatan di Indonesia.
-    </p>
-
-    <h2>Misi Kami</h2>
-    <ul>
-      <li>Membantu bisnis dari berbagai skala membangun identitas digital yang kuat dan optimal.</li>
-      <li>Menyediakan layanan pembuatan website dan aplikasi yang cepat, aman, dan SEO-friendly.</li>
-      <li>Menawarkan layanan SEO dan digital marketing untuk meningkatkan visibilitas dan konversi.</li>
-      <li>Menyediakan solusi integrasi AI yang aplikatif, efisien, dan berdampak nyata.</li>
-      <li>Mengedukasi masyarakat melalui program <strong>Course Online AI</strong> berbasis praktik dan teknologi terkini.</li>
-      <li>Terus berinovasi dalam layanan, mengikuti perkembangan teknologi dan kebutuhan pasar modern.</li>
-    </ul>
-  </div>
-</div>
-
-
-    </section>
-
-  
-<section id="why-us">
-    <div class="custom-container">
-        <div class="section-header">
-            <h2>Kenapa Azolatekno Menjadi Pilihan Terbaik untuk Website, Aplikasi, dan Integrasi AI?</h2>
-            <p>Azolatekno adalah partner digital terpercaya sejak 2018 yang telah membantu puluhan klien mencapai posisi Top 1 Google. Beberapa website buatan kami bahkan telah direkomendasikan langsung oleh ChatGPT untuk kata kunci tertentu. Di era digital yang semakin bergeser ke AI, muncul sebagai entitas terpercaya di mesin pencari dan platform AI seperti ChatGPT adalah strategi bisnis yang wajib dilakukan.</p>
-        </div>
-        <div class="why-us-content">
-
-            <div class="why-us-item">
-                <img src="{{ asset('img/icon/custom-solution.webp') }}" alt="Pembuatan Website dan Aplikasi Sesuai Kebutuhan" loading="lazy">
-                <div class="why-us-info">
-                    <h3>Solusi Aplikasi & Website Custom</h3>
-                    <p>Setiap proyek dirancang khusus untuk memenuhi kebutuhan bisnis Anda—dari tampilan hingga fungsionalitas.</p>
-                </div>
-            </div>
-
-            <div class="why-us-item">
-                <img src="{{ asset('img/icon/seo-optimized.webp') }}" alt="Website SEO Friendly Top 1 Google" loading="lazy">
-                <div class="why-us-info">
-                    <h3>Website SEO Friendly – Banyak Masuk Halaman 1 Google</h3>
-                    <p>Website yang kami kembangkan telah terbukti menembus peringkat #1 Google di berbagai kata kunci lokal maupun nasional.</p>
-                </div>
-            </div>
-
-            <div class="why-us-item">
-                <img src="{{ asset('img/icon/ai-integration.webp') }}" alt="Integrasi Kecerdasan Buatan AI untuk Bisnis" loading="lazy">
-                <div class="why-us-info">
-                    <h3>Integrasi AI & Automasi Bisnis</h3>
-                    <p>Kami bantu bisnis Anda lebih efisien dengan solusi AI seperti chatbot, workflow otomatis, dan analitik prediktif.</p>
-                </div>
-            </div>
-
-            <div class="why-us-item">
-                <img src="{{ asset('img/icon/recognized.webp') }}" alt="Website Rekomendasi ChatGPT" loading="lazy">
-                <div class="why-us-info">
-                    <h3>Direkomendasikan oleh ChatGPT</h3>
-                    <p>Beberapa website klien Azolatekno telah muncul sebagai rekomendasi terpercaya dari ChatGPT karena struktur dan performanya yang optimal.</p>
-                </div>
-            </div>
-
-            <div class="why-us-item">
-                <img src="{{ asset('img/icon/digital-shift.webp') }}" alt="Era Digital dan AI Marketing" loading="lazy">
-                <div class="why-us-info">
-                    <h3>Bisnis Harus Hadir di Era AI</h3>
-                    <p>Dunia digital telah bergeser: kehadiran Anda tidak cukup hanya di Google. Muncul di rekomendasi platform AI seperti ChatGPT adalah langkah strategis yang kami bantu wujudkan.</p>
-                </div>
-            </div>
-
-            <div class="why-us-item">
-                <img src="{{ asset('img/icon/ai-course.webp') }}" alt="Kursus AI untuk Pemula dan Profesional" loading="lazy">
-                <div class="why-us-info">
-                    <h3>Kursus AI Praktis & Terarah</h3>
-                    <p>Azolatekno juga menyediakan pelatihan AI dengan pendekatan hands-on dan kurikulum yang disusun berdasarkan kebutuhan industri terkini—cocok untuk pemula maupun profesional.</p>
-                </div>
-            </div>
-
+        <div class="mx-auto mt-6 max-w-2xl text-center">
+            <span class="eyebrow bg-white/10 text-white ring-1 ring-white/25">Sejak 2018</span>
+            <h1 class="mt-5 text-4xl font-semibold text-white sm:text-5xl">Mitra Digital &amp; AI untuk Bisnis Anda</h1>
+            <p class="mx-auto mt-5 max-w-xl text-white/80">
+                Azolatekno &mdash; From Code to Intelligence. Kami membantu bisnis membangun kehadiran digital yang kuat, terukur, dan siap untuk era pencarian berbasis AI.
+            </p>
         </div>
     </div>
 </section>
 
+{{-- About description --}}
+<section class="container-app py-20 sm:py-24">
+    <div class="mx-auto max-w-3xl">
+        <div class="reveal space-y-5 text-base leading-relaxed text-ink-600">
+            <p>
+                <strong class="text-ink-900">Azolatekno</strong> adalah penyedia solusi teknologi digital yang berfokus pada pengembangan website, aplikasi, SEO, dan integrasi Artificial Intelligence (AI). Sejak 2018, kami membantu klien dari UMKM, korporasi, hingga institusi pendidikan membangun kehadiran digital yang kuat dan berkelanjutan.
+            </p>
+            <p>
+                Tidak hanya membangun, kami juga mengembangkan. Website klien kami tidak hanya tampil menarik, tapi juga dirancang untuk struktur teknis yang kuat &mdash; supaya mudah ditemukan di Google maupun dikutip oleh answer engine berbasis AI.
+            </p>
+            <p>
+                Di tengah era transformasi digital, Azolatekno hadir sebagai mitra teknologi yang siap membawa bisnis Anda melangkah lebih jauh.
+            </p>
+        </div>
 
-    @endsection
+        <div class="reveal mt-10 grid gap-6 sm:grid-cols-2">
+            <div class="card p-8">
+                <span class="eyebrow">Visi Kami</span>
+                <p class="mt-4 text-sm leading-relaxed text-ink-600">
+                    Menjadi perusahaan teknologi lokal yang terpercaya dan berpengaruh dalam pengembangan solusi digital dan kecerdasan buatan di Indonesia.
+                </p>
+            </div>
+            <div class="card p-8">
+                <span class="eyebrow">Misi Kami</span>
+                <ul class="mt-4 space-y-2.5 text-sm leading-relaxed text-ink-600">
+                    <li class="flex gap-2"><span class="text-brand-600">&bull;</span> Membangun identitas digital yang kuat untuk bisnis segala skala.</li>
+                    <li class="flex gap-2"><span class="text-brand-600">&bull;</span> Website & aplikasi yang cepat, aman, dan SEO-friendly.</li>
+                    <li class="flex gap-2"><span class="text-brand-600">&bull;</span> Layanan SEO & digital marketing untuk visibilitas dan konversi.</li>
+                    <li class="flex gap-2"><span class="text-brand-600">&bull;</span> Solusi integrasi AI yang aplikatif dan berdampak nyata.</li>
+                    <li class="flex gap-2"><span class="text-brand-600">&bull;</span> Edukasi lewat Course Online AI berbasis praktik.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+{{-- Why us --}}
+<section class="bg-ink-50/60 py-20 sm:py-28">
+    <div class="container-app">
+        <div class="reveal mx-auto max-w-2xl text-center">
+            <span class="eyebrow">Kenapa Azolatekno</span>
+            <h2 class="mt-4 text-3xl sm:text-4xl">Partner Terpercaya untuk Website, Aplikasi & AI</h2>
+            <p class="mt-4 text-ink-500">Azolatekno telah membantu puluhan klien mencapai posisi #1 Google, dan menyiapkan struktur konten yang relevan untuk era pencarian berbasis AI.</p>
+        </div>
+
+        <div class="mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+            @foreach ($whyUs as $i => $item)
+                <div class="reveal card p-8" style="transition-delay: {{ ($i % 3) * 100 }}ms">
+                    <div class="flex h-11 w-11 items-center justify-center rounded-2xl bg-brand-50 text-brand-700">
+                        <svg class="h-5 w-5" viewBox="0 0 24 24" fill="none">{!! $icons[$item['icon']] !!}</svg>
+                    </div>
+                    <h3 class="mt-5 text-lg">{{ $item['title'] }}</h3>
+                    <p class="mt-2 text-sm leading-relaxed text-ink-500">{{ $item['desc'] }}</p>
+                </div>
+            @endforeach
+        </div>
+    </div>
+</section>
+
+{{-- CTA --}}
+<section class="container-app py-20 sm:py-24">
+    <div class="reveal relative overflow-hidden rounded-3xl bg-brand-gradient px-8 py-16 text-center sm:px-16">
+        <div class="pointer-events-none absolute inset-0 opacity-[0.08]" style="background-image:radial-gradient(circle,#fff 1px,transparent 1px);background-size:22px 22px;"></div>
+        <div class="relative mx-auto max-w-xl">
+            <h2 class="text-3xl text-white sm:text-4xl">Mari Diskusikan Kebutuhan Digital Anda</h2>
+            <p class="mt-4 text-white/85">Konsultasi gratis, tanpa komitmen &mdash; kami bantu petakan solusi yang paling sesuai untuk bisnis Anda.</p>
+            <a href="{{ $waHref }}" target="_blank" rel="noopener" class="btn-ghost-light mt-8 bg-white text-brand-700 ring-0 hover:bg-white/90">
+                Mulai Konsultasi Gratis
+            </a>
+        </div>
+    </div>
+</section>
+
+@endsection
